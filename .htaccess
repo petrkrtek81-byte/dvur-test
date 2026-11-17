@@ -1,0 +1,70 @@
+# Krušnohorský Dvůr – nastavení pro hosting s Apache (mod_rewrite).
+# Na jiném serveru (nginx apod.) je potřeba pravidla přepsat do jeho konfigurace.
+
+RewriteEngine On
+
+# --- HTTPS a www -------------------------------------------------------------
+# Pokud hosting přesměrování na HTTPS řeší sám (nebo běží za proxy), tento blok smažte,
+# jinak hrozí nekonečné přesměrování.
+RewriteCond %{HTTP_HOST} ^krusnohorskydvur\.cz$ [NC,OR]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^(www\.)?krusnohorskydvur\.cz$ [NC]
+RewriteRule ^ https://www.krusnohorskydvur.cz%{REQUEST_URI} [R=301,NE,L]
+
+# --- Staré adresy webu (/ubytovani…) → stránky nového webu (ubytovani.html…), 301 = trvale ---
+RewriteRule ^onas/?$                      /                          [R=301,L]
+RewriteRule ^aktuality/?$                 /aktuality.html            [R=301,L]
+RewriteRule ^ubytovani/?$                 /ubytovani.html            [R=301,L]
+RewriteRule ^ubytovani-detail\.php$       /ubytovani.html#pokoje     [R=301,NE,QSD,L]
+RewriteRule ^restaurace/?$                /restaurace.html           [R=301,L]
+RewriteRule ^pobytove-balicky/?$          /cenik.html#balicky        [R=301,NE,L]
+RewriteRule ^pobytove-balicky-detail\.php$ /cenik.html#balicky       [R=301,NE,QSD,L]
+RewriteRule ^aktivity/?$                  /okoli.html                [R=301,L]
+RewriteRule ^fotogalerie/?$               /fotogalerie.html          [R=301,L]
+RewriteRule ^cenik/?$                     /cenik.html                [R=301,L]
+RewriteRule ^kontakty/?$                  /kontakty.html             [R=301,L]
+
+# Jazykové verze starého webu (index.php?mutace=de / cs)
+RewriteCond %{QUERY_STRING} (^|&)mutace=de(&|$) [NC]
+RewriteRule ^(index\.php)?$ /?lang=de [R=301,QSD,L]
+RewriteCond %{QUERY_STRING} (^|&)mutace=cs(&|$) [NC]
+RewriteRule ^(index\.php)?$ / [R=301,QSD,L]
+RewriteRule ^(index|index2)\.php$ / [R=301,L]
+
+# Jídelní a nápojový lístek ze starého umístění
+RewriteRule ^files/jidelni-listek-2026\.jpg$  /assets/menu/jidelni-listek-2026.jpg  [R=301,L]
+RewriteRule ^files/napojovy-listek-2026\.jpg$ /assets/menu/napojovy-listek-2026.jpg [R=301,L]
+
+# Šablony, nástroje a podklady pro sestavení webu nejsou určené k prohlížení
+RewriteRule ^(sablony|nastroje|podklady)(/|$) - [R=404,L]
+
+# --- Bezpečnostní hlavičky ---------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  # NÁVRH: dokud jde o návrh, vyhledávače stránky neindexují (po spuštění smazat)
+  Header always set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+# --- Komprese a cache --------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/pdf "access plus 1 week"
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType font/woff2 .woff2
+</IfModule>
+
+Options -Indexes

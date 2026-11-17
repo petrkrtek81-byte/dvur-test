@@ -1,0 +1,7 @@
+# NÁVRH redesignu – zatím neindexovat. Po spuštění na krusnohorskydvur.cz nahradit:
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://www.krusnohorskydvur.cz/sitemap.xml
+# (a odstranit <meta name="robots" content="noindex"> v sablony/_hlava.html a X-Robots-Tag v .htaccess)
+User-agent: *
+Disallow: /

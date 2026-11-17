@@ -1,0 +1,25 @@
+<!-- =====================================================================
+     FOTOGALERIE – mřížka, filtry, prohlížeč (data v data/obsah.json → gallery)
+     ===================================================================== -->
+<section class="section section--dark" id="fotogalerie">
+  <div class="container--wide">
+    <div class="gallery-head">
+      <div>
+        <h2 class="h2 reveal" style="--d:.08s"><span data-de="Der Krušnohorský Dvůr">Krušnohorský dvůr</span> <em data-de="im Bild">objektivem</em></h2>
+      </div>
+      <div class="chips reveal" style="--d:.16s" id="galleryFilters" role="group" aria-label="Kategorie fotografií">
+        <button class="chip is-active" type="button" data-cat="all" data-de="Alle">Vše</button>
+        <button class="chip" type="button" data-cat="hotel" data-de="Hotel und Terrasse">Hotel a terasa</button>
+        <button class="chip" type="button" data-cat="pokoje" data-de="Zimmer">Pokoje</button>
+        <button class="chip" type="button" data-cat="restaurace" data-de="Restaurant">Restaurace</button>
+        <button class="chip" type="button" data-cat="jidlo" data-de="Essen">Jídlo</button>
+        <button class="chip" type="button" data-cat="akce" data-de="Hochzeiten und Feiern">Svatby a akce</button>
+        <button class="chip" type="button" data-cat="sauna" data-de="Sauna">Sauna</button>
+        <button class="chip" type="button" data-cat="leto" data-de="Umgebung im Sommer">Okolí v létě</button>
+        <button class="chip" type="button" data-cat="zima" data-de="Umgebung im Winter">Okolí v zimě</button>
+      </div>
+    </div>
+    <div class="gallery" id="gallery"></div>
+    <div class="gallery-more"><button class="btn btn--outline" type="button" id="galleryMore" hidden>Zobrazit všechny fotky</button></div>
+  </div>
+</section>

@@ -1,0 +1,105 @@
+<!-- =====================================================================
+     KONTAKTY – údaje, mapa, cesta, poptávka (připraví e-mail)
+     ===================================================================== -->
+<section class="section" id="kontakty">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="h2 reveal" style="--d:.08s"><span data-de="Wir freuen uns">Těšíme se</span> <em data-de="auf Sie">na vás</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-list">
+          <a class="contact-item reveal" href="https://goo.gl/maps/Zgg7fF5qtht" target="_blank" rel="noopener">
+            <span class="contact-item__icon"><svg class="i"><use href="#i-pin"/></svg></span>
+            <div><small data-de="Adresse">Adresa</small><strong>Krušnohorský Dvůr</strong><span data-de="Cínovec 275, Dubí-Cínovec, Tschechien">Cínovec 275, Dubí-Cínovec</span></div>
+          </a>
+          <a class="contact-item reveal" style="--d:.06s" href="tel:+420778051970">
+            <span class="contact-item__icon"><svg class="i"><use href="#i-phone"/></svg></span>
+            <div><small data-de="Telefon · Rezeption">Telefon · recepce</small><strong>+420 778 051 970</strong></div>
+          </a>
+          <a class="contact-item reveal" style="--d:.12s" href="mailto:info@krusnohorskydvur.cz">
+            <span class="contact-item__icon"><svg class="i"><use href="#i-mail"/></svg></span>
+            <div><small data-de="E-Mail · Buchungen und Fragen zur Unterkunft">E-mail · rezervace a dotazy k ubytování</small><strong>info@krusnohorskydvur.cz</strong></div>
+          </a>
+          <div class="contact-item reveal" style="--d:.18s">
+            <span class="contact-item__icon"><svg class="i"><use href="#i-clock"/></svg></span>
+            <div><small data-de="Öffnungszeiten">Otevírací doba</small><strong data-de="Montag – Sonntag 11:00 – 22:00 Uhr">Pondělí – neděle 11:00 – 22:00</strong><span data-de="Check-in ab 14:00 · Check-out bis 10:00">Check-in od 14:00 · check-out do 10:00</span></div>
+          </div>
+        </div>
+        <!-- Mapa Google se načte až po kliknutí (do té doby web Google nekontaktuje) -->
+        <div class="map-embed reveal" id="mapEmbed">
+          <div class="map-consent">
+            <svg class="i"><use href="#i-map"/></svg>
+            <p data-de="Die Karte wird von Google Maps geladen. Danach kann Google Daten über Ihren Besuch verarbeiten.">Mapa se načítá ze služby Google Maps. Po jejím zobrazení může Google zpracovávat údaje o vaší návštěvě.</p>
+            <button class="btn btn--gold btn--sm" type="button" id="mapLoad" data-de="Karte anzeigen">Zobrazit mapu</button>
+          </div>
+          <a class="btn btn--gold btn--sm" href="https://goo.gl/maps/Zgg7fF5qtht" target="_blank" rel="noopener"><svg class="i"><use href="#i-map"/></svg> <span data-de="Navigieren">Navigovat</span></a>
+        </div>
+
+        <div class="route reveal">
+          <h3 class="route__title" data-de="Anfahrt">Jak k nám</h3>
+          <div class="route__row"><span class="route__from" data-de="Aus Teplice">Z Teplic</span><span data-de="15 km über die E55 Richtung Dubí – Dresden">15 km po silnici E55 směrem Dubí – Drážďany</span></div>
+          <div class="route__row"><span class="route__from" data-de="Aus Dresden">Z Drážďan</span><span data-de="ca. 50 km über die B170 Richtung Altenberg – Zinnwald; direkt nach der Grenze die erste Straße rechts (an der MOL-Tankstelle)">asi 50 km po B170 směrem Altenberg – Zinnwald; hned za hranicí první odbočka vpravo (u čerpací stanice MOL)</span></div>
+        </div>
+      </div>
+
+      <div>
+        <!-- Poptávka: formulář nic neodesílá přes web, jen připraví e-mail na info@krusnohorskydvur.cz -->
+        <div class="form-card reveal reveal--right" id="poptavka">
+          <h3 data-de="Unverbindliche Anfrage">Nezávazná poptávka</h3>
+          <p data-de="Dies ist keine verbindliche Reservierung. Wir melden uns, um Details und Termin zu bestätigen. Freie Zimmer buchen Sie direkt online.">Nejedná se o závaznou rezervaci. Budeme vás kontaktovat ohledně upřesnění a potvrzení termínu. Volné pokoje si můžete rezervovat rovnou on-line.</p>
+          <form id="inquiryForm" novalidate>
+            <div class="form-grid">
+              <div class="field field--full field--select">
+                <select id="if-type" name="type">
+                  <option value="ubytovani" data-de="Unterkunft">Ubytování</option>
+                  <option value="romanticky" data-de="Romantisches Aufenthaltspaket">Romantický pobytový balíček</option>
+                  <option value="gurmansky" data-de="Gourmet-Aufenthaltspaket">Gurmánský pobytový balíček</option>
+                  <option value="restaurace" data-de="Tischreservierung im Restaurant">Rezervace stolu v restauraci</option>
+                  <option value="akce" data-de="Hochzeit, Feier oder Firmenevent">Svatba, oslava nebo firemní akce</option>
+                  <option value="sauna" data-de="Sauna">Sauna</option>
+                  <option value="poukaz" data-de="Geschenkgutschein">Dárkový poukaz</option>
+                  <option value="jine" data-de="Andere Frage">Jiný dotaz</option>
+                </select>
+                <label for="if-type" data-de="Ich interessiere mich für">Mám zájem o</label>
+              </div>
+              <div class="field"><input id="if-name" name="name" type="text" placeholder=" " autocomplete="name" required><label for="if-name" data-de="Vor- und Nachname">Jméno a příjmení</label></div>
+              <div class="field"><input id="if-phone" name="phone" type="tel" placeholder=" " autocomplete="tel"><label for="if-phone" data-de="Telefon">Telefon</label></div>
+              <div class="field"><input id="if-date" name="date" type="text" placeholder=" "><label for="if-date" data-de="Termin">Termín</label></div>
+              <div class="field"><input id="if-people" name="people" type="number" min="1" max="200" placeholder=" "><label for="if-people" data-de="Personen">Počet osob</label></div>
+              <div class="field field--full"><textarea id="if-msg" name="message" placeholder=" "></textarea><label for="if-msg" data-de="Ihre Nachricht">Vaše zpráva</label></div>
+            </div>
+            <div class="form-foot" style="margin-top:1.2rem">
+              <small style="color:var(--muted)" data-de="Öffnet Ihr E-Mail-Programm mit der vorbereiteten Nachricht.">Otevře váš e-mail s připravenou zprávou.</small>
+              <button class="btn btn--dark" type="submit"><svg class="i"><use href="#i-send"/></svg> <span data-de="E-Mail vorbereiten">Připravit e-mail</span></button>
+            </div>
+          </form>
+          <div class="form-success" role="status">
+            <svg class="check-anim" viewBox="0 0 84 84" aria-hidden="true"><circle cx="42" cy="42" r="40"/><path d="M26 43l11 11 22-24"/></svg>
+            <h3 data-de="Fast fertig!">Skoro hotovo!</h3>
+            <p data-de="In Ihrem E-Mail-Programm wartet die vorbereitete Nachricht an info@krusnohorskydvur.cz – senden Sie sie einfach ab.">Ve vašem e-mailu čeká připravená zpráva na info@krusnohorskydvur.cz – stačí ji odeslat.</p>
+            <button class="btn btn--outline btn--sm" type="button" id="formReset" data-de="Neue Anfrage">Nová poptávka</button>
+          </div>
+        </div>
+
+        <div class="links-card reveal">
+          <h3 class="route__title" data-de="Wir im Netz">Najdete nás také</h3>
+          <ul class="links-list">
+            <li><a href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg><span data-de="Online-Buchung (Previo)">Rezervace on-line (Previo)</span></a></li>
+            <li><a href="http://www.booking.com/hotel/cz/krua-nohorska1-2-dva-r.html?aid=330843" target="_blank" rel="noopener"><svg class="i"><use href="#i-bed"/></svg>Booking.com</a></li>
+            <li><a href="http://www.tripadvisor.cz/Hotel_Review-g676350-d3403836-Reviews-Hotel_Krusnohorsky_Dvur-Teplice_Usti_nad_Labem_Region_Bohemia.html" target="_blank" rel="noopener"><svg class="i"><use href="#i-star"/></svg>Tripadvisor</a></li>
+            <li><a href="https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924" target="_blank" rel="noopener"><svg class="i i--fill"><use href="#i-fb"/></svg>Facebook</a></li>
+            <li><a href="https://www.instagram.com/krusnohorskydvur" target="_blank" rel="noopener"><svg class="i"><use href="#i-ig"/></svg>Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA" target="_blank" rel="noopener"><svg class="i"><use href="#i-yt"/></svg>YouTube</a></li>
+            <li><a href="http://ipcamlive.com/577a6b604a108" target="_blank" rel="noopener"><svg class="i"><use href="#i-cam"/></svg><span data-de="Webcam">Webkamera</span></a></li>
+          </ul>
+          <div class="operators">
+            <p><strong data-de="Hotelbetreiber">Provozovatel hotelu</strong><br>GREEN hotel s.r.o. · <span data-de="Id.-Nr. 17855004">IČO 17855004</span></p>
+            <p><strong data-de="Restaurantbetreiber">Provozovatel restaurace</strong><br>GREEN gastro s.r.o. · <span data-de="Id.-Nr. 14106892, USt-IdNr. CZ14106892">IČO 14106892, DIČ CZ14106892</span></p>
+            <p>Cínovec 275, Dubí-Cínovec 415 01</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

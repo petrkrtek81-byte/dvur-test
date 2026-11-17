@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dvur",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/fild0/Documents/krusnohorsky-dvur-redesign/nastroje/server.js",
+        "5530"
+      ],
+      "port": 5530
+    }
+  ]
+}

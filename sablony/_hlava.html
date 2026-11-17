@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="cs" data-page="{{page}}" data-title-de="{{titleDe}}" data-desc-de="{{descriptionDe}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<!-- Návrh redesignu – vyhledávače stránky nemají indexovat -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f2e1f">
+<link rel="canonical" href="{{url}}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{site}}assets/img/{{ogImage}}.jpg">
+<meta property="og:url" content="{{url}}">
+<link rel="alternate" hreflang="cs" href="{{url}}">
+<link rel="alternate" hreflang="de" href="{{url}}?lang=de">
+<link rel="alternate" hreflang="x-default" href="{{url}}">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+
+<!-- Písma: Baloo 2 (nadpisy, čísla, popisky) + Manrope (text) – stejná jako u redesignu Golf Club Teplice, uložená přímo na webu -->
+<link rel="preload" href="assets/fonts/baloo-2-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/web.css?v={{cssVersion}}">
+
+<!-- Strukturovaná data pro vyhledávače -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Krušnohorský Dvůr",
+  "description": "Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m.",
+  "url": "{{site}}",
+  "image": "{{site}}assets/img/hotel-zima-noc.jpg",
+  "logo": "{{site}}assets/logo.png",
+  "telephone": "+420778051970",
+  "email": "info@krusnohorskydvur.cz",
+  "address": { "@type": "PostalAddress", "streetAddress": "Cínovec 275", "addressLocality": "Dubí-Cínovec", "postalCode": "415 01", "addressCountry": "CZ" },
+  "checkinTime": "14:00",
+  "checkoutTime": "10:00",
+  "numberOfRooms": 8,
+  "sameAs": ["https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924", "https://www.instagram.com/krusnohorskydvur"],
+  "containsPlace": { "@type": "Restaurant", "name": "Restaurace Krušnohorský Dvůr", "openingHours": "Mo-Su 11:00-22:00", "servesCuisine": "Czech" }
+}
+</script>
+
+<!-- Třída .js zapne skryté výchozí stavy animací jen tehdy, když běží JavaScript -->
+<script>document.documentElement.classList.add('js');
+// obsah webu (aktuality, fotogalerie) – stahuje se souběžně se zbytkem stránky
+window.KD_OBSAH = fetch('data/obsah.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
+window.KD_OBSAH.catch(() => {});</script>
+</head>
+<body class="page-{{page}}">

@@ -1,0 +1,140 @@
+
+</main>
+
+<!-- =====================================================================
+     PATIČKA
+     ===================================================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo-bila.png" alt="Krušnohorský Dvůr – hotel a restaurace" width="592" height="140" loading="lazy">
+        <p data-de="Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.">Horský hotel a restaurace na Cínovci v&nbsp;Krušných horách, 865&nbsp;m&nbsp;n.&nbsp;m., v&nbsp;těsné blízkosti hranic s&nbsp;Německem.</p>
+        <p class="footer__legal"><span data-de="Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004">Hotel: GREEN hotel s.r.o., IČO 17855004</span><br><span data-de="Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892">Restaurace: GREEN gastro s.r.o., IČO 14106892</span></p>
+        <div class="socials">
+          <a href="https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924" target="_blank" rel="noopener" aria-label="Facebook"><svg class="i i--fill"><use href="#i-fb"/></svg></a>
+          <a href="https://www.instagram.com/krusnohorskydvur" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+          <a href="https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA" target="_blank" rel="noopener" aria-label="YouTube"><svg class="i"><use href="#i-yt"/></svg></a>
+          <a href="https://goo.gl/maps/Zgg7fF5qtht" target="_blank" rel="noopener" aria-label="Google Maps"><svg class="i"><use href="#i-pin"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-de="Hotel">Hotel</h4>
+        <ul class="footer__links">
+          <li><a href="#ubytovani" data-de="Unterkunft">Ubytování</a></li>
+          <li><a href="#cenik" data-de="Preise &amp; Pakete">Ceník a balíčky</a></li>
+          <li><a href="#sauna" data-de="Sauna">Sauna</a></li>
+          <li><a href="#svatby-a-akce" data-de="Hochzeiten &amp; Feiern">Svatby a akce</a></li>
+          <li><a href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener" data-de="Online-Buchung">Rezervace on-line</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-de="Mehr">Více</h4>
+        <ul class="footer__links">
+          <li><a href="#restaurace" data-de="Restaurant">Restaurace</a></li>
+          <li><a href="#okoli" data-de="Umgebung">Okolí</a></li>
+          <li><a href="#aktuality" data-de="Aktuelles">Aktuality</a></li>
+          <li><a href="#fotogalerie" data-de="Fotogalerie">Fotogalerie</a></li>
+          <li><a href="#kontakty" data-de="Kontakt">Kontakty</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-de="Kontakt">Kontakt</h4>
+        <div class="footer__contact">
+          <span><svg class="i"><use href="#i-pin"/></svg>Krušnohorský Dvůr<br>Cínovec 275, Dubí-Cínovec</span>
+          <a href="tel:+420778051970"><svg class="i"><use href="#i-phone"/></svg>+420 778 051 970</a>
+          <a href="mailto:info@krusnohorskydvur.cz"><svg class="i"><use href="#i-mail"/></svg>info@krusnohorskydvur.cz</a>
+          <span><svg class="i"><use href="#i-clock"/></svg><span data-de="Restaurant: Mo – So 11–22 Uhr">Restaurace: po – ne 11–22 h</span></span>
+        </div>
+      </div>
+    </div>
+    <p class="footer__wordmark" aria-hidden="true">Krušnohorský Dvůr</p>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> Krušnohorský Dvůr · <button type="button" class="footer__privacy" data-open-privacy data-de="Datenschutz">Ochrana osobních údajů</button></span>
+      <span class="footer__draft" data-de="Entwurf eines Redesigns – keine offizielle Website des Hotels">Návrh redesignu – nejde o oficiální web hotelu</span>
+      <div class="lang" role="group" aria-label="Jazyk">
+        <button type="button" class="is-active" data-lang="cs" aria-pressed="true"><svg><use href="#flag-cz"/></svg>CZ</button>
+        <button type="button" data-lang="de" aria-pressed="false"><svg><use href="#flag-de"/></svg>DE</button>
+      </div>
+      <a class="to-top" href="#top"><span data-de="Nach oben">Nahoru</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobilní lišta s rezervací (zobrazí se po odscrollování úvodu) -->
+<div class="mobile-book" id="mobileBook">
+  <a class="btn btn--ghost" href="tel:+420778051970" aria-label="Zavolat"><svg class="i"><use href="#i-phone"/></svg></a>
+  <a class="btn btn--gold" href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Zimmer buchen">Rezervovat pobyt</span></a>
+</div>
+
+<!-- =====================================================================
+     DIALOGY
+     ===================================================================== -->
+<!-- Detail aktuality -->
+<dialog class="modal" id="newsModal" aria-labelledby="newsModalTitle">
+  <button class="icon-btn modal__close" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  <div class="modal__scroll">
+    <div class="modal__media"><img id="newsModalImg" src="data:," alt=""></div>
+    <div class="modal__body">
+      <div class="modal__meta"><span id="newsModalTag" class="tag"></span><span><svg class="i"><use href="#i-calendar"/></svg><time id="newsModalDate"></time></span></div>
+      <h3 id="newsModalTitle"></h3>
+      <div class="modal__text" id="newsModalText"></div>
+      <div class="modal__cta" id="newsModalCta"></div>
+    </div>
+  </div>
+</dialog>
+
+<!-- Prohlížeč fotek (fotogalerie, pokoje, ochutnávky fotek) -->
+<dialog class="lightbox" id="lightbox" aria-label="Fotografie">
+  <div class="lightbox__top">
+    <span id="lbCounter">1 / 1</span>
+    <button class="icon-btn" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  </div>
+  <div class="lightbox__stage" id="lbStage">
+    <button class="icon-btn lightbox__nav lightbox__nav--prev" type="button" data-lb-step="-1" aria-label="Předchozí fotka"><svg class="i"><use href="#i-chev-l"/></svg></button>
+    <img id="lbImg" src="data:," alt="">
+    <button class="icon-btn lightbox__nav lightbox__nav--next" type="button" data-lb-step="1" aria-label="Další fotka"><svg class="i"><use href="#i-chev-r"/></svg></button>
+  </div>
+  <p class="lightbox__caption" id="lbCaption"></p>
+</dialog>
+
+<!-- Zásady ochrany osobních údajů – NÁVRH: před spuštěním nechat zkontrolovat provozovatelem -->
+<dialog class="modal" id="privacyModal" aria-labelledby="privacyTitle">
+  <button class="icon-btn modal__close" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  <div class="modal__scroll">
+    <div class="modal__body privacy" data-i18n-skip>
+      <div data-lang-block="cs">
+        <h3 id="privacyTitle">Ochrana osobních údajů</h3>
+        <h4>Správce</h4>
+        <p>GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt: <a href="mailto:info@krusnohorskydvur.cz">info@krusnohorskydvur.cz</a>, +420 778 051 970.</p>
+        <h4>Poptávkový formulář</h4>
+        <p>Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.</p>
+        <h4>Rezervace on-line</h4>
+        <p>Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.</p>
+        <h4>Cookies a služby třetích stran</h4>
+        <p>Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.</p>
+        <h4>Vaše práva</h4>
+        <p>Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (<a href="https://uoou.gov.cz" target="_blank" rel="noopener">uoou.gov.cz</a>).</p>
+      </div>
+      <div data-lang-block="de">
+        <h3>Datenschutz</h3>
+        <h4>Verantwortlicher</h4>
+        <p>GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt: <a href="mailto:info@krusnohorskydvur.cz">info@krusnohorskydvur.cz</a>, +420 778 051 970.</p>
+        <h4>Anfrageformular</h4>
+        <p>Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.</p>
+        <h4>Online-Buchung</h4>
+        <p>Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.</p>
+        <h4>Cookies und Dienste Dritter</h4>
+        <p>Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.</p>
+        <h4>Ihre Rechte</h4>
+        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (<a href="https://uoou.gov.cz/en" target="_blank" rel="noopener">uoou.gov.cz/en</a>).</p>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="assets/js/web.js?v={{jsVersion}}"></script>
+</body>
+</html>

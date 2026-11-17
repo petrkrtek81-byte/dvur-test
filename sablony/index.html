@@ -1,0 +1,176 @@
+<!-- =====================================================================
+     1. ÚVOD – fotky přes celou obrazovku, které se prolínají (bez videa)
+     ===================================================================== -->
+<section class="hero hero--statement" id="top" aria-label="Úvod">
+  <div class="hero__slides" id="heroSlides">
+    <div class="hero__slide is-active" data-caption="Krušnohorský Dvůr za soumraku" data-caption-de="Krušnohorský Dvůr in der Abenddämmerung">
+      <img src="assets/img/hotel-zima-noc.jpg" alt="" fetchpriority="high">
+    </div>
+    <div class="hero__slide" data-caption="Restaurace s hořícím krbem" data-caption-de="Restaurant mit brennendem Kamin">
+      <img src="assets/img/restaurace-krb.jpg" alt="" decoding="async">
+    </div>
+    <div class="hero__slide" data-caption="Terasa s výhledem na České středohoří" data-caption-de="Terrasse mit Blick auf das Böhmische Mittelgebirge">
+      <img src="assets/img/terasa-leto.jpg" alt="" decoding="async">
+    </div>
+    <div class="hero__slide" data-caption="Exklusivní pokoj" data-caption-de="Exklusivzimmer">
+      <img src="assets/img/pokoj-exklusiv.jpg" alt="" decoding="async">
+    </div>
+    <div class="hero__slide" data-caption="Cínovec v zimě" data-caption-de="Cínovec im Winter">
+      <img src="assets/img/hotel-zima-soumrak.jpg" alt="" decoding="async">
+    </div>
+  </div>
+  <div class="hero__overlay"></div>
+
+  <div class="container hero__content" id="heroContent">
+    <p class="hero__eyebrow" data-de="Hotel &amp; Restaurant · Cínovec · 865&#160;m&#160;ü.&#160;M.">Hotel &amp; restaurace · Cínovec · 865&nbsp;m&nbsp;n.&nbsp;m.</p>
+    <h1 class="hero__title hero__statement"><span class="line" data-de="Berghotel">Horský hotel</span> <em class="line" data-de="im Erzgebirge.">v Krušných horách.</em></h1>
+    <p class="hero__sub" data-split-words data-de-text="Acht Zimmer, ein Restaurant mit Kaminfeuer und eine Terrasse mit Blick auf das Böhmische Mittelgebirge – direkt an der Grenze zu Deutschland.">Osm pokojů, restaurace s hořícím krbem a terasa s výhledem na České středohoří – v těsné blízkosti hranic s Německem.</p>
+    <div class="hero__actions">
+      <a class="btn btn--gold" href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener">
+        <svg class="i"><use href="#i-calendar"/></svg> <span data-de="Zimmer buchen">Rezervovat pobyt</span>
+      </a>
+      <a class="btn btn--ghost" href="restaurace.html#jidelni-listek"><span data-de="Speisekarte">Jídelní lístek</span> <svg class="i i--go"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+
+  <div class="hero__bar">
+    <div class="container hero__bar-inner">
+      <span class="hero__place"><span class="dot-live"></span> <span id="openBadge">Restaurace denně 11–22 h</span></span>
+      <div class="hero__slider-ui">
+        <span class="hero__caption" id="heroCaption" aria-live="polite"></span>
+        <div class="hero__dots" id="heroDots" role="tablist" aria-label="Fotografie"></div>
+      </div>
+    </div>
+  </div>
+  <a class="hero__scroll" href="#rozcestnik" aria-label="Posunout na obsah"><span data-de="Entdecken">Objevte</span><span class="hero__scroll-line"></span></a>
+</section>
+
+<!-- =====================================================================
+     2. ROZCESTNÍK – seznam se šipkami
+     ===================================================================== -->
+<section class="directory" id="rozcestnik" aria-labelledby="directoryTitle">
+  <div class="container">
+    <p class="directory__eyebrow reveal" id="directoryTitle" data-de="Für Hotelgäste, Restaurantbesucher und Feiern">Pro hotelové hosty, návštěvníky restaurace i oslavy</p>
+    <ul class="directory__list">
+      <li class="reveal"><a href="ubytovani.html"><span data-de="Unterkunft und Zimmer">Ubytování a pokoje</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.04s"><a href="restaurace.html"><span data-de="Restaurant und Speisekarte">Restaurace a jídelní lístek</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.08s"><a href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener"><span data-de="Online-Buchung">Rezervace pobytu on-line</span><svg class="i"><use href="#i-external"/></svg></a></li>
+      <li class="reveal" style="--d:.12s"><a href="cenik.html"><span data-de="Preise und Aufenthaltspakete">Ceník a pobytové balíčky</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.16s"><a href="sauna.html"><span data-de="Finnische Sauna">Finská sauna</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.2s"><a href="svatby-a-akce.html"><span data-de="Hochzeiten, Feiern und Firmenevents">Svatby, oslavy a firemní akce</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.24s"><a href="okoli.html"><span data-de="Umgebung: Langlauf, Rad, Golf">Okolí: běžky, kolo, golf</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+      <li class="reveal" style="--d:.28s"><a href="fotogalerie.html"><span data-de="Fotogalerie">Fotogalerie</span><svg class="i"><use href="#i-arrow"/></svg></a></li>
+    </ul>
+    <p class="directory__more reveal"><a href="aktuality.html"><span data-de="Aktuelles">Aktuality</span> <svg class="i"><use href="#i-arrow"/></svg></a> · <a href="kontakty.html"><span data-de="Kontakt und Anfahrt">Kontakty a mapa</span> <svg class="i"><use href="#i-arrow"/></svg></a></p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3. PŘÍBĚH – velké fotky přes celou obrazovku, které se při scrollu překrývají
+     ===================================================================== -->
+<div class="story" aria-label="Krušnohorský Dvůr">
+  <section class="story__panel">
+    <img src="assets/img/hotel-zapad-slunce.jpg" alt="Hotel Krušnohorský Dvůr při západu slunce" data-alt-de="Hotel Krušnohorský Dvůr bei Sonnenuntergang" loading="lazy">
+    <p class="story__text"><span data-de="865 Meter">865 metrů</span> <em data-de="über dem Meer.">nad mořem.</em></p>
+  </section>
+  <section class="story__panel">
+    <img src="assets/img/restaurace-krb-detail.jpg" alt="Hořící krb v restauraci" data-alt-de="Brennender Kamin im Restaurant" loading="lazy">
+    <p class="story__text"><span data-de="Abends">Večer</span> <em data-de="am Kamin.">u krbu.</em></p>
+  </section>
+  <section class="story__panel">
+    <img src="assets/img/hotel-zima-letecky.jpg" alt="Hotel a zasněžená krajina Cínovce z výšky" data-alt-de="Das Hotel und die verschneite Landschaft von Cínovec von oben" loading="lazy">
+    <p class="story__text"><span data-de="Morgens">Ráno</span> <em data-de="auf die Loipe.">na běžky.</em></p>
+  </section>
+</div>
+
+<!-- =====================================================================
+     4. PRO KOHO – tmavá sekce s velkým nadpisem, třemi sloupci a čísly
+     ===================================================================== -->
+<section class="section section--dark audience" aria-labelledby="audienceTitle">
+  <div class="container">
+    <h2 class="audience__title reveal" id="audienceTitle"><span data-de="Ein Haus.">Jeden dům.</span> <em data-de="Für jeden.">Pro každého.</em></h2>
+    <div class="audience__grid">
+      <article class="audience__item reveal">
+        <small data-de="Fürs Wochenende">Na víkend</small>
+        <h3 data-de="„Endlich Ruhe.“">„Konečně klid.“</h3>
+        <p data-de="Romantisches oder Gourmet-Aufenthaltspaket – Übernachtung, Frühstück, Drei-Gänge-Abendessen und Sauna.">Romantický nebo gurmánský pobytový balíček – ubytování, snídaně, tříchodová večeře a sauna.</p>
+        <a class="link-arrow" href="cenik.html"><span data-de="Preise &amp; Pakete">Ceník a balíčky</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="audience__item reveal" style="--d:.1s">
+        <small data-de="Zum Mittag- und Abendessen">Na oběd i večeři</small>
+        <h3 data-de="„Gönnen wir uns was Gutes.“">„Dáme si něco dobrého.“</h3>
+        <p data-de="Das Restaurant hat täglich von 11 bis 22 Uhr geöffnet. Feste Speisekarte und wechselnde Wochenspezialitäten.">Restaurace je otevřená každý den od 11 do 22 hodin. Stálý jídelní lístek i týdenní speciální nabídky.</p>
+        <a class="link-arrow" href="restaurace.html#jidelni-listek"><span data-de="Speisekarte">Jídelní lístek</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+      </article>
+      <article class="audience__item reveal" style="--d:.2s">
+        <small data-de="Zum Feiern">Na oslavu</small>
+        <h3 data-de="„Wir feiern bei euch.“">„Slavíme u vás.“</h3>
+        <p data-de="Hochzeitsessen, Firmenevents, Teambuildings und Geburtstagsfeiern. Ein Buffet bereiten wir nach Wunsch vor.">Svatební obědy, firemní akce, teambuildingy i narozeninové oslavy. Rautový stůl připravíme na přání.</p>
+        <a class="link-arrow" href="svatby-a-akce.html"><span data-de="Hochzeiten &amp; Feiern">Svatby a akce</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+      </article>
+    </div>
+    <div class="audience__stats">
+      <div class="stat reveal">
+        <div class="stat__num"><span data-count="8">8</span></div>
+        <div class="stat__label" data-de="Zimmer in 4 Kategorien">pokojů ve 4 kategoriích</div>
+      </div>
+      <div class="stat reveal" style="--d:.1s">
+        <div class="stat__num"><span data-count="24">24</span></div>
+        <div class="stat__label" data-de="Betten">lůžek</div>
+      </div>
+      <div class="stat reveal" style="--d:.2s">
+        <div class="stat__num"><span data-count="865">865</span><span class="stat__unit">m</span></div>
+        <div class="stat__label" data-de="über dem Meer">nad mořem</div>
+      </div>
+      <div class="stat reveal" style="--d:.3s">
+        <div class="stat__num"><span class="stat__pre" data-de="seit">od</span><span data-count="2011" data-from="1990" data-plain>2011</span></div>
+        <div class="stat__label" data-de="neues Hotelgebäude">nová budova hotelu</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     5. AKTUALITY – tři nejnovější (všechny na stránce Aktuality)
+     ===================================================================== -->
+<section class="section home-news" id="nejnovejsi">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div>
+        <p class="eyebrow reveal" data-de="Aktuelles">Aktuality</p>
+        <h2 class="h2 reveal" style="--d:.08s"><span data-de="Was gibt es">Co je u nás</span> <em data-de="Neues">nového</em></h2>
+      </div>
+      <a class="btn btn--outline reveal" style="--d:.16s" href="aktuality.html"><span data-de="Alle Neuigkeiten">Všechny aktuality</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="news-grid" id="newsGrid" data-limit="3"></div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     6. ZÁVĚR – rezervace a otevírací doba
+     ===================================================================== -->
+<section class="section closing" aria-labelledby="closingTitle">
+  <div class="container closing__grid">
+    <div>
+      <p class="eyebrow reveal" data-de="Buchung">Rezervace</p>
+      <h2 class="closing__title reveal" id="closingTitle" style="--d:.08s"><span data-de="Wann kommen Sie">Kdy k nám</span> <em data-de="zu uns?">přijedete?</em></h2>
+      <p class="lead reveal" style="--d:.16s" data-de="Freie Termine und aktuelle Zimmerpreise finden Sie in der Online-Buchung. Fragen zur Unterkunft schicken Sie bitte an info@krusnohorskydvur.cz oder rufen Sie +420 778 051 970 an.">Volné termíny a aktuální ceny pokojů najdete v on-line rezervaci. Dotazy k ubytování posílejte na info@krusnohorskydvur.cz, nebo zavolejte na +420&nbsp;778&nbsp;051&nbsp;970.</p>
+      <div class="band__actions reveal" style="--d:.24s">
+        <a class="btn btn--gold" href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Online buchen">Rezervovat on-line</span></a>
+        <a class="btn btn--outline" href="tel:+420778051970"><svg class="i"><use href="#i-phone"/></svg> <span data-de="Anrufen">Zavolat</span></a>
+      </div>
+    </div>
+    <div class="hours reveal" style="--d:.2s" aria-labelledby="hoursTitle">
+      <div class="hours__head">
+        <h3 class="hours__title" id="hoursTitle"><svg class="i"><use href="#i-clock"/></svg> <span data-de="Öffnungszeiten">Otevírací doba</span></h3>
+        <span class="hours__status" data-open-status><span class="dot-live"></span><span>Restaurace denně 11–22 h</span></span>
+      </div>
+      <div class="hours__rows">
+        <div class="hours__row"><span data-de="Restaurant">Restaurace</span><strong data-de="Mo – So 11:00 – 22:00">po – ne 11:00 – 22:00</strong></div>
+        <div class="hours__row"><span data-de="Frühstück (Buffet)">Snídaně (bufet)</span><strong>8:00 – 10:00</strong></div>
+        <div class="hours__row"><span>Check-in</span><strong data-de="ab 14:00">od 14:00</strong></div>
+        <div class="hours__row"><span>Check-out</span><strong data-de="bis 10:00">do 10:00</strong></div>
+      </div>
+    </div>
+  </div>
+</section>

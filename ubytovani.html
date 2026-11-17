@@ -1,0 +1,497 @@
+<!-- Vygenerováno skriptem nastroje/sestav-web.js ze šablon ve složce sablony/ – upravujte šablony, ne tento soubor. -->
+<!doctype html>
+<html lang="cs" data-page="ubytovani" data-title-de="Unterkunft – Zimmer | Krušnohorský Dvůr, Cínovec" data-desc-de="8 Zimmer in 4 Kategorien (Standard, Komfort, Exklusiv, Familie), 24 Betten, Frühstücksbuffet inklusive. Check-in ab 14:00, Check-out bis 10:00.">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ubytování – pokoje | Krušnohorský Dvůr, Cínovec</title>
+<meta name="description" content="8 pokojů ve 4 kategoriích (standardní, komfortní, exklusivní, rodinný), 24 lůžek, snídaně formou bufetu v ceně. Check-in od 14:00, check-out do 10:00.">
+<!-- Návrh redesignu – vyhledávače stránky nemají indexovat -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f2e1f">
+<link rel="canonical" href="https://www.krusnohorskydvur.cz/ubytovani.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ubytování – pokoje | Krušnohorský Dvůr, Cínovec">
+<meta property="og:description" content="8 pokojů ve 4 kategoriích (standardní, komfortní, exklusivní, rodinný), 24 lůžek, snídaně formou bufetu v ceně. Check-in od 14:00, check-out do 10:00.">
+<meta property="og:image" content="https://www.krusnohorskydvur.cz/assets/img/pokoj-komfort-2.jpg">
+<meta property="og:url" content="https://www.krusnohorskydvur.cz/ubytovani.html">
+<link rel="alternate" hreflang="cs" href="https://www.krusnohorskydvur.cz/ubytovani.html">
+<link rel="alternate" hreflang="de" href="https://www.krusnohorskydvur.cz/ubytovani.html?lang=de">
+<link rel="alternate" hreflang="x-default" href="https://www.krusnohorskydvur.cz/ubytovani.html">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+
+<!-- Písma: Baloo 2 (nadpisy, čísla, popisky) + Manrope (text) – stejná jako u redesignu Golf Club Teplice, uložená přímo na webu -->
+<link rel="preload" href="assets/fonts/baloo-2-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/web.css?v=4a7420f8">
+
+<!-- Strukturovaná data pro vyhledávače -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Krušnohorský Dvůr",
+  "description": "Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m.",
+  "url": "https://www.krusnohorskydvur.cz/",
+  "image": "https://www.krusnohorskydvur.cz/assets/img/hotel-zima-noc.jpg",
+  "logo": "https://www.krusnohorskydvur.cz/assets/logo.png",
+  "telephone": "+420778051970",
+  "email": "info@krusnohorskydvur.cz",
+  "address": { "@type": "PostalAddress", "streetAddress": "Cínovec 275", "addressLocality": "Dubí-Cínovec", "postalCode": "415 01", "addressCountry": "CZ" },
+  "checkinTime": "14:00",
+  "checkoutTime": "10:00",
+  "numberOfRooms": 8,
+  "sameAs": ["https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924", "https://www.instagram.com/krusnohorskydvur"],
+  "containsPlace": { "@type": "Restaurant", "name": "Restaurace Krušnohorský Dvůr", "openingHours": "Mo-Su 11:00-22:00", "servesCuisine": "Czech" }
+}
+</script>
+
+<!-- Třída .js zapne skryté výchozí stavy animací jen tehdy, když běží JavaScript -->
+<script>document.documentElement.classList.add('js');
+// obsah webu (aktuality, fotogalerie) – stahuje se souběžně se zbytkem stránky
+window.KD_OBSAH = fetch('data/obsah.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
+window.KD_OBSAH.catch(() => {});</script>
+</head>
+<body class="page-ubytovani">
+<a class="skip-link" href="#main">Přeskočit na obsah</a>
+
+<!-- =====================================================================
+     SVG IKONY (sprite) – použití: <svg class="i"><use href="#i-phone"/></svg>
+     ===================================================================== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3.2l1.8 4.6-2.3 1.4a11.5 11.5 0 0 0 6.3 6.3l1.4-2.3L20 15.8V19a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></symbol>
+    <symbol id="i-yt" viewBox="0 0 24 24"><path d="M21 8.2a2.6 2.6 0 0 0-1.8-1.9C17.6 6 12 6 12 6s-5.6 0-7.2.3A2.6 2.6 0 0 0 3 8.2 27 27 0 0 0 2.7 12 27 27 0 0 0 3 15.8a2.6 2.6 0 0 0 1.8 1.9C6.4 18 12 18 12 18s5.6 0 7.2-.3a2.6 2.6 0 0 0 1.8-1.9 27 27 0 0 0 .3-3.8 27 27 0 0 0-.3-3.8z"/><path d="m10.2 14.6 4.6-2.6-4.6-2.6z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.8z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14a6.5 6.5 0 0 1 3.5 6"/></symbol>
+    <symbol id="i-golf" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4.2"/><path d="M12 11.2V17M9.5 17h5l-1 4h-3z"/><circle cx="10.6" cy="6" r=".5"/><circle cx="13" cy="5.4" r=".5"/><circle cx="12.8" cy="7.8" r=".5"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V3.5M6 4h11l-2.5 4L17 12H6"/></symbol>
+    <symbol id="i-food" viewBox="0 0 24 24"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10M17 21V3c-2 0-3.5 2.5-3.5 6S15 13 17 13"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 19V6M3 15h18v4M21 15v-3a3 3 0 0 0-3-3h-7v6"/><circle cx="7" cy="11.5" r="2"/></symbol>
+    <symbol id="i-kids" viewBox="0 0 24 24"><path d="M3 21 8 4h8l5 17M8 4l4 9 4-9"/><path d="M9.5 15h5"/></symbol>
+    <symbol id="i-sauna" viewBox="0 0 24 24"><path d="M7 20c-1.6-1.8 1.6-3.6 0-5.4S8.6 11 7 9.2M12 20c-1.6-1.8 1.6-3.6 0-5.4s1.6-3.6 0-5.4M17 20c-1.6-1.8 1.6-3.6 0-5.4s1.6-3.6 0-5.4M4 4h16"/></symbol>
+    <symbol id="i-view" viewBox="0 0 24 24"><path d="M2.5 19.5 9 9l4.2 6.4L16 11l5.5 8.5z"/><circle cx="17" cy="5.5" r="1.8"/></symbol>
+    <symbol id="i-parking" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M9.5 17V7.5h3.5a2.8 2.8 0 0 1 0 5.6H9.5"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4M11 8v6M8 11h6"/></symbol>
+    <symbol id="i-photos" viewBox="0 0 24 24"><rect x="3" y="6" width="14" height="14" rx="2.5"/><path d="M7 3h11a3 3 0 0 1 3 3v11"/><path d="m3.5 17 4-4 3 3 2-2 4 4"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M4 12 20 4l-5 16-3.2-6.8z"/><path d="M11.8 13.2 20 4"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.6v.2"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2.5v19M3.8 7.2l16.4 9.6M3.8 16.8l16.4-9.6M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></symbol>
+    <symbol id="i-ski" viewBox="0 0 24 24"><path d="M3 19.5 21 14.5M3 15.5l18-5"/><path d="M8 8.5 10 15M15 6.5l1.8 6"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24"><path d="M3 6.5 9 4l6 2.5L21 4v13.5L15 20l-6-2.5L3 20z"/><path d="M9 4v13.5M15 6.5V20"/></symbol>
+    <symbol id="i-swipe" viewBox="0 0 24 24"><path d="M4 12h16M7 9l-3 3 3 3M17 9l3 3-3 3"/></symbol>
+    <symbol id="i-water" viewBox="0 0 24 24"><path d="M12 3s6.5 7.2 6.5 11.5a6.5 6.5 0 0 1-13 0C5.5 10.2 12 3 12 3z"/></symbol>
+    <symbol id="i-spinner" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M2.5 9a14 14 0 0 1 19 0M5.5 12.3a9.5 9.5 0 0 1 13 0M8.6 15.5a5 5 0 0 1 6.8 0"/><circle cx="12" cy="18.8" r="1.1"/></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></symbol>
+    <symbol id="i-shower" viewBox="0 0 24 24"><path d="M5 21V7a3 3 0 0 1 6 0"/><path d="M8 7h6M9 11v.5M12 11v.5M15 11v.5M10.5 14v.5M13.5 14v.5M12 17v.5"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M17 10.5h1.5a2.5 2.5 0 0 1 0 5H17M8 3.5c-.8 1 .8 2 0 3M12 3.5c-.8 1 .8 2 0 3"/></symbol>
+    <symbol id="i-wine" viewBox="0 0 24 24"><path d="M7.5 3h9l-.6 6.2a3.9 3.9 0 0 1-7.8 0z"/><path d="M12 13.5V21M8.5 21h7M8 7h8"/></symbol>
+    <symbol id="i-fire" viewBox="0 0 24 24"><path d="M12 21a6.5 6.5 0 0 0 6.5-6.5c0-4.5-4-6-4.5-10.5-2.5 1.5-4 4.2-3.5 7-1.2-.6-2-1.8-2.2-3C6.6 9.6 5.5 12 5.5 14.5A6.5 6.5 0 0 0 12 21z"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3.5" y="8.5" width="17" height="4" rx="1"/><path d="M5 12.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7.5M12 8.5V21M12 8.5S10.8 4 8.3 4a2.2 2.2 0 0 0 0 4.5zM12 8.5S13.2 4 15.7 4a2.2 2.2 0 0 1 0 4.5z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.3 4.3 0 0 1 12 7.3 4.3 4.3 0 0 1 19.5 10C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-rings" viewBox="0 0 24 24"><circle cx="9" cy="14" r="5.5"/><circle cx="15" cy="14" r="5.5"/><path d="m10.5 4.5 1.5-2 1.5 2-1.5 1.8z"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8.5 7V5.5A1.5 1.5 0 0 1 10 4h4a1.5 1.5 0 0 1 1.5 1.5V7M3 12.5h18"/></symbol>
+    <symbol id="i-bike" viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3.5"/><circle cx="18.5" cy="16.5" r="3.5"/><path d="M5.5 16.5 9 9h7l2.5 7.5M9 9l3.5 7.5H5.5M13.5 6h2.5l-2.6 3"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24"><rect x="3" y="7" width="13" height="11" rx="2"/><path d="m16 11 5-3v9l-5-3"/></symbol>
+    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 3 6.5 10h3L5.5 15.5h13L14.5 10h3z"/><path d="M12 15.5V21"/></symbol>
+    <symbol id="i-mountain" viewBox="0 0 24 24"><path d="M2.5 20 9.5 7l4 7 2-3.2L21.5 20z"/><path d="m7.6 10.5 1.9 1.6 1.8-1.4"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 16h18M5 16V8.5h8.5L17 13v3"/><path d="M5 8.5 7 4h6"/><circle cx="7.5" cy="18.5" r="2"/><circle cx="16.5" cy="18.5" r="2"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 24 24"><circle cx="7" cy="9" r="1.8"/><circle cx="11" cy="6.2" r="1.8"/><circle cx="15.5" cy="7.2" r="1.8"/><circle cx="18" cy="11" r="1.8"/><path d="M8.5 18.5c-2 0-2.5-2.3-1-3.8l2.5-2.5a2.8 2.8 0 0 1 4 0l2.3 2.3c1.5 1.5 1 4-1.2 4-1.5 0-2-.8-3.1-.8s-1.6.8-3.5.8z"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4.5"/><path d="m11.2 11.8 8.3-8.3M16.5 6.5l2.5 2.5M14 9l2 2"/></symbol>
+    <!-- Vlajky pro přepínač jazyků -->
+    <symbol id="flag-cz" viewBox="0 0 30 20"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#d7141a"/><path d="M0 0l15 10L0 20z" fill="#11457e"/></symbol>
+    <symbol id="flag-de" viewBox="0 0 30 20"><rect width="30" height="6.67" fill="#000"/><rect y="6.67" width="30" height="6.67" fill="#dd0000"/><rect y="13.33" width="30" height="6.67" fill="#ffce00"/></symbol>
+  </defs>
+</svg>
+
+<!-- =====================================================================
+     HLAVIČKA – logo · jazyk · rezervace · Menu (všechny stránky v menu přes celou obrazovku)
+     ===================================================================== -->
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <nav class="container--wide nav" aria-label="Hlavní navigace">
+      <a class="nav__logo" href="./" aria-label="Krušnohorský Dvůr – úvodní stránka">
+        <img src="assets/logo-bila.png" alt="Krušnohorský Dvůr – hotel a restaurace" width="592" height="140">
+      </a>
+      <div class="nav__actions">
+        <div class="lang" role="group" aria-label="Jazyk">
+          <button type="button" class="is-active" data-lang="cs" aria-pressed="true"><svg><use href="#flag-cz"/></svg>CZ</button>
+          <button type="button" data-lang="de" aria-pressed="false"><svg><use href="#flag-de"/></svg>DE</button>
+        </div>
+        <a class="btn btn--gold nav__cta" href="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=cs" data-href-de="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=de" target="_blank" rel="noopener" aria-label="Rezervovat pobyt on-line">
+          <svg class="i"><use href="#i-calendar"/></svg><span data-de="Zimmer buchen">Rezervovat pobyt</span>
+        </a>
+        <button class="burger" type="button" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="burger__lines"><span></span><span></span><span></span></span><span class="burger__label">Menu</span>
+        </button>
+      </div>
+    </nav>
+    <!-- tenká linka průběhu scrollu -->
+    <div class="scroll-line" aria-hidden="true"><span class="scroll-line__bar"></span></div>
+  </div>
+</header>
+
+<!-- Menu přes celou obrazovku -->
+<div class="mobile-menu" id="mobileMenu" aria-label="Menu">
+  <nav class="mobile-menu__links">
+    <a class="is-active" aria-current="page" href="ubytovani.html" data-page="ubytovani" style="--i:0"><small>01</small><span data-de="Unterkunft">Ubytování</span></a>
+    <a href="restaurace.html" data-page="restaurace" style="--i:1"><small>02</small><span data-de="Restaurant">Restaurace</span></a>
+    <a href="cenik.html" data-page="cenik" style="--i:2"><small>03</small><span data-de="Preise &amp; Pakete">Ceník a balíčky</span></a>
+    <a href="sauna.html" data-page="sauna" style="--i:3"><small>04</small><span data-de="Sauna">Sauna</span></a>
+    <a href="svatby-a-akce.html" data-page="svatby-a-akce" style="--i:4"><small>05</small><span data-de="Hochzeiten &amp; Feiern">Svatby a akce</span></a>
+    <a href="okoli.html" data-page="okoli" style="--i:5"><small>06</small><span data-de="Umgebung">Okolí</span></a>
+    <a href="aktuality.html" data-page="aktuality" style="--i:6"><small>07</small><span data-de="Aktuelles">Aktuality</span></a>
+    <a href="fotogalerie.html" data-page="fotogalerie" style="--i:7"><small>08</small><span data-de="Fotogalerie">Fotogalerie</span></a>
+    <a href="kontakty.html" data-page="kontakty" style="--i:8"><small>09</small><span data-de="Kontakt">Kontakty</span></a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <a class="btn btn--gold btn--block" href="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=cs" data-href-de="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=de" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Zimmer online buchen">Rezervovat pobyt on-line</span></a>
+    <div class="mobile-menu__contacts">
+      <a href="tel:+420778051970"><svg class="i"><use href="#i-phone"/></svg> +420 778 051 970</a>
+      <a href="mailto:info@krusnohorskydvur.cz"><svg class="i"><use href="#i-mail"/></svg> info@krusnohorskydvur.cz</a>
+      <span class="mobile-menu__hours"><svg class="i"><use href="#i-clock"/></svg> <span data-de="Restaurant täglich 11–22 Uhr">Restaurace denně 11–22 h</span></span>
+    </div>
+    <div class="socials" style="margin:0">
+      <a href="https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924" target="_blank" rel="noopener" aria-label="Facebook"><svg class="i i--fill"><use href="#i-fb"/></svg></a>
+      <a href="https://www.instagram.com/krusnohorskydvur" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+      <a href="https://goo.gl/maps/Zgg7fF5qtht" target="_blank" rel="noopener" aria-label="Google Maps"><svg class="i"><use href="#i-pin"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- =====================================================================
+     UBYTOVÁNÍ – úvodní pás stránky
+     ===================================================================== -->
+<section class="page-hero" id="top" aria-labelledby="pageTitle">
+  <div class="page-hero__bg" aria-hidden="true"><img src="assets/img/pokoj-komfort-2.jpg" alt="" fetchpriority="high"></div>
+  <div class="container page-hero__inner">
+    <nav class="crumbs reveal" aria-label="Drobečková navigace"><a href="./" data-de="Startseite">Úvod</a><span aria-hidden="true">/</span><span aria-current="page" data-de="Unterkunft">Ubytování</span></nav>
+    <h1 class="page-hero__title reveal" id="pageTitle" style="--d:.08s" data-de="Unterkunft">Ubytování</h1>
+    <p class="page-hero__lead reveal" style="--d:.16s" data-de="8 Zimmer in 4 Kategorien, Frühstücksbuffet inklusive.">8 pokojů ve 4 kategoriích, snídaně formou bufetu v ceně.</p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     1. UBYTOVÁNÍ – úvod, časy, koláž
+     ===================================================================== -->
+<section class="section" id="ubytovani">
+  <div class="container">
+    <div class="about__intro">
+      <div class="about__text">
+        <h2 class="h2 reveal" style="--d:.08s"><span data-de="Neu eingerichtete Zimmer">Nově zařízené pokoje</span> <em data-de="zu günstigen Preisen">za příznivé ceny</em></h2>
+        <p class="lead reveal" style="--d:.16s" data-de="Das Hotel Krušnohorský Dvůr bietet Unterkunft in neu eingerichteten Zimmern mit Luxusbad zu sehr günstigen Preisen – für Einzelreisende, Gruppen und Firmen.">Hotel Krušnohorský Dvůr nabízí ubytování v&nbsp;nově zařízených pokojích s&nbsp;luxusní koupelnou za velmi příznivé ceny pro jednotlivce, skupiny i&nbsp;firmy.</p>
+        <p class="reveal" style="--d:.22s" data-de="Insgesamt stehen 8 Zimmer in 4 Kategorien mit maximal 24 Betten zur Verfügung: 7 Doppelzimmer mit der Möglichkeit eines Zustellbetts und 1 Familienzimmer mit vier Betten. Ein Kinderbett leihen wir Ihnen gerne aus.">K&nbsp;dispozici je celkem 8&nbsp;pokojů ve 4&nbsp;kategoriích s&nbsp;maximální kapacitou 24&nbsp;lůžek: 7&nbsp;dvoulůžkových pokojů s&nbsp;možností jedné přistýlky a&nbsp;1&nbsp;rodinný čtyřlůžkový pokoj. K&nbsp;zapůjčení máme také dětskou postýlku.</p>
+        <p class="reveal" style="--d:.26s" data-de="Alle Zimmer haben ein eigenes Luxusbad mit Fußbodenheizung, Dusche und WC, Sat-TV und kostenloses WLAN. Das moderne Berghotel wurde im Sommer 2011 fertiggestellt; wiederholt wohnt hier zum Beispiel die tschechische Biathlon-Nationalmannschaft während ihrer Trainingslager.">Všechny pokoje mají vlastní luxusní koupelnu s&nbsp;podlahovým topením, sprchovým koutem a&nbsp;WC, televizi se satelitním příjmem a&nbsp;bezdrátové připojení k&nbsp;internetu zdarma. Moderní horská budova hotelu byla dokončena v&nbsp;létě roku 2011 – opakovaně u&nbsp;nás bydlí například biatlonová reprezentace České republiky při svém soustředění.</p>
+
+        <div class="hours reveal" style="--d:.3s" aria-labelledby="stayTitle">
+          <div class="hours__head">
+            <h3 class="hours__title" id="stayTitle"><svg class="i"><use href="#i-key"/></svg> <span data-de="Ihr Aufenthalt">Váš pobyt</span></h3>
+          </div>
+          <div class="hours__rows">
+            <div class="hours__row"><span>Check-in</span><strong data-de="ab 14:00 Uhr">od 14:00 hodin</strong></div>
+            <div class="hours__row"><span>Check-out</span><strong data-de="bis 10:00 Uhr">do 10:00 hodin</strong></div>
+            <div class="hours__row"><span data-de="Frühstück (Buffet, im Preis)">Snídaně (bufet, v ceně)</span><strong>8:00 – 10:00</strong></div>
+            <div class="hours__row"><span data-de="Frühe Abreise">Brzký odjezd</span><strong data-de="Lunchpaket auf Bestellung">snídaňový balíček na objednání</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="collage reveal reveal--zoom">
+        <div class="collage__main"><img src="assets/img/pokoj-exklusiv-vyhled.jpg" alt="Výhled z exklusivního pokoje na golfové hřiště a krajinu" data-alt-de="Blick aus dem Exklusivzimmer auf den Golfplatz und die Landschaft" loading="lazy" width="1200" height="800"></div>
+        <div class="collage__small" data-parallax="-0.08"><img src="assets/img/thumbs/pokoj-rodinny-koupelna.jpg" alt="Koupelna rodinného pokoje se dvěma umyvadly" data-alt-de="Bad des Familienzimmers mit zwei Waschbecken" loading="lazy"></div>
+        <div class="ring-badge" aria-label="8 pokojů, 24 lůžek">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="ringPath" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs>
+            <text><textPath id="ringText" href="#ringPath" textLength="498" lengthAdjust="spacing" data-de="8 ZIMMER • 24 BETTEN • CÍNOVEC • ERZGEBIRGE •">8 POKOJŮ • 24 LŮŽEK • CÍNOVEC • KRUŠNÉ HORY •</textPath></text>
+          </svg>
+          <div class="ring-badge__center"><small data-de="Höhe">výška</small><strong>865 m</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     2. NABÍDKA POKOJŮ – čtyři kategorie, fotky v prohlížeči
+     ===================================================================== -->
+<section class="section section--paper" id="pokoje" aria-labelledby="roomsTitle">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div>
+        <p class="eyebrow reveal" data-de="Zimmerangebot">Nabídka pokojů</p>
+        <h2 class="h2 reveal" id="roomsTitle" style="--d:.08s"><span data-de="Vier Kategorien,">Čtyři kategorie,</span> <em data-de="ein Zuhause">jeden domov</em></h2>
+      </div>
+      <a class="btn btn--dark reveal" style="--d:.16s" href="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=cs" data-href-de="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=de" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Freie Termine und Preise">Volné termíny a ceny</span></a>
+    </div>
+
+    <div class="room-grid">
+      <article class="room reveal">
+        <button class="room__media" type="button" data-photos="pokoj-standard,pokoj-standard-2,pokoj-standard-3,pokoj-standard-4,pokoj-standard-koupelna,pokoj-standard-koupelna-2" data-title="Standardní pokoj" data-title-de="Standardzimmer">
+          <img src="assets/img/thumbs/pokoj-standard.jpg" alt="Standardní pokoj" data-alt-de="Standardzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="6 Fotos">6 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Standardzimmer">Standardní pokoje</h3>
+          <p data-de="Modern eingerichtetes Zimmer mit Bad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Moderně zařízený pokoj s&nbsp;koupelnou se sprchovým koutem a&nbsp;sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Dusche und WC">Sprchový kout a WC</span></li>
+            <li><svg class="i"><use href="#i-tv"/></svg><span data-de="Sat-TV">TV se satelitním příjmem</span></li>
+            <li><svg class="i"><use href="#i-wifi"/></svg><span data-de="Internet">Internet</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal" style="--d:.08s">
+        <button class="room__media" type="button" data-photos="pokoj-komfort,pokoj-komfort-2,pokoj-komfort-3,pokoj-komfort-4,pokoj-komfort-5,pokoj-komfort-6,pokoj-komfort-koupelna,pokoj-komfort-koupelna-2" data-title="Komfortní pokoj" data-title-de="Komfortzimmer">
+          <img src="assets/img/thumbs/pokoj-komfort.jpg" alt="Komfortní pokoj" data-alt-de="Komfortzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="8 Fotos">8 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Komfortzimmer">Komfortní pokoje</h3>
+          <p data-de="Modern eingerichtetes Zimmer mit Luxusbad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Moderně zařízený pokoj s&nbsp;luxusní koupelnou se sprchovým koutem a&nbsp;sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Luxusbad">Luxusní koupelna</span></li>
+            <li><svg class="i"><use href="#i-tv"/></svg><span data-de="Sat-TV">TV se satelitním příjmem</span></li>
+            <li><svg class="i"><use href="#i-wifi"/></svg><span data-de="Internet">Internet</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal">
+        <button class="room__media" type="button" data-photos="pokoj-exklusiv,pokoj-exklusiv-2,pokoj-exklusiv-vyhled,pokoj-exklusiv-3,pokoj-exklusiv-4,pokoj-exklusiv-vyhled-2,pokoj-exklusiv-5,pokoj-exklusiv-romanticky,pokoj-exklusiv-koupelna,pokoj-exklusiv-koupelna-2" data-title="Exklusivní pokoj" data-title-de="Exklusivzimmer">
+          <img src="assets/img/thumbs/pokoj-exklusiv.jpg" alt="Exklusivní pokoj" data-alt-de="Exklusivzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="10 Fotos">10 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Exklusivzimmer">Exklusivní pokoje</h3>
+          <p data-de="Geräumiges Zimmer mit herrlichem Blick auf das Böhmische Mittelgebirge und den Golfplatz. Zum Zimmer gehören ein Vorraum und ein Luxusbad mit WC; moderne Möbel laden zum Sitzen und Schlafen ein. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Prostorný pokoj s&nbsp;nádherným výhledem na České středohoří a&nbsp;golfové hřiště. Součástí pokoje je předsíň a&nbsp;luxusní koupelna se sociálním zařízením, moderní nábytek pro příjemné posezení i&nbsp;spaní. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-view"/></svg><span data-de="Blick auf Mittelgebirge und Golfplatz">Výhled na středohoří a golf</span></li>
+            <li><svg class="i"><use href="#i-key"/></svg><span data-de="Vorraum">Předsíň</span></li>
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Luxusbad">Luxusní koupelna</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal" style="--d:.08s">
+        <button class="room__media" type="button" data-photos="pokoj-rodinny,pokoj-rodinny-2,pokoj-rodinny-3,pokoj-rodinny-koupelna,pokoj-rodinny-koupelna-2" data-title="Rodinný pokoj" data-title-de="Familienzimmer">
+          <img src="assets/img/thumbs/pokoj-rodinny.jpg" alt="Rodinný pokoj" data-alt-de="Familienzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="5 Fotos">5 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Vierbettzimmer">Čtyřlůžkový</span>
+          <h3 class="room__name" data-de="Familienzimmer">Rodinný pokoj</h3>
+          <p data-de="Geräumiges Zimmer mit Vorraum und moderner Einrichtung. Zum Zimmer gehört ein Luxusbad mit zwei Duschen, zwei Waschbecken und zwei getrennten Toiletten. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Prostorný pokoj s&nbsp;předsíní a&nbsp;moderním zařízením. Součástí pokoje je luxusní koupelna se dvěma sprchovými kouty, dvěma umyvadly a&nbsp;dvěma oddělenými toaletami. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-users"/></svg><span data-de="4 Betten">4 lůžka</span></li>
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="2 Duschen, 2 Waschbecken, 2 WC">2 sprchy, 2 umyvadla, 2 WC</span></li>
+            <li><svg class="i"><use href="#i-key"/></svg><span data-de="Vorraum">Předsíň</span></li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3. SNÍDANĚ – parallax pás
+     ===================================================================== -->
+<section class="band" aria-labelledby="breakfastTitle">
+  <div class="band__bg" data-parallax="0.18"><img src="assets/img/restaurace-vyhled.jpg" alt="" loading="lazy"></div>
+  <div class="container reveal">
+    <h2 id="breakfastTitle"><span data-de="Im Preis inbegriffen:">V ceně je</span> <em data-de="reichhaltiges Frühstück">bohatá snídaně</em></h2>
+    <p data-de="Das Frühstücksbuffet servieren wir im Restaurant von 8:00 bis 10:00 Uhr. Bei früher Abreise bereiten wir Ihnen nach Vorbestellung ein Lunchpaket vor.">Snídani formou bufetu podáváme v&nbsp;restauraci od 8:00 do 10:00 hodin. Při brzkém odjezdu vám po předchozím objednání připravíme snídaňový balíček.</p>
+    <div class="band__actions">
+      <a class="btn btn--gold" href="cenik.html"><span data-de="Preise &amp; Pakete">Ceník a balíčky</span> <svg class="i i--go"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--ghost" href="restaurace.html" data-de="Zum Restaurant">O restauraci</a>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     4. RECEPCE ZAJISTÍ – tmavá karta
+     ===================================================================== -->
+<section class="section" aria-labelledby="receptionTitle">
+  <div class="container">
+    <article class="dvur reveal" style="margin-top:0">
+      <div class="dvur__media">
+        <img src="assets/img/terasa-zima.jpg" alt="Výhled z hotelu na zasněženou terasu" data-alt-de="Blick aus dem Hotel auf die verschneite Terrasse" loading="lazy" width="1170" height="868">
+      </div>
+      <div class="dvur__body">
+        <p class="eyebrow" data-de="Rezeption">Recepce</p>
+        <h3 class="h3" id="receptionTitle" data-de="Auf Wunsch organisieren wir">Na přání vám zajistíme</h3>
+        <p data-de="Die nahe Umgebung bietet viele Sportmöglichkeiten, Kurbäder und Sehenswürdigkeiten auf tschechischer Seite und im nahen Sachsen – ein Ausflug nach Dresden lohnt sich wirklich.">Blízké okolí hotelu nabízí široké sportovní vyžití, lázně i&nbsp;zajímavé památky na české straně a&nbsp;v&nbsp;blízkém Sasku – návštěva Drážďan opravdu stojí za to.</p>
+        <ul class="amenities">
+          <li class="amenity"><svg class="i"><use href="#i-water"/></svg><span data-de="Entspannung im Theresienbad in Dubí oder in Teplice">Relaxaci v Tereziných lázních v Dubí nebo v Teplicích</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-water"/></svg><span data-de="Baden in der Therme Raupennest in Altenberg">Koupání ve vodních lázních Raupennest v Altenbergu</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-mountain"/></svg><span data-de="Sommerrodelbahn in Altenberg">Letní bobovou dráhu v Altenbergu</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-ski"/></svg><span data-de="Skiverleih im Skiareál Bouřňák">Zapůjčení sjezdových lyží ve Skiareálu Bouřňák</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-bike"/></svg><span data-de="Sichere Aufbewahrung Ihrer Fahrräder">Úschovu vašich kol</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-coffee"/></svg><span data-de="Lunchpaket bei früher Abreise">Snídaňový balíček na cestu</span></li>
+        </ul>
+        <a class="btn btn--gold" href="okoli.html"><span data-de="Ausflugstipps">Tipy na výlety</span> <svg class="i i--go"><use href="#i-arrow"/></svg></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+</main>
+
+<!-- =====================================================================
+     PATIČKA
+     ===================================================================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo-bila.png" alt="Krušnohorský Dvůr – hotel a restaurace" width="592" height="140" loading="lazy">
+        <p data-de="Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.">Horský hotel a restaurace na Cínovci v&nbsp;Krušných horách, 865&nbsp;m&nbsp;n.&nbsp;m., v&nbsp;těsné blízkosti hranic s&nbsp;Německem.</p>
+        <p class="footer__legal"><span data-de="Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004">Hotel: GREEN hotel s.r.o., IČO 17855004</span><br><span data-de="Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892">Restaurace: GREEN gastro s.r.o., IČO 14106892</span></p>
+        <div class="socials">
+          <a href="https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924" target="_blank" rel="noopener" aria-label="Facebook"><svg class="i i--fill"><use href="#i-fb"/></svg></a>
+          <a href="https://www.instagram.com/krusnohorskydvur" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-ig"/></svg></a>
+          <a href="https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA" target="_blank" rel="noopener" aria-label="YouTube"><svg class="i"><use href="#i-yt"/></svg></a>
+          <a href="https://goo.gl/maps/Zgg7fF5qtht" target="_blank" rel="noopener" aria-label="Google Maps"><svg class="i"><use href="#i-pin"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-de="Hotel">Hotel</h4>
+        <ul class="footer__links">
+          <li><a href="#ubytovani" data-de="Unterkunft">Ubytování</a></li>
+          <li><a href="cenik.html" data-de="Preise &amp; Pakete">Ceník a balíčky</a></li>
+          <li><a href="sauna.html" data-de="Sauna">Sauna</a></li>
+          <li><a href="svatby-a-akce.html" data-de="Hochzeiten &amp; Feiern">Svatby a akce</a></li>
+          <li><a href="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=cs" data-href-de="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=de" target="_blank" rel="noopener" data-de="Online-Buchung">Rezervace on-line</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-de="Mehr">Více</h4>
+        <ul class="footer__links">
+          <li><a href="restaurace.html" data-de="Restaurant">Restaurace</a></li>
+          <li><a href="okoli.html" data-de="Umgebung">Okolí</a></li>
+          <li><a href="aktuality.html" data-de="Aktuelles">Aktuality</a></li>
+          <li><a href="fotogalerie.html" data-de="Fotogalerie">Fotogalerie</a></li>
+          <li><a href="kontakty.html" data-de="Kontakt">Kontakty</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-de="Kontakt">Kontakt</h4>
+        <div class="footer__contact">
+          <span><svg class="i"><use href="#i-pin"/></svg>Krušnohorský Dvůr<br>Cínovec 275, Dubí-Cínovec</span>
+          <a href="tel:+420778051970"><svg class="i"><use href="#i-phone"/></svg>+420 778 051 970</a>
+          <a href="mailto:info@krusnohorskydvur.cz"><svg class="i"><use href="#i-mail"/></svg>info@krusnohorskydvur.cz</a>
+          <span><svg class="i"><use href="#i-clock"/></svg><span data-de="Restaurant: Mo – So 11–22 Uhr">Restaurace: po – ne 11–22 h</span></span>
+        </div>
+      </div>
+    </div>
+    <p class="footer__wordmark" aria-hidden="true">Krušnohorský Dvůr</p>
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> Krušnohorský Dvůr · <button type="button" class="footer__privacy" data-open-privacy data-de="Datenschutz">Ochrana osobních údajů</button></span>
+      <span class="footer__draft" data-de="Entwurf eines Redesigns – keine offizielle Website des Hotels">Návrh redesignu – nejde o oficiální web hotelu</span>
+      <div class="lang" role="group" aria-label="Jazyk">
+        <button type="button" class="is-active" data-lang="cs" aria-pressed="true"><svg><use href="#flag-cz"/></svg>CZ</button>
+        <button type="button" data-lang="de" aria-pressed="false"><svg><use href="#flag-de"/></svg>DE</button>
+      </div>
+      <a class="to-top" href="#top"><span data-de="Nach oben">Nahoru</span> <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobilní lišta s rezervací (zobrazí se po odscrollování úvodu) -->
+<div class="mobile-book" id="mobileBook">
+  <a class="btn btn--ghost" href="tel:+420778051970" aria-label="Zavolat"><svg class="i"><use href="#i-phone"/></svg></a>
+  <a class="btn btn--gold" href="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=cs" data-href-de="https://booking.previo.cz/?hotId=3355&amp;theme=gold&amp;lang=de" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Zimmer buchen">Rezervovat pobyt</span></a>
+</div>
+
+<!-- =====================================================================
+     DIALOGY
+     ===================================================================== -->
+<!-- Detail aktuality -->
+<dialog class="modal" id="newsModal" aria-labelledby="newsModalTitle">
+  <button class="icon-btn modal__close" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  <div class="modal__scroll">
+    <div class="modal__media"><img id="newsModalImg" src="data:," alt=""></div>
+    <div class="modal__body">
+      <div class="modal__meta"><span id="newsModalTag" class="tag"></span><span><svg class="i"><use href="#i-calendar"/></svg><time id="newsModalDate"></time></span></div>
+      <h3 id="newsModalTitle"></h3>
+      <div class="modal__text" id="newsModalText"></div>
+      <div class="modal__cta" id="newsModalCta"></div>
+    </div>
+  </div>
+</dialog>
+
+<!-- Prohlížeč fotek (fotogalerie, pokoje, ochutnávky fotek) -->
+<dialog class="lightbox" id="lightbox" aria-label="Fotografie">
+  <div class="lightbox__top">
+    <span id="lbCounter">1 / 1</span>
+    <button class="icon-btn" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  </div>
+  <div class="lightbox__stage" id="lbStage">
+    <button class="icon-btn lightbox__nav lightbox__nav--prev" type="button" data-lb-step="-1" aria-label="Předchozí fotka"><svg class="i"><use href="#i-chev-l"/></svg></button>
+    <img id="lbImg" src="data:," alt="">
+    <button class="icon-btn lightbox__nav lightbox__nav--next" type="button" data-lb-step="1" aria-label="Další fotka"><svg class="i"><use href="#i-chev-r"/></svg></button>
+  </div>
+  <p class="lightbox__caption" id="lbCaption"></p>
+</dialog>
+
+<!-- Zásady ochrany osobních údajů – NÁVRH: před spuštěním nechat zkontrolovat provozovatelem -->
+<dialog class="modal" id="privacyModal" aria-labelledby="privacyTitle">
+  <button class="icon-btn modal__close" type="button" data-close aria-label="Zavřít"><svg class="i"><use href="#i-close"/></svg></button>
+  <div class="modal__scroll">
+    <div class="modal__body privacy" data-i18n-skip>
+      <div data-lang-block="cs">
+        <h3 id="privacyTitle">Ochrana osobních údajů</h3>
+        <h4>Správce</h4>
+        <p>GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt: <a href="mailto:info@krusnohorskydvur.cz">info@krusnohorskydvur.cz</a>, +420 778 051 970.</p>
+        <h4>Poptávkový formulář</h4>
+        <p>Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.</p>
+        <h4>Rezervace on-line</h4>
+        <p>Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.</p>
+        <h4>Cookies a služby třetích stran</h4>
+        <p>Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.</p>
+        <h4>Vaše práva</h4>
+        <p>Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (<a href="https://uoou.gov.cz" target="_blank" rel="noopener">uoou.gov.cz</a>).</p>
+      </div>
+      <div data-lang-block="de">
+        <h3>Datenschutz</h3>
+        <h4>Verantwortlicher</h4>
+        <p>GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt: <a href="mailto:info@krusnohorskydvur.cz">info@krusnohorskydvur.cz</a>, +420 778 051 970.</p>
+        <h4>Anfrageformular</h4>
+        <p>Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.</p>
+        <h4>Online-Buchung</h4>
+        <p>Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.</p>
+        <h4>Cookies und Dienste Dritter</h4>
+        <p>Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.</p>
+        <h4>Ihre Rechte</h4>
+        <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (<a href="https://uoou.gov.cz/en" target="_blank" rel="noopener">uoou.gov.cz/en</a>).</p>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="assets/js/web.js?v=def24752"></script>
+</body>
+</html>

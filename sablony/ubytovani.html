@@ -1,0 +1,166 @@
+<!-- =====================================================================
+     1. UBYTOVÁNÍ – úvod, časy, koláž
+     ===================================================================== -->
+<section class="section" id="ubytovani">
+  <div class="container">
+    <div class="about__intro">
+      <div class="about__text">
+        <h2 class="h2 reveal" style="--d:.08s"><span data-de="Neu eingerichtete Zimmer">Nově zařízené pokoje</span> <em data-de="zu günstigen Preisen">za příznivé ceny</em></h2>
+        <p class="lead reveal" style="--d:.16s" data-de="Das Hotel Krušnohorský Dvůr bietet Unterkunft in neu eingerichteten Zimmern mit Luxusbad zu sehr günstigen Preisen – für Einzelreisende, Gruppen und Firmen.">Hotel Krušnohorský Dvůr nabízí ubytování v&nbsp;nově zařízených pokojích s&nbsp;luxusní koupelnou za velmi příznivé ceny pro jednotlivce, skupiny i&nbsp;firmy.</p>
+        <p class="reveal" style="--d:.22s" data-de="Insgesamt stehen 8 Zimmer in 4 Kategorien mit maximal 24 Betten zur Verfügung: 7 Doppelzimmer mit der Möglichkeit eines Zustellbetts und 1 Familienzimmer mit vier Betten. Ein Kinderbett leihen wir Ihnen gerne aus.">K&nbsp;dispozici je celkem 8&nbsp;pokojů ve 4&nbsp;kategoriích s&nbsp;maximální kapacitou 24&nbsp;lůžek: 7&nbsp;dvoulůžkových pokojů s&nbsp;možností jedné přistýlky a&nbsp;1&nbsp;rodinný čtyřlůžkový pokoj. K&nbsp;zapůjčení máme také dětskou postýlku.</p>
+        <p class="reveal" style="--d:.26s" data-de="Alle Zimmer haben ein eigenes Luxusbad mit Fußbodenheizung, Dusche und WC, Sat-TV und kostenloses WLAN. Das moderne Berghotel wurde im Sommer 2011 fertiggestellt; wiederholt wohnt hier zum Beispiel die tschechische Biathlon-Nationalmannschaft während ihrer Trainingslager.">Všechny pokoje mají vlastní luxusní koupelnu s&nbsp;podlahovým topením, sprchovým koutem a&nbsp;WC, televizi se satelitním příjmem a&nbsp;bezdrátové připojení k&nbsp;internetu zdarma. Moderní horská budova hotelu byla dokončena v&nbsp;létě roku 2011 – opakovaně u&nbsp;nás bydlí například biatlonová reprezentace České republiky při svém soustředění.</p>
+
+        <div class="hours reveal" style="--d:.3s" aria-labelledby="stayTitle">
+          <div class="hours__head">
+            <h3 class="hours__title" id="stayTitle"><svg class="i"><use href="#i-key"/></svg> <span data-de="Ihr Aufenthalt">Váš pobyt</span></h3>
+          </div>
+          <div class="hours__rows">
+            <div class="hours__row"><span>Check-in</span><strong data-de="ab 14:00 Uhr">od 14:00 hodin</strong></div>
+            <div class="hours__row"><span>Check-out</span><strong data-de="bis 10:00 Uhr">do 10:00 hodin</strong></div>
+            <div class="hours__row"><span data-de="Frühstück (Buffet, im Preis)">Snídaně (bufet, v ceně)</span><strong>8:00 – 10:00</strong></div>
+            <div class="hours__row"><span data-de="Frühe Abreise">Brzký odjezd</span><strong data-de="Lunchpaket auf Bestellung">snídaňový balíček na objednání</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="collage reveal reveal--zoom">
+        <div class="collage__main"><img src="assets/img/pokoj-exklusiv-vyhled.jpg" alt="Výhled z exklusivního pokoje na golfové hřiště a krajinu" data-alt-de="Blick aus dem Exklusivzimmer auf den Golfplatz und die Landschaft" loading="lazy" width="1200" height="800"></div>
+        <div class="collage__small" data-parallax="-0.08"><img src="assets/img/thumbs/pokoj-rodinny-koupelna.jpg" alt="Koupelna rodinného pokoje se dvěma umyvadly" data-alt-de="Bad des Familienzimmers mit zwei Waschbecken" loading="lazy"></div>
+        <div class="ring-badge" aria-label="8 pokojů, 24 lůžek">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="ringPath" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/></defs>
+            <text><textPath id="ringText" href="#ringPath" textLength="498" lengthAdjust="spacing" data-de="8 ZIMMER • 24 BETTEN • CÍNOVEC • ERZGEBIRGE •">8 POKOJŮ • 24 LŮŽEK • CÍNOVEC • KRUŠNÉ HORY •</textPath></text>
+          </svg>
+          <div class="ring-badge__center"><small data-de="Höhe">výška</small><strong>865 m</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     2. NABÍDKA POKOJŮ – čtyři kategorie, fotky v prohlížeči
+     ===================================================================== -->
+<section class="section section--paper" id="pokoje" aria-labelledby="roomsTitle">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div>
+        <p class="eyebrow reveal" data-de="Zimmerangebot">Nabídka pokojů</p>
+        <h2 class="h2 reveal" id="roomsTitle" style="--d:.08s"><span data-de="Vier Kategorien,">Čtyři kategorie,</span> <em data-de="ein Zuhause">jeden domov</em></h2>
+      </div>
+      <a class="btn btn--dark reveal" style="--d:.16s" href="{{booking}}" data-href-de="{{bookingDe}}" target="_blank" rel="noopener"><svg class="i"><use href="#i-calendar"/></svg> <span data-de="Freie Termine und Preise">Volné termíny a ceny</span></a>
+    </div>
+
+    <div class="room-grid">
+      <article class="room reveal">
+        <button class="room__media" type="button" data-photos="pokoj-standard,pokoj-standard-2,pokoj-standard-3,pokoj-standard-4,pokoj-standard-koupelna,pokoj-standard-koupelna-2" data-title="Standardní pokoj" data-title-de="Standardzimmer">
+          <img src="assets/img/thumbs/pokoj-standard.jpg" alt="Standardní pokoj" data-alt-de="Standardzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="6 Fotos">6 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Standardzimmer">Standardní pokoje</h3>
+          <p data-de="Modern eingerichtetes Zimmer mit Bad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Moderně zařízený pokoj s&nbsp;koupelnou se sprchovým koutem a&nbsp;sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Dusche und WC">Sprchový kout a WC</span></li>
+            <li><svg class="i"><use href="#i-tv"/></svg><span data-de="Sat-TV">TV se satelitním příjmem</span></li>
+            <li><svg class="i"><use href="#i-wifi"/></svg><span data-de="Internet">Internet</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal" style="--d:.08s">
+        <button class="room__media" type="button" data-photos="pokoj-komfort,pokoj-komfort-2,pokoj-komfort-3,pokoj-komfort-4,pokoj-komfort-5,pokoj-komfort-6,pokoj-komfort-koupelna,pokoj-komfort-koupelna-2" data-title="Komfortní pokoj" data-title-de="Komfortzimmer">
+          <img src="assets/img/thumbs/pokoj-komfort.jpg" alt="Komfortní pokoj" data-alt-de="Komfortzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="8 Fotos">8 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Komfortzimmer">Komfortní pokoje</h3>
+          <p data-de="Modern eingerichtetes Zimmer mit Luxusbad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Moderně zařízený pokoj s&nbsp;luxusní koupelnou se sprchovým koutem a&nbsp;sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Luxusbad">Luxusní koupelna</span></li>
+            <li><svg class="i"><use href="#i-tv"/></svg><span data-de="Sat-TV">TV se satelitním příjmem</span></li>
+            <li><svg class="i"><use href="#i-wifi"/></svg><span data-de="Internet">Internet</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal">
+        <button class="room__media" type="button" data-photos="pokoj-exklusiv,pokoj-exklusiv-2,pokoj-exklusiv-vyhled,pokoj-exklusiv-3,pokoj-exklusiv-4,pokoj-exklusiv-vyhled-2,pokoj-exklusiv-5,pokoj-exklusiv-romanticky,pokoj-exklusiv-koupelna,pokoj-exklusiv-koupelna-2" data-title="Exklusivní pokoj" data-title-de="Exklusivzimmer">
+          <img src="assets/img/thumbs/pokoj-exklusiv.jpg" alt="Exklusivní pokoj" data-alt-de="Exklusivzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="10 Fotos">10 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Doppelzimmer">Dvoulůžkový</span>
+          <h3 class="room__name" data-de="Exklusivzimmer">Exklusivní pokoje</h3>
+          <p data-de="Geräumiges Zimmer mit herrlichem Blick auf das Böhmische Mittelgebirge und den Golfplatz. Zum Zimmer gehören ein Vorraum und ein Luxusbad mit WC; moderne Möbel laden zum Sitzen und Schlafen ein. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Prostorný pokoj s&nbsp;nádherným výhledem na České středohoří a&nbsp;golfové hřiště. Součástí pokoje je předsíň a&nbsp;luxusní koupelna se sociálním zařízením, moderní nábytek pro příjemné posezení i&nbsp;spaní. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-view"/></svg><span data-de="Blick auf Mittelgebirge und Golfplatz">Výhled na středohoří a golf</span></li>
+            <li><svg class="i"><use href="#i-key"/></svg><span data-de="Vorraum">Předsíň</span></li>
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="Luxusbad">Luxusní koupelna</span></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="room reveal" style="--d:.08s">
+        <button class="room__media" type="button" data-photos="pokoj-rodinny,pokoj-rodinny-2,pokoj-rodinny-3,pokoj-rodinny-koupelna,pokoj-rodinny-koupelna-2" data-title="Rodinný pokoj" data-title-de="Familienzimmer">
+          <img src="assets/img/thumbs/pokoj-rodinny.jpg" alt="Rodinný pokoj" data-alt-de="Familienzimmer" loading="lazy" width="800" height="533">
+          <span class="room__count"><svg class="i"><use href="#i-photos"/></svg> <span data-de="5 Fotos">5 fotek</span></span>
+        </button>
+        <div class="room__body">
+          <span class="tag" data-de="Vierbettzimmer">Čtyřlůžkový</span>
+          <h3 class="room__name" data-de="Familienzimmer">Rodinný pokoj</h3>
+          <p data-de="Geräumiges Zimmer mit Vorraum und moderner Einrichtung. Zum Zimmer gehört ein Luxusbad mit zwei Duschen, zwei Waschbecken und zwei getrennten Toiletten. Zur Ausstattung gehören Sat-TV und Internetanschluss.">Prostorný pokoj s&nbsp;předsíní a&nbsp;moderním zařízením. Součástí pokoje je luxusní koupelna se dvěma sprchovými kouty, dvěma umyvadly a&nbsp;dvěma oddělenými toaletami. Součástí vybavení je TV se satelitním příjmem a&nbsp;internetové připojení.</p>
+          <ul class="room__feats">
+            <li><svg class="i"><use href="#i-users"/></svg><span data-de="4 Betten">4 lůžka</span></li>
+            <li><svg class="i"><use href="#i-shower"/></svg><span data-de="2 Duschen, 2 Waschbecken, 2 WC">2 sprchy, 2 umyvadla, 2 WC</span></li>
+            <li><svg class="i"><use href="#i-key"/></svg><span data-de="Vorraum">Předsíň</span></li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3. SNÍDANĚ – parallax pás
+     ===================================================================== -->
+<section class="band" aria-labelledby="breakfastTitle">
+  <div class="band__bg" data-parallax="0.18"><img src="assets/img/restaurace-vyhled.jpg" alt="" loading="lazy"></div>
+  <div class="container reveal">
+    <h2 id="breakfastTitle"><span data-de="Im Preis inbegriffen:">V ceně je</span> <em data-de="reichhaltiges Frühstück">bohatá snídaně</em></h2>
+    <p data-de="Das Frühstücksbuffet servieren wir im Restaurant von 8:00 bis 10:00 Uhr. Bei früher Abreise bereiten wir Ihnen nach Vorbestellung ein Lunchpaket vor.">Snídani formou bufetu podáváme v&nbsp;restauraci od 8:00 do 10:00 hodin. Při brzkém odjezdu vám po předchozím objednání připravíme snídaňový balíček.</p>
+    <div class="band__actions">
+      <a class="btn btn--gold" href="cenik.html"><span data-de="Preise &amp; Pakete">Ceník a balíčky</span> <svg class="i i--go"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--ghost" href="restaurace.html" data-de="Zum Restaurant">O restauraci</a>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     4. RECEPCE ZAJISTÍ – tmavá karta
+     ===================================================================== -->
+<section class="section" aria-labelledby="receptionTitle">
+  <div class="container">
+    <article class="dvur reveal" style="margin-top:0">
+      <div class="dvur__media">
+        <img src="assets/img/terasa-zima.jpg" alt="Výhled z hotelu na zasněženou terasu" data-alt-de="Blick aus dem Hotel auf die verschneite Terrasse" loading="lazy" width="1170" height="868">
+      </div>
+      <div class="dvur__body">
+        <p class="eyebrow" data-de="Rezeption">Recepce</p>
+        <h3 class="h3" id="receptionTitle" data-de="Auf Wunsch organisieren wir">Na přání vám zajistíme</h3>
+        <p data-de="Die nahe Umgebung bietet viele Sportmöglichkeiten, Kurbäder und Sehenswürdigkeiten auf tschechischer Seite und im nahen Sachsen – ein Ausflug nach Dresden lohnt sich wirklich.">Blízké okolí hotelu nabízí široké sportovní vyžití, lázně i&nbsp;zajímavé památky na české straně a&nbsp;v&nbsp;blízkém Sasku – návštěva Drážďan opravdu stojí za to.</p>
+        <ul class="amenities">
+          <li class="amenity"><svg class="i"><use href="#i-water"/></svg><span data-de="Entspannung im Theresienbad in Dubí oder in Teplice">Relaxaci v Tereziných lázních v Dubí nebo v Teplicích</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-water"/></svg><span data-de="Baden in der Therme Raupennest in Altenberg">Koupání ve vodních lázních Raupennest v Altenbergu</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-mountain"/></svg><span data-de="Sommerrodelbahn in Altenberg">Letní bobovou dráhu v Altenbergu</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-ski"/></svg><span data-de="Skiverleih im Skiareál Bouřňák">Zapůjčení sjezdových lyží ve Skiareálu Bouřňák</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-bike"/></svg><span data-de="Sichere Aufbewahrung Ihrer Fahrräder">Úschovu vašich kol</span></li>
+          <li class="amenity"><svg class="i"><use href="#i-coffee"/></svg><span data-de="Lunchpaket bei früher Abreise">Snídaňový balíček na cestu</span></li>
+        </ul>
+        <a class="btn btn--gold" href="okoli.html"><span data-de="Ausflugstipps">Tipy na výlety</span> <svg class="i i--go"><use href="#i-arrow"/></svg></a>
+      </div>
+    </article>
+  </div>
+</section>
