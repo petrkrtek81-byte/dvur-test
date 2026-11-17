@@ -1123,3 +1123,6 @@ button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
 /* detail aktuality: odrážky */
 .modal-list{ margin:0 0 1.2rem; padding-left:1.2rem; list-style:disc; }
 .modal-list li{ margin:.25rem 0; }
+
+/* němčina: do přeložení stránku nezobrazovat (třídu přidá _hlava.html, odebere web.js) */
+.lang-pending body{ visibility:hidden; }

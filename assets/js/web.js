@@ -134,19 +134,30 @@ function richText(src) {
   }).join('');
 }
 
-/* ---------- OBSAH Z data/obsah.json (aktuality, fotogalerie) ---------- */
+/* ---------- OBSAH Z data/obsah.json (aktuality, fotogalerie) ----------
+   Stahuje se na pozadí – zbytek stránky (menu, jazyk, animace) na něj nečeká.
+   Aktuality a galerie se vykreslí, až data dorazí (viz konec souboru). */
 let contentOk = true;
-try {
-  const c = await Promise.race([
-    window.KD_OBSAH || Promise.reject(new Error('bez načítání')),
-    new Promise((_, reject) => setTimeout(() => reject(new Error('časový limit')), 10000))
-  ]);
-  NEWS = (c.news || []).filter(n => n && n.date && n.title).sort((a, b) => b.date.localeCompare(a.date));
-  GALLERY = (c.gallery || []).filter(g => g && g.f).map(g => ({ ...g, w: Number(g.w) || 1200, h: Number(g.h) || 900 }));
-} catch (err) {
-  contentOk = false;
-  console.warn('Obsah webu (data/obsah.json) se nepodařilo načíst:', err);
-}
+const contentReady = (async () => {
+  try {
+    const c = await Promise.race([
+      window.KD_OBSAH || Promise.reject(new Error('bez načítání')),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('časový limit')), 10000))
+    ]);
+    NEWS = (c.news || []).filter(n => n && n.date && n.title).sort((a, b) => b.date.localeCompare(a.date));
+    GALLERY = (c.gallery || []).filter(g => g && g.f).map(g => ({ ...g, w: Number(g.w) || 1200, h: Number(g.h) || 900 }));
+  } catch (err) {
+    contentOk = false;
+    console.warn('Obsah webu (data/obsah.json) se nepodařilo načíst:', err);
+  }
+})();
+// interní odkaz s jazykem: v němčině nese ?lang=de (funguje i tam, kde prohlížeč volbu neuloží)
+const langHref = h => {
+  if (LANG !== 'de' || !/^(\.\/|[a-z0-9-]+\.html)/i.test(h) || /[?&]lang=/.test(h)) return h;
+  const k = h.indexOf('#');
+  const path = k < 0 ? h : h.slice(0, k), hash = k < 0 ? '' : h.slice(k);
+  return path + (path.includes('?') ? '&' : '?') + 'lang=de' + hash;
+};
 
 /* ---------- Toast (krátká oznámení) ---------- */
 const toastBox = $('#toasts');
@@ -429,8 +440,8 @@ document.addEventListener('click', e => {
   openLightbox(all.map(x => ({ f: x.dataset.photo, cs: x.dataset.cap, de: x.dataset.capDe })), all.indexOf(b));
 });
 
-/* ---------- AKTUALITY: karty + detail ---------- */
-(function news() {
+/* ---------- AKTUALITY: karty + detail (spustí se po načtení data/obsah.json) ---------- */
+function initNews() {
   const grid = $('#newsGrid');
   const moreBtn = $('#newsMore');
   const modal = $('#newsModal');
@@ -495,7 +506,7 @@ document.addEventListener('click', e => {
     img.src = imgUrl(n.img || NEWS_FALLBACK_IMG);
     img.alt = L(n, 'title');
     const cta = n.cta;
-    const href = cta ? safeHref(cta.href) : '';
+    const href = cta ? langHref(safeHref(cta.href)) : '';
     const ext = /^https?:/i.test(href);
     const ctaIcon = /^mailto:/i.test(href) ? 'i-mail' : /^tel:/i.test(href) ? 'i-phone' : ext ? 'i-external' : 'i-arrow';
     $('#newsModalCta').innerHTML = href && cta.label
@@ -510,10 +521,10 @@ document.addEventListener('click', e => {
   modal.addEventListener('close', () => { openIndex = -1; });
   grid.addEventListener('click', e => { const b = e.target.closest('[data-news]'); if (b) openNews(Number(b.dataset.news)); });
   refreshers.push(() => { render(true); if (modal.open && openIndex >= 0) fillNews(openIndex); });
-})();
+}
 
 /* ---------- FOTOGALERIE: mřížka + filtry (prohlížeč je společný) ---------- */
-(function gallery() {
+function initGallery() {
   const wrap = $('#gallery');
   if (!wrap) return;
   let visible = [];
@@ -588,7 +599,7 @@ document.addEventListener('click', e => {
     if (it && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openAt(it); }
   });
   refreshers.push(() => { labelGallery(); applyLimit(); });
-})();
+}
 
 /* ---------- SNĚŽENÍ v zimní sekci (stránka Okolí, canvas) ---------- */
 (function snow() {
@@ -742,6 +753,11 @@ function setLang(lang, remember = true) {
     if (!a.dataset.hrefCs) a.dataset.hrefCs = a.getAttribute('href');
     a.setAttribute('href', LANG === 'de' ? a.dataset.hrefDe : a.dataset.hrefCs);
   });
+  // odkazy na další stránky webu si v němčině nesou ?lang=de
+  $$('a[href]:not([data-href-de])').forEach(a => {
+    if (a.dataset.hrefBase === undefined) a.dataset.hrefBase = a.getAttribute('href');
+    a.setAttribute('href', langHref(a.dataset.hrefBase));
+  });
   if (heroSub) splitWords(heroSub, LANG === 'de' && heroSub.dataset.deText ? heroSub.dataset.deText : heroSub.dataset.cs);
   $$('.lang [data-lang]').forEach(b => {
     const on = b.dataset.lang === LANG;
@@ -768,5 +784,11 @@ document.addEventListener('click', e => {
 let startLang = 'cs';
 try { startLang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('kd-lang') || 'cs'; } catch { /* bez úložiště */ }
 if (startLang === 'de') setLang('de', false);
+root.classList.remove('lang-pending'); // stránka se ukáže až v cílovém jazyce (viz _hlava.html)
+
+// aktuality a fotogalerie – vykreslí se, až dorazí data/obsah.json (už ve zvoleném jazyce)
+await contentReady;
+initNews();
+initGallery();
 
 })();

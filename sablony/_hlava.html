@@ -48,6 +48,10 @@
 
 <!-- Třída .js zapne skryté výchozí stavy animací jen tehdy, když běží JavaScript -->
 <script>document.documentElement.classList.add('js');
+// němčina (?lang=de nebo uložená volba): stránku ukázat až po překladu, aby neproblikla česky (pojistka 3 s)
+try { var kdLang = new URLSearchParams(location.search).get('lang') || localStorage.getItem('kd-lang');
+  if (kdLang === 'de') { document.documentElement.lang = 'de'; document.documentElement.classList.add('lang-pending');
+    setTimeout(function () { document.documentElement.classList.remove('lang-pending'); }, 3000); } } catch (e) {}
 // obsah webu (aktuality, fotogalerie) – stahuje se souběžně se zbytkem stránky
 window.KD_OBSAH = fetch('data/obsah.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)));
 window.KD_OBSAH.catch(() => {});</script>
