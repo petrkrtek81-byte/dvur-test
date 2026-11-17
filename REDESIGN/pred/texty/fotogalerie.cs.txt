@@ -1,0 +1,404 @@
+# fotogalerie.html (cs)
+title: Fotogalerie | Krušnohorský Dvůr, Cínovec
+description: Fotografie hotelu, pokojů, restaurace, jídla, svateb a akcí, sauny a okolí Cínovce v létě i v zimě.
+
+## Nadpisy
+H1 Fotogalerie
+H2 Krušnohorský dvůr objektivem
+H4 Hotel
+H4 Více
+H4 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Přeskočit na obsah
+CZ
+DE
+Rezervovat pobyt
+Menu
+01
+Ubytování
+02
+Restaurace
+03
+Ceník a balíčky
+04
+Sauna
+05
+Svatby a akce
+06
+Okolí
+07
+Aktuality
+08
+Fotogalerie
+09
+Kontakty
+Rezervovat pobyt on-line
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace denně 11–22 h
+Úvod
+Fotogalerie
+Fotogalerie
+Hotel, pokoje, restaurace a Cínovec v létě i v zimě.
+Krušnohorský dvůr
+objektivem
+Vše
+Hotel a terasa
+Pokoje
+Restaurace
+Jídlo
+Svatby a akce
+Sauna
+Okolí v létě
+Okolí v zimě
+Krušnohorský Dvůr za soumraku
+Hotel při západu slunce
+Hotel a Cínovec v zimě z výšky
+Zimní soumrak nad hotelem
+Hotel v zimním večeru
+Zimní slunce nad hotelem
+Hotel v čerstvém sněhu
+Zasněžená střecha hotelu
+Hotel na jaře
+Letní terasa s výhledem
+Výhled z terasy na České středohoří
+Kola na terase
+Terasa v zimě
+Dětské hřiště u hotelu
+Exklusivní pokoj
+Exklusivní pokoj
+Výhled z exklusivního pokoje
+Exklusivní pokoj
+Pokoj připravený pro romantický pobyt
+Koupelna exklusivního pokoje
+Komfortní pokoj
+Komfortní pokoj
+Komfortní pokoj
+Koupelna komfortního pokoje
+Standardní pokoj
+Standardní pokoj
+Koupelna standardního pokoje
+Rodinný pokoj
+Koupelna rodinného pokoje
+Restaurace s krbem
+Restaurace
+Hořící krb
+Krb večer
+Restaurace s výhledem
+Stůl u okna
+Bar
+Prostřená tabule
+Slavnostní menu
+Hlavní chod
+Grilované maso
+Plněné kuřecí prso
+Z grilu
+Pečené sele
+Rautový stůl
+Pečená šunka na rautu
+Jednohubky
+Mini burgery a pizzy
+Saláty a dezerty
+Sýrový talíř
+Ovoce
+Dorty a zákusky
+Restaurace připravená na svatbu
+Svatební tabule
+Svatební tabule
+Slavnostně prostřený stůl
+Slavnostně prostřený stůl
+Svatební tabule
+Hlavní svatební stůl
+Večerní hostina
+Večerní svatba
+Dlouhá tabule
+Výzdoba stolu
+Výzdoba stolu
+Detail výzdoby
+Květinová výzdoba
+Svatební obřad na louce
+Svatební oblouk
+Výzdoba obřadu
+Svatební ulička
+Místo obřadu
+Obřad v kruhu
+Zlatý oblouk
+Bílá brána
+Piknik na louce
+Piknik s výhledem
+Lehátka na louce
+Konferenční sál
+Konferenční sál – porada
+Raut v konferenčním sále
+Finská sauna
+Lavice v sauně
+Saunová kamna
+Sauna u hotelu
+Sauna v zimě
+Golfové hřiště z výšky
+Ráno na golfovém hřišti
+Green s vlajkou
+Hřiště v létě
+Podvečer na hřišti
+Výhled na České středohoří
+Večer nad středohořím
+Horské louky
+Cesta po hřebeni
+Horský potok
+Krušnohorský les
+Rybník v okolí
+Na běžkách od hotelu
+Upravená stopa
+Stopa v zasněženém lese
+Běžecké tratě na planině
+Odpočívadlo u trati
+Ojíněné stromy
+Zimní západ slunce
+Zimní obzor
+Zasněžená krajina z výšky
+Modrá hodinka nad Cínovcem
+Zimní cesta
+Zobrazit všechny fotky (107)
+Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m., v těsné blízkosti hranic s Německem.
+Hotel: GREEN hotel s.r.o., IČO 17855004
+Restaurace: GREEN gastro s.r.o., IČO 14106892
+Hotel
+Ubytování
+Ceník a balíčky
+Sauna
+Svatby a akce
+Rezervace on-line
+Více
+Restaurace
+Okolí
+Aktuality
+Fotogalerie
+Kontakty
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace: po – ne 11–22 h
+Krušnohorský Dvůr
+2026
+Krušnohorský Dvůr ·
+Ochrana osobních údajů
+Návrh redesignu – nejde o oficiální web hotelu
+CZ
+DE
+Nahoru
+Rezervovat pobyt
+1 / 1
+Ochrana osobních údajů
+Správce
+GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Poptávkový formulář
+Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.
+Rezervace on-line
+Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.
+Cookies a služby třetích stran
+Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.
+Vaše práva
+Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (
+uoou.gov.cz
+
+## Odkazy
+#main  |  Přeskočit na obsah
+./  |  Krušnohorský Dvůr – úvodní stránka
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+ubytovani.html  |  01Ubytování
+restaurace.html  |  02Restaurace
+cenik.html  |  03Ceník a balíčky
+sauna.html  |  04Sauna
+svatby-a-akce.html  |  05Svatby a akce
+okoli.html  |  06Okolí
+aktuality.html  |  07Aktuality
+fotogalerie.html  |  08Fotogalerie
+kontakty.html  |  09Kontakty
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt on-line
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./  |  Úvod
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html  |  Ubytování
+cenik.html  |  Ceník a balíčky
+sauna.html  |  Sauna
+svatby-a-akce.html  |  Svatby a akce
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervace on-line
+restaurace.html  |  Restaurace
+okoli.html  |  Okolí
+aktuality.html  |  Aktuality
+#fotogalerie  |  Fotogalerie
+kontakty.html  |  Kontakty
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nahoru
+tel:+420778051970  |  Zavolat
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+assets/img/restaurace-sal.jpg  |  alt: 
+assets/img/thumbs/hotel-zima-noc.jpg  |  alt: Krušnohorský Dvůr za soumraku
+assets/img/thumbs/hotel-zapad-slunce.jpg  |  alt: Hotel při západu slunce
+assets/img/thumbs/hotel-zima-letecky.jpg  |  alt: Hotel a Cínovec v zimě z výšky
+assets/img/thumbs/hotel-zima-soumrak.jpg  |  alt: Zimní soumrak nad hotelem
+assets/img/thumbs/hotel-zima-vecer.jpg  |  alt: Hotel v zimním večeru
+assets/img/thumbs/hotel-zima-slunce.jpg  |  alt: Zimní slunce nad hotelem
+assets/img/thumbs/hotel-zima-modra.jpg  |  alt: Hotel v čerstvém sněhu
+assets/img/thumbs/hotel-zima-snih.jpg  |  alt: Zasněžená střecha hotelu
+assets/img/thumbs/hotel-jaro.jpg  |  alt: Hotel na jaře
+assets/img/thumbs/terasa-leto.jpg  |  alt: Letní terasa s výhledem
+assets/img/thumbs/terasa-vyhled.jpg  |  alt: Výhled z terasy na České středohoří
+assets/img/thumbs/terasa-kola.jpg  |  alt: Kola na terase
+assets/img/thumbs/terasa-zima.jpg  |  alt: Terasa v zimě
+assets/img/thumbs/hriste-detske.jpg  |  alt: Dětské hřiště u hotelu
+assets/img/thumbs/pokoj-exklusiv.jpg  |  alt: Exklusivní pokoj
+assets/img/thumbs/pokoj-exklusiv-2.jpg  |  alt: Exklusivní pokoj
+assets/img/thumbs/pokoj-exklusiv-vyhled.jpg  |  alt: Výhled z exklusivního pokoje
+assets/img/thumbs/pokoj-exklusiv-3.jpg  |  alt: Exklusivní pokoj
+assets/img/thumbs/pokoj-exklusiv-romanticky.jpg  |  alt: Pokoj připravený pro romantický pobyt
+assets/img/thumbs/pokoj-exklusiv-koupelna.jpg  |  alt: Koupelna exklusivního pokoje
+assets/img/thumbs/pokoj-komfort.jpg  |  alt: Komfortní pokoj
+assets/img/thumbs/pokoj-komfort-2.jpg  |  alt: Komfortní pokoj
+assets/img/thumbs/pokoj-komfort-4.jpg  |  alt: Komfortní pokoj
+assets/img/thumbs/pokoj-komfort-koupelna.jpg  |  alt: Koupelna komfortního pokoje
+assets/img/thumbs/pokoj-standard.jpg  |  alt: Standardní pokoj
+assets/img/thumbs/pokoj-standard-2.jpg  |  alt: Standardní pokoj
+assets/img/thumbs/pokoj-standard-koupelna.jpg  |  alt: Koupelna standardního pokoje
+assets/img/thumbs/pokoj-rodinny.jpg  |  alt: Rodinný pokoj
+assets/img/thumbs/pokoj-rodinny-koupelna.jpg  |  alt: Koupelna rodinného pokoje
+assets/img/thumbs/restaurace-krb.jpg  |  alt: Restaurace s krbem
+assets/img/thumbs/restaurace-sal.jpg  |  alt: Restaurace
+assets/img/thumbs/restaurace-krb-detail.jpg  |  alt: Hořící krb
+assets/img/thumbs/restaurace-krb-vecer.jpg  |  alt: Krb večer
+assets/img/thumbs/restaurace-okna.jpg  |  alt: Restaurace s výhledem
+assets/img/thumbs/restaurace-vyhled.jpg  |  alt: Stůl u okna
+assets/img/thumbs/restaurace-bar.jpg  |  alt: Bar
+assets/img/thumbs/restaurace-tabule.jpg  |  alt: Prostřená tabule
+assets/img/thumbs/jidlo-talir.jpg  |  alt: Slavnostní menu
+assets/img/thumbs/jidlo-maso.jpg  |  alt: Hlavní chod
+assets/img/thumbs/jidlo-steak.jpg  |  alt: Grilované maso
+assets/img/thumbs/jidlo-kure.jpg  |  alt: Plněné kuřecí prso
+assets/img/thumbs/jidlo-gril.jpg  |  alt: Z grilu
+assets/img/thumbs/jidlo-sele.jpg  |  alt: Pečené sele
+assets/img/thumbs/jidlo-raut.jpg  |  alt: Rautový stůl
+assets/img/thumbs/jidlo-sunka.jpg  |  alt: Pečená šunka na rautu
+assets/img/thumbs/jidlo-kanapky.jpg  |  alt: Jednohubky
+assets/img/thumbs/jidlo-mini-burgery.jpg  |  alt: Mini burgery a pizzy
+assets/img/thumbs/jidlo-salaty.jpg  |  alt: Saláty a dezerty
+assets/img/thumbs/jidlo-syry.jpg  |  alt: Sýrový talíř
+assets/img/thumbs/jidlo-ovoce.jpg  |  alt: Ovoce
+assets/img/thumbs/jidlo-dorty.jpg  |  alt: Dorty a zákusky
+assets/img/thumbs/svatba-sal.jpg  |  alt: Restaurace připravená na svatbu
+assets/img/thumbs/svatba-stoly.jpg  |  alt: Svatební tabule
+assets/img/thumbs/svatba-stoly-2.jpg  |  alt: Svatební tabule
+assets/img/thumbs/svatba-kulaty-stul.jpg  |  alt: Slavnostně prostřený stůl
+assets/img/thumbs/svatba-kulaty-stul-2.jpg  |  alt: Slavnostně prostřený stůl
+assets/img/thumbs/svatba-tabule.jpg  |  alt: Svatební tabule
+assets/img/thumbs/svatba-hlavni-stul.jpg  |  alt: Hlavní svatební stůl
+assets/img/thumbs/svatba-svetla.jpg  |  alt: Večerní hostina
+assets/img/thumbs/svatba-vecer.jpg  |  alt: Večerní svatba
+assets/img/thumbs/svatba-dlouhy-stul.jpg  |  alt: Dlouhá tabule
+assets/img/thumbs/svatba-modra.jpg  |  alt: Výzdoba stolu
+assets/img/thumbs/svatba-zelena.jpg  |  alt: Výzdoba stolu
+assets/img/thumbs/svatba-detail.jpg  |  alt: Detail výzdoby
+assets/img/thumbs/svatba-kvetiny.jpg  |  alt: Květinová výzdoba
+assets/img/thumbs/obrad-louka.jpg  |  alt: Svatební obřad na louce
+assets/img/thumbs/obrad-oblouk.jpg  |  alt: Svatební oblouk
+assets/img/thumbs/obrad-zidle.jpg  |  alt: Výzdoba obřadu
+assets/img/thumbs/obrad-ulicka.jpg  |  alt: Svatební ulička
+assets/img/thumbs/obrad-sloupy.jpg  |  alt: Místo obřadu
+assets/img/thumbs/obrad-kruh.jpg  |  alt: Obřad v kruhu
+assets/img/thumbs/obrad-zlaty-oblouk.jpg  |  alt: Zlatý oblouk
+assets/img/thumbs/obrad-bila-brana.jpg  |  alt: Bílá brána
+assets/img/thumbs/piknik-louka.jpg  |  alt: Piknik na louce
+assets/img/thumbs/piknik-kuze.jpg  |  alt: Piknik s výhledem
+assets/img/thumbs/piknik-lehatka.jpg  |  alt: Lehátka na louce
+assets/img/thumbs/salonek.jpg  |  alt: Konferenční sál
+assets/img/thumbs/salonek-stul.jpg  |  alt: Konferenční sál – porada
+assets/img/thumbs/salonek-raut.jpg  |  alt: Raut v konferenčním sále
+assets/img/thumbs/sauna.jpg  |  alt: Finská sauna
+assets/img/thumbs/sauna-lavice.jpg  |  alt: Lavice v sauně
+assets/img/thumbs/sauna-kamna.jpg  |  alt: Saunová kamna
+assets/img/thumbs/sauna-zima.jpg  |  alt: Sauna u hotelu
+assets/img/thumbs/sauna-snih.jpg  |  alt: Sauna v zimě
+assets/img/thumbs/golf-letecky.jpg  |  alt: Golfové hřiště z výšky
+assets/img/thumbs/golf-rano.jpg  |  alt: Ráno na golfovém hřišti
+assets/img/thumbs/golf-green.jpg  |  alt: Green s vlajkou
+assets/img/thumbs/golf-zavlaha.jpg  |  alt: Hřiště v létě
+assets/img/thumbs/golf-zapad.jpg  |  alt: Podvečer na hřišti
+assets/img/thumbs/leto-milesovka.jpg  |  alt: Výhled na České středohoří
+assets/img/thumbs/leto-kopce.jpg  |  alt: Večer nad středohořím
+assets/img/thumbs/leto-louka.jpg  |  alt: Horské louky
+assets/img/thumbs/leto-cesta.jpg  |  alt: Cesta po hřebeni
+assets/img/thumbs/leto-potok.jpg  |  alt: Horský potok
+assets/img/thumbs/leto-les.jpg  |  alt: Krušnohorský les
+assets/img/thumbs/leto-rybnik.jpg  |  alt: Rybník v okolí
+assets/img/thumbs/bezky-hotel.jpg  |  alt: Na běžkách od hotelu
+assets/img/thumbs/bezky-stopa.jpg  |  alt: Upravená stopa
+assets/img/thumbs/bezky-les.jpg  |  alt: Stopa v zasněženém lese
+assets/img/thumbs/bezky-planina.jpg  |  alt: Běžecké tratě na planině
+assets/img/thumbs/bezky-odpocivadlo.jpg  |  alt: Odpočívadlo u trati
+assets/img/thumbs/zima-stromy.jpg  |  alt: Ojíněné stromy
+assets/img/thumbs/zima-zapad.jpg  |  alt: Zimní západ slunce
+assets/img/thumbs/zima-obzor.jpg  |  alt: Zimní obzor
+assets/img/thumbs/zima-letecky.jpg  |  alt: Zasněžená krajina z výšky
+assets/img/thumbs/zima-modra-hodinka.jpg  |  alt: Modrá hodinka nad Cínovcem
+assets/img/thumbs/zima-cesta.jpg  |  alt: Zimní cesta
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] CZ
+button[button] DE
+button[button] Otevřít menu
+button[button] Vše
+button[button] Hotel a terasa
+button[button] Pokoje
+button[button] Restaurace
+button[button] Jídlo
+button[button] Svatby a akce
+button[button] Sauna
+button[button] Okolí v létě
+button[button] Okolí v zimě
+button[button] galleryMore
+button[button] Ochrana osobních údajů
+button[button] CZ
+button[button] DE
+button[button] Zavřít
+button[button] Zavřít
+button[button] Předchozí fotka
+button[button] Další fotka
+button[button] Zavřít
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, flag-cz, flag-de, siteHeader, mobileMenu, main, top, pageTitle, fotogalerie, galleryFilters, gallery, galleryMore, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

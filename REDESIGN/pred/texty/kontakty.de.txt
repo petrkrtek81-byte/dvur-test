@@ -1,0 +1,248 @@
+# kontakty.html (de)
+title: Kontakt | Krušnohorský Dvůr, Cínovec
+description: Krušnohorský Dvůr, Cínovec 275, Dubí-Cínovec. Telefon +420 778 051 970, E-Mail info@krusnohorskydvur.cz, Karte, Anfahrt und Anfrage.
+
+## Nadpisy
+H1 Kontakt
+H2 Wir freuen uns auf Sie
+H3 Anfahrt
+H3 Unverbindliche Anfrage
+H3 Fast fertig!
+H3 Wir im Netz
+H4 Hotel
+H4 Mehr
+H4 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Zum Inhalt springen
+CZ
+DE
+Zimmer buchen
+Menü
+01
+Unterkunft
+02
+Restaurant
+03
+Preise & Pakete
+04
+Sauna
+05
+Hochzeiten & Feiern
+06
+Umgebung
+07
+Aktuelles
+08
+Fotogalerie
+09
+Kontakt
+Zimmer online buchen
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant täglich 11–22 Uhr
+Startseite
+Kontakt
+Kontakt
+Cínovec 275, Dubí-Cínovec – so finden und erreichen Sie uns.
+Wir freuen uns
+auf Sie
+Adresse
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec, Tschechien
+Telefon · Rezeption
++420 778 051 970
+E-Mail · Buchungen und Fragen zur Unterkunft
+info@krusnohorskydvur.cz
+Öffnungszeiten
+Montag – Sonntag 11:00 – 22:00 Uhr
+Check-in ab 14:00 · Check-out bis 10:00
+Die Karte wird von Google Maps geladen. Danach kann Google Daten über Ihren Besuch verarbeiten.
+Karte anzeigen
+Navigieren
+Anfahrt
+Aus Teplice
+15 km über die E55 Richtung Dubí – Dresden
+Aus Dresden
+ca. 50 km über die B170 Richtung Altenberg – Zinnwald; direkt nach der Grenze die erste Straße rechts (an der MOL-Tankstelle)
+Unverbindliche Anfrage
+Dies ist keine verbindliche Reservierung. Wir melden uns, um Details und Termin zu bestätigen. Freie Zimmer buchen Sie direkt online.
+Unterkunft
+Romantisches Aufenthaltspaket
+Gourmet-Aufenthaltspaket
+Tischreservierung im Restaurant
+Hochzeit, Feier oder Firmenevent
+Sauna
+Geschenkgutschein
+Andere Frage
+Ich interessiere mich für
+Vor- und Nachname
+Telefon
+Termin
+Personen
+Ihre Nachricht
+Öffnet Ihr E-Mail-Programm mit der vorbereiteten Nachricht.
+E-Mail vorbereiten
+Fast fertig!
+In Ihrem E-Mail-Programm wartet die vorbereitete Nachricht an info@krusnohorskydvur.cz – senden Sie sie einfach ab.
+Neue Anfrage
+Wir im Netz
+Online-Buchung (Previo)
+Booking.com
+Tripadvisor
+Facebook
+Instagram
+YouTube
+Webcam
+Hotelbetreiber
+GREEN hotel s.r.o. ·
+Id.-Nr. 17855004
+Restaurantbetreiber
+GREEN gastro s.r.o. ·
+Id.-Nr. 14106892, USt-IdNr. CZ14106892
+Cínovec 275, Dubí-Cínovec 415 01
+Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.
+Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004
+Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892
+Hotel
+Unterkunft
+Preise & Pakete
+Sauna
+Hochzeiten & Feiern
+Online-Buchung
+Mehr
+Restaurant
+Umgebung
+Aktuelles
+Fotogalerie
+Kontakt
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant: Mo – So 11–22 Uhr
+Krušnohorský Dvůr
+2026
+Krušnohorský Dvůr ·
+Datenschutz
+Entwurf eines Redesigns – keine offizielle Website des Hotels
+CZ
+DE
+Nach oben
+Zimmer buchen
+1 / 1
+Datenschutz
+Verantwortlicher
+GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Anfrageformular
+Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.
+Online-Buchung
+Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.
+Cookies und Dienste Dritter
+Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.
+Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (
+uoou.gov.cz/en
+
+## Odkazy
+#main  |  Zum Inhalt springen
+./?lang=de  |  Krušnohorský Dvůr – Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+ubytovani.html?lang=de  |  01Unterkunft
+restaurace.html?lang=de  |  02Restaurant
+cenik.html?lang=de  |  03Preise & Pakete
+sauna.html?lang=de  |  04Sauna
+svatby-a-akce.html?lang=de  |  05Hochzeiten & Feiern
+okoli.html?lang=de  |  06Umgebung
+aktuality.html?lang=de  |  07Aktuelles
+fotogalerie.html?lang=de  |  08Fotogalerie
+kontakty.html?lang=de  |  09Kontakt
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer online buchen
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./?lang=de  |  Startseite
+https://goo.gl/maps/Zgg7fF5qtht  |  AdresseKrušnohorský DvůrCínovec 275, Dubí-Cínovec, Tschechien
+tel:+420778051970  |  Telefon · Rezeption+420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  E-Mail · Buchungen und Fragen zur Unterkunftinfo@krusnohorskydvur.cz
+https://goo.gl/maps/Zgg7fF5qtht  |  Navigieren
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung (Previo)
+http://www.booking.com/hotel/cz/krua-nohorska1-2-dva-r.html?aid=330843  |  Booking.com
+http://www.tripadvisor.cz/Hotel_Review-g676350-d3403836-Reviews-Hotel_Krusnohorsky_Dvur-Teplice_Usti_nad_Labem_Region_Bohemia.html  |  Tripadvisor
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+http://ipcamlive.com/577a6b604a108  |  Webcam
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html?lang=de  |  Unterkunft
+cenik.html?lang=de  |  Preise & Pakete
+sauna.html?lang=de  |  Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+restaurace.html?lang=de  |  Restaurant
+okoli.html?lang=de  |  Umgebung
+aktuality.html?lang=de  |  Aktuelles
+fotogalerie.html?lang=de  |  Fotogalerie
+#kontakty  |  Kontakt
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nach oben
+tel:+420778051970  |  Anrufen
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+assets/img/hotel-zima-slunce.jpg  |  alt: 
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] CZ
+button[button] DE
+button[button] Menü öffnen
+button[button] mapLoad
+select[select-one] type
+input[text] name
+input[tel] phone
+input[text] date
+input[number] people
+textarea[textarea] message
+button[submit] E-Mail vorbereiten
+button[button] formReset
+button[button] Datenschutz
+button[button] CZ
+button[button] DE
+button[button] Schließen
+button[button] Schließen
+button[button] Vorheriges Foto
+button[button] Nächstes Foto
+button[button] Schließen
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, flag-cz, flag-de, siteHeader, mobileMenu, main, top, pageTitle, kontakty, mapEmbed, mapLoad, poptavka, inquiryForm, if-type, if-name, if-phone, if-date, if-people, if-msg, formReset, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts
