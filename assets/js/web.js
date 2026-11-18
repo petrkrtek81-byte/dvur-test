@@ -612,14 +612,37 @@ function initGallery() {
     const want = new URLSearchParams(location.search).get('poptavka');
     if (want && $(`option[value="${CSS.escape(want)}"]`, select)) select.value = want;
   } catch { /* file:// */ }
-  const name = $('#if-name');
-  name.addEventListener('invalid', () => name.setCustomValidity(name.validity.valueMissing ? t('Vyplňte prosím toto pole.') : ''));
-  name.addEventListener('input', () => name.setCustomValidity(''));
-  refreshers.push(() => name.setCustomValidity(''));
+  // chyba: červený rámeček a text pod polem (místo bubliny prohlížeče)
+  const fields = $$('input, textarea, select', form);
+  function showError(el) {
+    const field = el.closest('.field');
+    let msg = $('.field__error', field);
+    if (!msg) {
+      msg = document.createElement('p');
+      msg.className = 'field__error';
+      msg.id = el.id + '-chyba';
+      el.before(msg); // popisek je v kódu za polem (zobrazí se nad ním), chyba před polem (zobrazí se pod ním)
+    }
+    msg.textContent = el.validity.valueMissing ? t('Vyplňte prosím toto pole.') : el.validationMessage;
+    field.classList.add('is-invalid');
+    el.setAttribute('aria-invalid', 'true');
+    el.setAttribute('aria-describedby', msg.id);
+  }
+  function clearError(el) {
+    const field = el.closest('.field');
+    const msg = $('.field__error', field);
+    if (msg) msg.remove();
+    field.classList.remove('is-invalid');
+    el.removeAttribute('aria-invalid');
+    el.removeAttribute('aria-describedby');
+  }
+  fields.forEach(el => el.addEventListener('input', () => { if (el.closest('.is-invalid') && el.checkValidity()) clearError(el); }));
+  refreshers.push(() => fields.filter(el => el.closest('.is-invalid')).forEach(showError));
 
   form.addEventListener('submit', e => {
     e.preventDefault();
-    if (!form.checkValidity()) { form.reportValidity(); return; }
+    const invalid = fields.filter(el => !el.checkValidity());
+    if (invalid.length) { invalid.forEach(showError); invalid[0].focus(); return; }
     const opt = select.options[select.selectedIndex];
     const typeLabel = LANG === 'de' ? (opt.dataset.de || opt.text) : opt.text;
     const val = id => $('#' + id).value.trim();
@@ -633,7 +656,7 @@ function initGallery() {
     location.href = `mailto:${EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     card.classList.add('is-sent');
   });
-  $('#formReset').addEventListener('click', () => { card.classList.remove('is-sent'); form.reset(); });
+  $('#formReset').addEventListener('click', () => { card.classList.remove('is-sent'); form.reset(); fields.forEach(clearError); });
 })();
 
 /* ---------- MAPA – iframe Google se vloží až po kliknutí ---------- */
