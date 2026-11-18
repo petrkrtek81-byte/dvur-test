@@ -514,7 +514,6 @@ strong, b{ font-weight:600; }
    ===================================================================== */
 .facts{ display:flex; flex-wrap:wrap; gap:.6rem; margin:1.6rem 0 0; }
 .facts li{ padding:.55rem 1rem; border-radius:999px; background:#fff; border:1px solid var(--line); font-size:.86rem; font-weight:600; color:var(--forest); }
-.facts-actions{ display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.6rem; }
 
 /* =====================================================================
    14. PÁS S FOTKOU PŘES CELOU ŠÍŘKU – předěl s nadpisem a větou
@@ -992,19 +991,18 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
   .room:nth-child(even) .room__body{ grid-column:1 / span 4; }
 }
 
-/* JÍDELNÍ LÍSTEK – dva sloupce */
-.menu-board{ display:grid; gap:2.5rem 4rem; }
+/* JÍDELNÍ LÍSTEK – dva sloupce, položky a ceny na linkách */
+.menu-board{ display:grid; gap:var(--s-8) var(--s-9); }
 @media (min-width:960px){ .menu-board{ grid-template-columns:1fr 1fr; } }
-.menu-cat + .menu-cat{ margin-top:2.6rem; }
-.menu-cat__title{ display:flex; align-items:center; gap:.9rem; margin:0 0 1rem; font-size:clamp(1.5rem, 2.4vw, 1.95rem); color:var(--gold-2); }
-.menu-cat__title::after{ content:""; flex:1; height:1px; background:rgba(201,169,97,.35); }
-.menu-list{ display:grid; gap:.15rem; }
-.menu-item{ display:flex; align-items:baseline; gap:1rem; padding:.7rem 0; border-bottom:1px dashed rgba(245,240,230,.12); }
-.menu-item__name{ flex:1; font-size:.98rem; line-height:1.5; color:var(--cream); }
-.menu-item__name small{ margin-right:.35rem; font-size:.74rem; font-weight:600; letter-spacing:.04em; color:rgba(245,240,230,.55); white-space:nowrap; }
-.menu-item__price{ flex:none; font-family:var(--ff-display); font-size:1.2rem; font-weight:600; color:var(--gold-2); white-space:nowrap; font-variant-numeric:tabular-nums lining-nums; }
-.menu-note{ display:flex; gap:.6rem; align-items:flex-start; margin:2.4rem 0 0; font-size:.88rem; opacity:.72; }
-.menu-note .i{ margin-top:.25rem; color:var(--gold-2); }
+.menu-cat + .menu-cat{ margin-top:var(--s-8); }
+.menu-cat__title{ margin:0 0 var(--s-2); padding-bottom:var(--s-3); border-bottom:1px solid var(--c-line-dark-strong); font-size:var(--fs-h3); color:var(--c-bronze); }
+.menu-item{ display:flex; align-items:baseline; gap:var(--s-5); padding:var(--s-3) 0; border-bottom:1px solid var(--c-line-dark); }
+.menu-item__name{ flex:1; line-height:var(--lh-small); color:var(--c-on-dark); }
+.menu-item__name small{ margin-right:var(--s-2); font-size:var(--fs-14); color:var(--c-muted-dark); white-space:nowrap; font-variant-numeric:tabular-nums; }
+.menu-item__price{ flex:none; font-size:var(--fs-18); font-weight:500; color:var(--c-bronze); white-space:nowrap; font-variant-numeric:tabular-nums lining-nums; }
+.menu-note{ display:flex; gap:var(--s-3); align-items:flex-start; max-width:var(--measure); margin:var(--s-7) 0 0; font-size:var(--fs-14); color:var(--c-muted-dark); }
+.menu-note .i{ margin-top:var(--s-1); }
+.facts-actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-3); margin-top:var(--s-6); }
 
 /* FOTKY jako tlačítka (otevřou prohlížeč) */
 button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
