@@ -465,49 +465,51 @@ strong, b{ font-weight:600; }
 .news-empty{ margin:0; padding:var(--s-6) 0; color:var(--c-muted); }
 
 /* =====================================================================
-   12. CENÍK – karty balíčků, doplňky, přehledy (storno, služby)
+   12. CENÍK – balíčky ve dvou sloupcích s linkou, doplňky, storno a služby
    ===================================================================== */
+.price-cards{ display:grid; gap:var(--s-8); padding-top:var(--s-6); border-top:1px solid var(--c-line-dark-strong); }
+@media (min-width:860px){
+  .price-cards{ grid-template-columns:1fr 1fr; gap:0; }
+  .price-card:first-child{ padding-right:var(--s-8); }
+  .price-card + .price-card{ padding-left:var(--s-8); border-left:1px solid var(--c-line-dark); }
+}
+.price-card{ display:flex; flex-direction:column; }
+.price-card__icon{ display:none; }
+.price-card__name{ margin:0; font-size:var(--fs-h3); }
+.price-card__meta{ margin:var(--s-1) 0 var(--s-5); font-size:var(--fs-14); color:var(--c-muted-dark); }
+.price-card__price{ display:flex; align-items:baseline; gap:var(--s-2); font-size:clamp(var(--fs-48), 2.4rem + 1.6vw, var(--fs-64)); font-weight:500; line-height:1; letter-spacing:var(--tr-num); color:var(--c-bronze); font-variant-numeric:lining-nums tabular-nums; }
+.price-card__price small{ font-size:var(--fs-18); letter-spacing:0; color:var(--c-muted-dark); }
+.price-card .checks{ display:grid; margin:var(--s-6) 0 var(--s-7); border-top:1px solid var(--c-line-dark); }
+.price-card .checks li{ display:block; padding:var(--s-3) 0; border-bottom:1px solid var(--c-line-dark); line-height:var(--lh-small); color:var(--c-on-dark); }
+.price-card .checks .i{ display:none; }
+.price-card .btn{ margin-top:auto; align-self:flex-start; }
 
-.price-cards{ display:grid; gap:1.4rem; }
-@media (min-width:860px){ .price-cards{ grid-template-columns:repeat(3, 1fr); } }
-.price-card{ position:relative; overflow:hidden; padding:2.1rem 2rem; border-radius:26px; background:linear-gradient(160deg, rgba(255,255,255,.08), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.12); transition:transform .55s var(--ease), border-color .5s, background .5s; }
-.price-card::before{ content:""; position:absolute; right:-60px; top:-60px; width:180px; height:180px; border-radius:50%; background:radial-gradient(circle, rgba(201,169,97,.22), transparent 70%); transition:transform .8s var(--ease); }
-.price-card:hover{ transform:translateY(-6px); border-color:rgba(201,169,97,.5); }
-.price-card:hover::before{ transform:scale(1.4); }
-.price-card__name{ margin:0; font-size:1.7rem; }
-.price-card__meta{ margin:.2rem 0 1.6rem; font-size:.86rem; opacity:.65; }
-.price-card__price{ display:flex; align-items:baseline; gap:.5rem; font-family:var(--ff-display); font-size:clamp(2.6rem, 4.2vw, 3.3rem); line-height:1; color:var(--gold-2); font-variant-numeric:lining-nums tabular-nums; }
-.price-card__price small{ font-family:var(--ff-sans); font-size:.85rem; font-weight:600; color:rgba(245,240,230,.6); }
-.price-card__alt{ margin:1rem 0 0; padding-top:1rem; border-top:1px solid rgba(255,255,255,.1); font-size:.84rem; opacity:.62; }
+/* doplňky: popisek → údaj, čtyři sloupce nad linkou */
+.price-extras{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); margin-top:var(--s-9); border-top:1px solid var(--c-line-dark-strong); }
+@media (min-width:860px){ .price-extras{ grid-template-columns:repeat(4, minmax(0, 1fr)); } }
+.extra{ padding:var(--s-5) var(--s-4) var(--s-5) 0; }
+.extra__icon{ display:none; }
+.extra h4{ margin:0 0 var(--s-2); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted-dark); }
+.extra strong{ display:block; font-size:var(--fs-18); font-weight:500; line-height:var(--lh-small); color:var(--c-on-dark); }
 
-.price-extras{ display:grid; gap:1rem; margin-top:1.4rem; }
-@media (min-width:700px){ .price-extras{ grid-template-columns:repeat(2, 1fr); align-items:start; } }
-@media (min-width:1080px){ .price-extras{ grid-template-columns:repeat(3, 1fr) 1.6fr; } } /* širší sloupec pro účet s QR */
-.extra{ display:flex; gap:1rem; align-items:flex-start; padding:1.3rem 1.4rem; border-radius:20px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.1); }
-.extra__icon{ width:44px; height:44px; flex:none; display:grid; place-items:center; border-radius:14px; background:rgba(201,169,97,.14); color:var(--gold-2); }
-.extra__icon .i{ width:1.35em; height:1.35em; }
-.extra h4{ margin:0 0 .15rem; font-family:var(--ff-sans); font-size:.82rem; font-weight:600; letter-spacing:.04em; color:rgba(245,240,230,.7); }
-.extra strong{ display:block; font-family:var(--ff-display); font-size:1.4rem; font-weight:500; line-height:1.15; color:var(--cream); }
-.extra--account{ flex-direction:column; gap:.7rem; }
-@media (min-width:1080px){ .extra--account{ grid-column:span 1; } }
-.extra small{ font-size:.8rem; line-height:1.5; opacity:.65; }
-
-.greenfee{ margin-top:clamp(3.5rem, 6vw, 5rem); padding:clamp(1.6rem, 4vw, 2.6rem); border-radius:28px; border:1px solid rgba(201,169,97,.3); background:rgba(255,255,255,.025); }
-.greenfee__head{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:1.6rem; }
-.greenfee__head h3{ margin:0; font-size:1.7rem; }
-.gf-grid{ display:grid; gap:.9rem; }
-@media (min-width:700px){ .gf-grid{ grid-template-columns:repeat(2, 1fr); } }
-.gf{ padding:1.1rem 1.3rem; border-radius:18px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); }
-.gf h4{ margin:0 0 .6rem; font-family:var(--ff-sans); font-size:.95rem; font-weight:600; }
-.gf__row{ display:flex; justify-content:space-between; align-items:baseline; gap:1rem; padding:.5rem 0; font-size:.92rem; }
-.gf__row + .gf__row{ border-top:1px dashed rgba(255,255,255,.1); }
-.gf__row span{ opacity:.75; }
-.gf__who{ display:block; margin-top:.1rem; font-size:.74rem; line-height:1.35; opacity:.85; }
-.gf__row b{ font-family:var(--ff-display); font-size:1.35rem; font-weight:500; color:var(--gold-2); white-space:nowrap; }
-.greenfee__note{ display:flex; gap:.6rem; align-items:flex-start; margin:1.2rem 0 0; font-size:.88rem; opacity:.7; }
-.greenfee__note .i{ margin-top:.25rem; color:var(--gold-2); }
-.price-actions{ display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-top:2.6rem; }
-.price-actions p{ margin:0; font-size:.88rem; opacity:.6; }
+/* ceny ubytování: nadpis, věta, dvě tabulky s linkami, poznámka */
+.greenfee{ margin-top:var(--s-9); }
+.greenfee__head{ display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:var(--s-4); margin-bottom:var(--s-4); }
+.greenfee__head h3{ margin:0; font-size:var(--fs-h2); line-height:var(--lh-h2); letter-spacing:var(--tr-h2); }
+.greenfee__lead{ max-width:var(--measure); margin:0 0 var(--s-7); }
+.gf-grid{ display:grid; gap:var(--s-7); }
+@media (min-width:860px){ .gf-grid{ grid-template-columns:1fr 1fr; gap:var(--s-8); } }
+.gf h4{ margin:0; padding-bottom:var(--s-3); border-bottom:1px solid var(--c-line-dark-strong); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-on-dark); }
+.gf__row{ display:flex; justify-content:space-between; align-items:baseline; gap:var(--s-4); padding:var(--s-3) 0; border-bottom:1px solid var(--c-line-dark); }
+.gf__row > span{ display:block; color:var(--c-on-dark); }
+.gf__who{ display:block; margin-top:var(--s-1); font-size:var(--fs-14); line-height:var(--lh-small); color:var(--c-muted-dark); }
+.gf__row b{ font-size:var(--fs-18); font-weight:500; color:var(--c-bronze); white-space:nowrap; text-align:right; }
+.greenfee__note{ display:flex; gap:var(--s-3); align-items:flex-start; max-width:var(--measure); margin:var(--s-6) 0 0; font-size:var(--fs-14); color:var(--c-muted-dark); }
+.greenfee__note .i{ flex:none; margin-top:var(--s-1); }
+/* stejný přehled na světlém pozadí (koupání) */
+.gf--light{ margin-top:var(--s-6); }
+.gf--light h4{ color:var(--c-ink); border-bottom-color:var(--c-line-strong); }
+.gf--light p{ margin:var(--s-3) 0 0; color:var(--c-muted); }
 
 /* =====================================================================
    13. FAKTA – štítky s ikonou, řada tlačítek
@@ -791,32 +793,14 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 @media (max-width:767px){ .js .reveal--left, .js .reveal--right{ transform:translateY(34px); } }
 
 /* =====================================================================
-   24c. MOBIL – informační karty vedle sebe (posun prstem do strany)
+   24c. MOBIL – fotogalerie a kontakty
    ===================================================================== */
-.swipe-hint{ display:none; align-items:center; gap:.5rem; margin:0 0 .8rem; font-size:.8rem; font-weight:600; opacity:.65; }
 @media (max-width:699px){
-  .swipe-hint{ display:flex; }
-  .price-cards, .gf-grid{
-    display:flex; gap:.8rem; overflow-x:auto; overscroll-behavior-x:contain;
-    scroll-snap-type:x mandatory; scrollbar-width:none;
-    margin-inline:calc(-1 * var(--gutter)); padding:.2rem var(--gutter) .8rem; scroll-padding-inline:var(--gutter);
-  }
-  .price-cards::-webkit-scrollbar, .gf-grid::-webkit-scrollbar{ display:none; }
-  .price-card{ flex:0 0 78%; scroll-snap-align:start; padding:1.6rem 1.4rem; }
-  .gf-grid{ align-items:flex-start; }
-  /* doplňky pod sebou, kompaktně */
-  .price-extras{ gap:.6rem; }
-  .extra{ align-items:center; padding:.85rem 1rem; }
-  .extra--account{ align-items:stretch; }
-
-
   /* fotky ve 2 sloupcích, nejdřív jen část */
   .gallery{ columns:2; column-gap:.6rem; }
   .g-item{ margin-bottom:.6rem; border-radius:12px; }
   .gallery.is-limited .g-item.is-over{ display:none; }
   .gallery-more{ display:flex; }
-  .greenfee .gf-grid{ margin-inline:-1.6rem; padding-inline:1.6rem; scroll-padding-inline:1.6rem; }
-  .gf{ flex:0 0 84%; scroll-snap-align:start; }
   /* kontakty v jedné společné kartě */
   .contact-list{ gap:0; border-radius:22px; background:#fff; border:1px solid var(--line); overflow:hidden; }
   .contact-item{ border:0; border-radius:0; padding:.95rem 1.1rem; }
@@ -1009,30 +993,6 @@ button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
 .teaser-photo::after{ content:""; position:absolute; inset:0; border-radius:inherit; box-shadow:inset 0 0 0 0 var(--gold); transition:box-shadow .35s; }
 .teaser-photo:hover::after, .teaser-photo:focus-visible::after{ box-shadow:inset 0 0 0 3px var(--gold); }
 
-/* BALÍČKY – karty s cenou a seznamem */
-.price-cards--two{ max-width:1000px; }
-@media (min-width:860px){ .price-cards--two{ grid-template-columns:repeat(2, 1fr); } }
-.price-card{ display:flex; flex-direction:column; }
-.price-card__icon{ display:grid; place-items:center; width:52px; height:52px; margin-bottom:1.2rem; border-radius:16px; color:var(--gold-2); background:rgba(201,169,97,.14); }
-.price-card__icon .i{ width:1.5em; height:1.5em; }
-.price-card .checks{ margin:1.6rem 0 1.8rem; }
-.price-card .checks li{ font-size:.92rem; color:rgba(245,240,230,.82); }
-.price-card .checks .i{ color:var(--gold-2); }
-.price-card .btn{ margin-top:auto; align-self:flex-start; }
-@media (min-width:1080px){ .price-extras--four{ grid-template-columns:repeat(4, 1fr); } }
-.greenfee__lead{ max-width:70ch; margin:-.4rem 0 1.4rem; font-size:.95rem; opacity:.8; }
-.gf__row > span{ display:block; opacity:1; }
-.gf__row > span > span{ opacity:.8; }
-.gf__who{ opacity:.65; }
-@media (max-width:699px){
-  .price-card{ flex:0 0 86%; }
-  .price-extras--four{ grid-template-columns:1fr 1fr; }
-  .price-extras--four .extra{ flex-direction:column; align-items:flex-start; gap:.6rem; }
-}
-/* přehled na světlém pozadí (koupání) */
-.gf--light{ margin-top:1rem; padding:1.3rem 1.4rem; background:#fff; border-color:var(--line); }
-.gf--light h4{ color:var(--forest); }
-.gf--light p{ margin:0; font-size:.95rem; color:var(--muted); }
 
 
 /* VÝLETY – karty s ikonou */
