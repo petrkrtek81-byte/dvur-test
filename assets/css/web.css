@@ -189,8 +189,8 @@ strong, b{ font-weight:600; }
 .section--dark .chip:hover{ border-color:var(--gold); }
 .section--dark .chip.is-active{ background:var(--gold); color:var(--forest); border-color:var(--gold); }
 
-.tag{ display:inline-block; padding:.28rem .7rem; border-radius:999px; font-size:.7rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; background:rgba(58,125,68,.12); color:var(--grass); }
-.tag--todo{ background:rgba(201,169,97,.18); color:var(--gold-dark); border:1px dashed rgba(156,126,60,.5); }
+/* popisek (typ pokoje, kategorie) – prostý text velkými písmeny, žádná pilulka */
+.tag{ display:inline-block; font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted); }
 
 /* =====================================================================
    5. HLAVIČKA · MENU PŘES CELOU OBRAZOVKU · PRŮBĚH SCROLLU
@@ -367,11 +367,33 @@ strong, b{ font-weight:600; }
 .stat__label{ margin-top:var(--s-3); font-size:var(--fs-14); line-height:var(--lh-small); color:var(--c-muted-dark); }
 
 /* =====================================================================
-   10. ÚVODNÍ BLOK STRÁNKY – text, koláž, otevírací doba, tmavá karta
+   10. ÚVODNÍ BLOK STRÁNKY – text vlevo, fotky vpravo (nebo obráceně)
    ===================================================================== */
-.about__intro{ display:grid; gap:clamp(3rem, 6vw, 5.5rem); align-items:center; }
-@media (min-width:960px){ .about__intro{ grid-template-columns:1.02fr 1fr; } }
+.about__intro{ display:grid; gap:var(--s-8); }
+@media (min-width:960px){
+  .about__intro{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); align-items:start; }
+  .about__intro > .about__text{ grid-column:1 / span 6; grid-row:1; }
+  .about__intro > :not(.about__text){ grid-column:8 / span 5; grid-row:1; }
+  .about__intro > .collage:first-child{ grid-column:1 / span 5; }
+  .about__intro > .collage:first-child + .about__text{ grid-column:7 / span 6; }
+}
 .about__text p{ max-width:var(--measure); }
+
+/* dvě fotky v mřížce (velká a menší) + krátký údaj – bez překrývání, rámečků a pohybu */
+.collage{ display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:var(--grid-gap); align-items:end; }
+.collage__main{ grid-column:1 / -1; aspect-ratio:4 / 3; overflow:hidden; border-radius:var(--radius); background:var(--c-sand); }
+.collage__small{ grid-column:3 / -1; grid-row:2; aspect-ratio:3 / 2; overflow:hidden; border-radius:var(--radius); background:var(--c-sand); }
+.collage:not(:has(.collage__note)) .collage__small{ grid-column:2 / -1; }
+.collage__main img, .collage__small img{ width:100%; height:100%; object-fit:cover; }
+.collage__note{ grid-column:1 / span 2; grid-row:2; margin:0; font-size:var(--fs-14); line-height:var(--lh-small); color:var(--c-muted); }
+.collage__note-label{ display:block; font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; }
+.collage__note strong{ display:block; margin:var(--s-1) 0 var(--s-2); font-size:var(--fs-36); font-weight:500; line-height:1; letter-spacing:var(--tr-num); color:var(--c-ink); font-variant-numeric:lining-nums; }
+@media (max-width:599px){
+  .collage__small{ grid-column:1 / span 4; grid-row:2; }
+  .collage__note{ grid-column:5 / -1; }
+  .collage__note strong{ font-size:var(--fs-28); }
+  .collage:not(:has(.collage__note)) .collage__small{ grid-column:2 / -1; }
+}
 
 /* přehled „popisek → údaj“ s linkami (otevírací doba, váš pobyt) – bez rámečku */
 .hours{ margin-top:var(--s-7); }
@@ -388,35 +410,27 @@ strong, b{ font-weight:600; }
 .section--dark .hours__status{ color:var(--c-muted-dark); }
 .section--dark .hours__row{ border-bottom-color:var(--c-line-dark); }
 
-/* Fotokoláž s rotujícím odznakem */
-.collage{ position:relative; padding:0 0 18% 12%; }
-.collage__main{ border-radius:var(--radius-lg); overflow:hidden; aspect-ratio:4/5; box-shadow:var(--shadow); }
-.collage__main img{ width:100%; height:100%; object-fit:cover; transition:transform 1.4s var(--ease); }
-.collage:hover .collage__main img{ transform:scale(1.05); }
-.collage__small{ position:absolute; left:0; bottom:0; width:56%; border-radius:22px; overflow:hidden; border:8px solid var(--cream); box-shadow:var(--shadow); aspect-ratio:4/3; }
-.collage__small img{ width:100%; height:100%; object-fit:cover; }
-.ring-badge{ position:absolute; right:-10px; bottom:12%; width:clamp(118px, 13vw, 156px); aspect-ratio:1; border-radius:50%; background:var(--forest); color:var(--cream); display:grid; place-items:center; box-shadow:var(--shadow); }
-.ring-badge svg{ position:absolute; inset:0; width:100%; height:100%; animation:spin 22s linear infinite; }
-.ring-badge text{ font-family:var(--ff-sans); font-size:13px; font-weight:600; letter-spacing:2px; fill:var(--gold-2); }
-.ring-badge__center{ text-align:center; line-height:1; }
-.ring-badge__center small{ display:block; font-size:.6rem; font-weight:600; letter-spacing:.2em; text-transform:uppercase; opacity:.7; margin-bottom:.25rem; }
-.ring-badge__center strong{ font-family:var(--ff-display); font-size:clamp(1.7rem, 2.4vw, 2.2rem); font-weight:500; }
 @keyframes spin{ to{ transform:rotate(360deg); } }
 
 
-/* Krušnohorský dvůr */
-.dvur{ display:grid; margin-top:clamp(5rem, 10vw, 8rem); border-radius:32px; overflow:hidden; background:var(--forest); color:rgba(245,240,230,.78); box-shadow:var(--shadow-lg); }
-.dvur__media{ position:relative; min-height:300px; overflow:hidden; }
-.dvur__media img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform 1.6s var(--ease); }
-.dvur:hover .dvur__media img{ transform:scale(1.05); }
-.dvur__body{ padding:clamp(2rem, 5vw, 4rem); }
-.dvur__body h3{ color:var(--cream); }
-.amenities{ display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:.8rem; margin:1.8rem 0 2rem; }
-.amenity{ display:flex; align-items:center; gap:.75rem; padding:.85rem 1rem; border-radius:14px; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08); font-size:.9rem; font-weight:600; color:var(--cream); transition:background .3s, border-color .3s; }
-.amenity:hover{ background:rgba(201,169,97,.1); border-color:rgba(201,169,97,.35); }
-.amenity .i{ width:1.4em; height:1.4em; color:var(--gold-2); }
-@media (min-width:960px){ .dvur{ grid-template-columns:1.05fr 1fr; } .dvur__media{ min-height:100%; } }
-@media (max-width:420px){ .amenities{ grid-template-columns:1fr; } }
+/* tmavá sekce: fotka + text s číslovaným seznamem (recepce zajistí) – bez karty */
+.dvur{ display:grid; gap:var(--s-7); }
+.dvur__media{ overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-forest-2); }
+.dvur__media img{ width:100%; height:100%; object-fit:cover; }
+.dvur__body h3{ color:var(--c-on-dark); }
+@media (min-width:960px){
+  .dvur{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); align-items:start; }
+  .dvur__media{ grid-column:1 / span 6; aspect-ratio:4 / 5; }
+  .dvur__body{ grid-column:8 / span 5; }
+}
+/* číslovaný seznam s linkami */
+.amenities{ display:grid; margin:var(--s-6) 0 var(--s-7); border-top:1px solid var(--c-line); counter-reset:amenity; }
+.amenity{ display:flex; align-items:baseline; gap:var(--s-4); padding:var(--s-3) 0; border-bottom:1px solid var(--c-line); counter-increment:amenity; }
+.amenity::before{ content:counter(amenity, decimal-leading-zero); flex:none; min-width:2.5ch; font-size:var(--fs-12); font-weight:600; letter-spacing:var(--tr-label); color:var(--c-muted); font-variant-numeric:tabular-nums; }
+.amenity .i{ display:none; }
+.section--dark .amenities{ border-top-color:var(--c-line-dark-strong); }
+.section--dark .amenity{ border-bottom-color:var(--c-line-dark); color:var(--c-on-dark); }
+.section--dark .amenity::before{ color:var(--c-muted-dark); }
 
 /* =====================================================================
    11. AKTUALITY – řádky s fotkou a linkou (bez karet), detail v dialogu
@@ -494,7 +508,6 @@ strong, b{ font-weight:600; }
 .greenfee__note .i{ margin-top:.25rem; color:var(--gold-2); }
 .price-actions{ display:flex; flex-wrap:wrap; gap:1rem; align-items:center; justify-content:space-between; margin-top:2.6rem; }
 .price-actions p{ margin:0; font-size:.88rem; opacity:.6; }
-.section--dark .tag--todo{ background:rgba(201,169,97,.12); color:var(--gold-2); border-color:rgba(201,169,97,.4); }
 
 /* =====================================================================
    13. FAKTA – štítky s ikonou, řada tlačítek
@@ -504,15 +517,15 @@ strong, b{ font-weight:600; }
 .facts-actions{ display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.6rem; }
 
 /* =====================================================================
-   14. PARALLAX PÁS
+   14. PÁS S FOTKOU PŘES CELOU ŠÍŘKU – předěl s nadpisem a větou
    ===================================================================== */
-.band{ position:relative; isolation:isolate; overflow:hidden; display:grid; place-items:center; min-height:clamp(420px, 66vh, 620px); padding:5rem 0; text-align:center; color:#fff; }
-.band__bg{ position:absolute; left:0; right:0; top:-18%; bottom:-18%; z-index:-2; will-change:transform; }
+.band{ position:relative; isolation:isolate; overflow:hidden; display:grid; align-items:end; min-height:clamp(440px, 70vh, 680px); padding:var(--s-9) 0 var(--s-8); color:var(--c-on-dark); }
+.band__bg{ position:absolute; left:0; right:0; top:-20%; bottom:-20%; z-index:-2; will-change:transform; }
 .band__bg img{ width:100%; height:100%; object-fit:cover; }
-.band::after{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, rgba(6,22,14,.55), rgba(6,22,14,.35) 50%, rgba(6,22,14,.7)); }
-.band h2{ color:var(--c-on-dark); font-size:var(--fs-h2); line-height:var(--lh-h2); letter-spacing:var(--tr-h2); }
-.band p{ max-width:52ch; margin:0 auto 2rem; font-size:1.1rem; opacity:.9; }
-.band__actions{ display:flex; flex-wrap:wrap; justify-content:center; gap:.9rem; }
+.band::after{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, var(--c-scrim-1) 0%, var(--c-scrim-2) 45%, var(--c-scrim-4) 100%); }
+.band h2{ max-width:20ch; margin-bottom:var(--s-4); color:var(--c-on-dark); font-size:var(--fs-h2); line-height:var(--lh-h2); letter-spacing:var(--tr-h2); }
+.band p{ max-width:var(--measure); margin:0 0 var(--s-6); font-size:var(--fs-lead); line-height:var(--lh-lead); letter-spacing:var(--tr-lead); color:var(--c-on-dark); }
+.band__actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-4); }
 
 /* =====================================================================
    15. KARTY S IKONOU (svatby a akce)
@@ -959,23 +972,25 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 .facts li{ display:inline-flex; align-items:center; gap:.5rem; }
 .facts .i{ color:var(--grass); }
 
-/* POKOJE – karty, fotky v prohlížeči */
-.room-grid{ display:grid; gap:1.4rem; }
-@media (min-width:860px){ .room-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); } }
-.room{ display:flex; flex-direction:column; overflow:hidden; border-radius:26px; background:#fff; border:1px solid var(--line); box-shadow:var(--shadow-sm); transition:transform .55s var(--ease), box-shadow .55s, border-color .4s; }
-.room:hover{ transform:translateY(-6px); box-shadow:var(--shadow); border-color:rgba(201,169,97,.45); }
-.room__media{ position:relative; display:block; width:100%; aspect-ratio:16 / 10; overflow:hidden; background:var(--cream-2); cursor:zoom-in; }
-.room__media img{ width:100%; height:100%; object-fit:cover; transition:transform 1.2s var(--ease); }
-.room:hover .room__media img{ transform:scale(1.05); }
-.room__count{ position:absolute; right:1rem; bottom:1rem; display:inline-flex; align-items:center; gap:.45rem; padding:.45rem .85rem; border-radius:999px; font-size:.78rem; font-weight:600; color:#fff; background:rgba(10,33,22,.55); border:1px solid rgba(255,255,255,.35); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); transition:background .3s, color .3s; }
-.room__media:hover .room__count{ background:var(--gold); color:var(--forest); border-color:var(--gold); }
-.room__body{ flex:1; padding:1.5rem 1.6rem 1.7rem; }
-.room__body .tag{ margin-bottom:.8rem; }
-.room__name{ margin:0 0 .6rem; font-size:clamp(1.5rem, 2.2vw, 1.85rem); }
-.room__body p{ color:var(--muted); font-size:.95rem; }
-.room__feats{ display:flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem; }
-.room__feats li{ display:inline-flex; align-items:center; gap:.45rem; padding:.45rem .8rem; border-radius:999px; font-size:.8rem; font-weight:600; color:var(--forest); background:var(--cream); border:1px solid var(--line); }
-.room__feats .i{ color:var(--grass); }
+/* POKOJE – střídavé řádky „fotka + text“, fotky v prohlížeči */
+.room-grid{ display:grid; gap:var(--s-9); }
+.room{ display:grid; gap:var(--s-5); }
+.room__media{ display:block; width:100%; text-align:left; cursor:zoom-in; }
+.room__media img{ width:100%; aspect-ratio:3 / 2; object-fit:cover; border-radius:var(--radius); background:var(--c-sand); }
+.room__count{ display:inline-flex; align-items:center; gap:var(--s-2); margin-top:var(--s-3); font-size:var(--fs-14); font-weight:600; color:var(--c-ink); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; transition:color var(--dur) var(--ease); }
+.room__media:hover .room__count{ color:var(--c-link); }
+.room__name{ margin:var(--s-2) 0 var(--s-3); font-size:var(--fs-h3); }
+.room__body p{ max-width:var(--measure); color:var(--c-muted); }
+.room__feats{ display:flex; flex-wrap:wrap; margin-top:var(--s-4); padding-top:var(--s-4); border-top:1px solid var(--c-line); font-size:var(--fs-14); }
+.room__feats li{ white-space:nowrap; }
+.room__feats li:not(:last-child)::after{ content:"·"; margin:0 var(--s-2); color:var(--c-muted); }
+@media (min-width:860px){
+  .room{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); align-items:center; }
+  .room__media{ grid-column:1 / span 7; grid-row:1; }
+  .room__body{ grid-column:9 / span 4; grid-row:1; }
+  .room:nth-child(even) .room__media{ grid-column:6 / span 7; }
+  .room:nth-child(even) .room__body{ grid-column:1 / span 4; }
+}
 
 /* JÍDELNÍ LÍSTEK – dva sloupce */
 .menu-board{ display:grid; gap:2.5rem 4rem; }
@@ -1021,10 +1036,6 @@ button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
 .gf--light h4{ color:var(--forest); }
 .gf--light p{ margin:0; font-size:.95rem; color:var(--muted); }
 
-/* výčet s ikonami na světlém pozadí (poukazy) */
-.amenities--light .amenity{ color:var(--ink); background:#fff; border-color:var(--line); }
-.amenities--light .amenity .i{ color:var(--grass); }
-.amenities--light .amenity:hover{ background:var(--paper); border-color:rgba(201,169,97,.5); }
 
 /* VÝLETY – karty s ikonou */
 .trip-grid{ display:grid; gap:1rem; }

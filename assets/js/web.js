@@ -673,8 +673,6 @@ const i18nTexts = [];
 const i18nAttrs = [];
 const metaDesc = $('meta[name="description"]');
 const META = { title: document.title, desc: metaDesc.content, titleDe: root.dataset.titleDe, descDe: root.dataset.descDe };
-const ringText = $('#ringText');
-const RING_CS = ringText ? ringText.textContent : '';
 
 (function captureI18n() {
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
@@ -705,7 +703,6 @@ function setLang(lang, remember = true) {
   i18nAttrs.forEach(({ el, a, cs, de }) => el.setAttribute(a, LANG === 'de' ? (de !== undefined ? de : t(cs)) : cs));
   document.title = LANG === 'de' && META.titleDe ? META.titleDe : META.title;
   metaDesc.content = LANG === 'de' && META.descDe ? META.descDe : META.desc;
-  if (ringText) ringText.textContent = LANG === 'de' && ringText.dataset.de ? ringText.dataset.de : RING_CS;
   // odkazy s německou variantou (rezervace v němčině…)
   $$('[data-href-de]').forEach(a => {
     if (!a.dataset.hrefCs) a.dataset.hrefCs = a.getAttribute('href');
