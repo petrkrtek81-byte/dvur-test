@@ -1,4 +1,4 @@
-# Design systém Krušnohorský Dvůr – návrh (ke schválení)
+# Design systém Krušnohorský Dvůr – schváleno 2026-11-18 (směr A, bronz, odebrání efektů)
 
 ## Směr
 
@@ -66,6 +66,8 @@ Baloo 2 se přestane používat, řezy 700 a 800 také.
 | `--c-bronze` | #B8925E | **jediný akcent**: hlavní tlačítko (tmavý text, ~6,5:1), kurzíva a ceny na tmavé (~6:1) |
 | `--c-link` | #6B4F2A | textové odkazy na světlé (~7:1) |
 | `--c-danger` | #9C3B31 | jen chyby formuláře a „zavřeno“ |
+| `--c-field` | #7D847D | rámeček formulářového pole (3,4 : 1 – doplněno při realizaci) |
+| `--c-bronze-hover` | #A88352 | primární tlačítko při najetí |
 
 - Bronz se na světlém pozadí nikdy nepoužije jako barva textu, má jen ~2,5:1.
 - Zelená tráva (`--grass`), ledová a noční modrá a zelená „živá“ tečka končí. Zimní sekce bude tmavá smrková se sněhem.
@@ -96,7 +98,7 @@ Baloo 2 se přestane používat, řezy 700 a 800 také.
 - **textový odkaz se šipkou:** podtržení s odsazením, šipka se při najetí posune o 4 px.
 - **stavy:**
   - hover: o stupeň tmavší, 200 ms;
-  - focus-visible: obrys 2 px bronz s odsazením 3 px;
+  - focus-visible: obrys 2 px s odsazením 3 px – bronz na tmavých plochách, tmavý (`--c-ink`) na světlých (bronz by na světlé měl jen 2,6 : 1);
   - active: posun o 1 px;
   - disabled: průhlednost 0,4.
 - **Zaoblení:** tlačítka pilulková (jediná pilulka na webu); bez lesku a záře.

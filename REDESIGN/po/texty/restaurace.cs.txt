@@ -1,0 +1,299 @@
+# restaurace.html (cs)
+title: Restaurace a jídelní lístek | Krušnohorský Dvůr, Cínovec
+description: Stylová restaurace s krbem a terasou s výhledem na České středohoří. Otevřeno denně 11–22 h. Jídelní lístek 2026, týdenní speciality, catering.
+
+## Nadpisy
+H1 Restaurace
+H2 Útulná restaurace s hořícím krbem
+H3 Otevírací doba
+H2 Na co máte chuť?
+H3 Polévky
+H3 Předkrmy
+H3 České speciality
+H3 Doporučujeme
+H3 Dezerty
+H2 Pro hosty, oslavy i firmy
+H2 Catering pro každou příležitost
+H2 Hotel
+H2 Více
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Přeskočit na obsah
+CZ
+DE
+Rezervovat pobyt
+Menu
+01
+Ubytování
+02
+Restaurace
+03
+Ceník a balíčky
+04
+Sauna
+05
+Svatby a akce
+06
+Okolí
+07
+Aktuality
+08
+Fotogalerie
+09
+Kontakty
+Rezervovat pobyt on-line
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace denně 11–22 h
+Úvod
+Restaurace
+Restaurace
+Krb, terasa s výhledem a česká kuchyně. Otevřeno denně 11–22 h.
+Útulná restaurace
+s hořícím krbem
+Součástí hotelu je stylová restaurace s útulným prostředím a příjemnou atmosférou.
+Restaurace se kromě bohatého stálého jídelního lístku zaměřuje i na různé týdenní speciální nabídky, orientované zejména na oblastní a národnostní speciality – zvěřinový týden, krušnohorské speciality, vepřové hody, středomořská kuchyně a další.
+Večerní posezení u skvělého jídla a sklenky dobrého vína doplňuje dominanta restaurace – hořící krb. V příznivém počasí doporučujeme posezení na venkovní terase s úchvatným výhledem téměř na celé golfové hřiště a na panorama Českého středohoří s jeho nejvyšší horou Milešovkou.
+Otevírací doba
+Teď zavřeno – otevíráme v 11:00
+Pondělí – neděle
+11:00 – 22:00 hodin
+Snídaně pro hotelové hosty
+8:00 – 10:00
+Rezervovat stůl
+Poslat poptávku
+denně
+11–22
+Restaurace · terasa · krb · Cínovec
+Jídelní lístek 2026
+Na co máte
+chuť?
+Lístek jako obrázek
+Nápojový lístek
+Polévky
+0,3 l
+Domácí gulášová
+95 Kč
+0,3 l
+Česnečka se šunkou, sýrem a krutony
+75 Kč
+0,3 l
+Staročeská bramboračka
+85 Kč
+Předkrmy
+100 g
+Grilovaný kozí sýr s brusinkami a glazovanými vlašskými ořechy v medu
+179 Kč
+100 g
+Plněné žampiony rokfórem balené ve slanině, bagetka s bazalkovým pestem
+189 Kč
+České speciality
+400 g
+Konfitované kachní stehno, domácí karlovarský knedlík a červené zelí
+369 Kč
+300 g
+Vepřová krkovice na medu, zelí z červené řepy a bramborové špecle
+329 Kč
+200 g
+Vepřový segedínský guláš s domácím žemlovým knedlíkem
+269 Kč
+400 g
+Plněné bramborové knedlíky uzeným masem, kysané zelí s osmaženou cibulkou
+279 Kč
+Doporučujeme
+200 g
+Grilované kuřecí prso Supreme se staročeským kroupovým kubou s houbami a parmazánem
+289 Kč
+300 g
+Hovězí steak z pravé svíčkové, medovo-hořčicový demi-glace a brambory grenaille pečené na čerstvých bylinkách a mořské soli
+569 Kč
+200 g
+Grilovaný losos se smetanovo-špenátovými tagliatelle a parmazánem
+379 Kč
+200 g
+Grilovaná panenská svíčková s jemnou hříbkovou omáčkou, mačkané brambory s jarní cibulkou
+329 Kč
+300 g
+Dřevorubecký steak z krkovice se smaženou cibulkou, opečené brambory s česnekovým dipem
+289 Kč
+200 g
+Smažený sýr Gouda, hranolky, domácí tatarská omáčka
+269 Kč
+650 g
+Konfitované vepřové koleno na černém pivě, podávané s rozpečeným chlebem a čerstvým křenem
+379 Kč
+200 g
+Vepřový řízek podávaný s jemnou bramborovou kaší a kyselou okurkou
+289 Kč
+150 g
+Malý zeleninový salátek s balkánským sýrem
+159 Kč
+Dezerty
+Palačinky s belgickou čokoládou, vanilkovou zmrzlinou a pravou šlehačkou
+149 Kč
+Domácí kynutý borůvkový knedlík se strouhaným tvarohem, rozpuštěné máslo a cukrový prach
+169 Kč
+Horké maliny s vanilkovou zmrzlinou a šlehačkou
+139 Kč
+Kromě stálého lístku připravujeme pravidelně týdenní speciální nabídky. Ceny v Kč podle jídelního lístku 2026.
+Z naší kuchyně
+Pro hosty,
+oslavy i firmy
+Další fotky
+Catering pro
+každou příležitost
+Pro firemní akce, pracovní obědy, večeře, narozeninové oslavy a párty nabízíme kompletní catering a služby s doprovodným programem. Pořádáme také svatební obědy – zařídíme i ohňostroj.
+Svatby a akce
+Pobytové balíčky
+Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m., v těsné blízkosti hranic s Německem.
+Hotel: GREEN hotel s.r.o., IČO 17855004
+Restaurace: GREEN gastro s.r.o., IČO 14106892
+Hotel
+Ubytování
+Ceník a balíčky
+Sauna
+Svatby a akce
+Rezervace on-line
+Více
+Restaurace
+Okolí
+Aktuality
+Fotogalerie
+Kontakty
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace: po – ne 11–22 h
+2026
+Krušnohorský Dvůr ·
+Ochrana osobních údajů
+Návrh redesignu – nejde o oficiální web hotelu
+CZ
+DE
+Nahoru
+Rezervovat pobyt
+1 / 1
+Ochrana osobních údajů
+Správce
+GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Poptávkový formulář
+Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.
+Rezervace on-line
+Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.
+Cookies a služby třetích stran
+Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.
+Vaše práva
+Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (
+uoou.gov.cz
+
+## Odkazy
+#main  |  Přeskočit na obsah
+./  |  Krušnohorský Dvůr – úvodní stránka
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+ubytovani.html  |  01Ubytování
+restaurace.html  |  02Restaurace
+cenik.html  |  03Ceník a balíčky
+sauna.html  |  04Sauna
+svatby-a-akce.html  |  05Svatby a akce
+okoli.html  |  06Okolí
+aktuality.html  |  07Aktuality
+fotogalerie.html  |  08Fotogalerie
+kontakty.html  |  09Kontakty
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt on-line
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./  |  Úvod
+tel:+420778051970  |  Rezervovat stůl
+kontakty.html?poptavka=restaurace#poptavka  |  Poslat poptávku
+assets/menu/jidelni-listek-2026.jpg  |  Lístek jako obrázek
+assets/menu/napojovy-listek-2026.jpg  |  Nápojový lístek
+fotogalerie.html?kat=jidlo  |  Další fotky
+svatby-a-akce.html  |  Svatby a akce
+cenik.html#balicky  |  Pobytové balíčky
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html  |  Ubytování
+cenik.html  |  Ceník a balíčky
+sauna.html  |  Sauna
+svatby-a-akce.html  |  Svatby a akce
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervace on-line
+#restaurace  |  Restaurace
+okoli.html  |  Okolí
+aktuality.html  |  Aktuality
+fotogalerie.html  |  Fotogalerie
+kontakty.html  |  Kontakty
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nahoru
+tel:+420778051970  |  Zavolat
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+assets/logo.png  |  alt: 
+assets/img/restaurace-krb.jpg  |  alt: 
+assets/img/restaurace-krb-vecer.jpg  |  alt: Krb v restauraci
+assets/img/thumbs/terasa-vyhled.jpg  |  alt: Terasa s výhledem do kraje
+assets/img/thumbs/jidlo-talir.jpg  |  alt: Slavnostní menu
+assets/img/thumbs/jidlo-steak.jpg  |  alt: Grilované maso
+assets/img/thumbs/jidlo-kure.jpg  |  alt: Plněné kuřecí prso
+assets/img/thumbs/jidlo-maso.jpg  |  alt: Hlavní chod
+assets/img/thumbs/jidlo-raut.jpg  |  alt: Rautový stůl
+assets/img/thumbs/jidlo-kanapky.jpg  |  alt: Chlebíčky a jednohubky
+assets/img/thumbs/jidlo-syry.jpg  |  alt: Sýrový talíř
+assets/img/thumbs/jidlo-dorty.jpg  |  alt: Dorty a zákusky
+assets/img/svatba-sal.jpg  |  alt: 
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Čeština
+button[button] Deutsch
+button[button] Otevřít menu
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] Ochrana osobních údajů
+button[button] Čeština
+button[button] Deutsch
+button[button] Zavřít
+button[button] Zavřít
+button[button] Předchozí fotka
+button[button] Další fotka
+button[button] Zavřít
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, restaurace, hoursTitle, jidelni-listek, menuTitle, kitchenTitle, eventsTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

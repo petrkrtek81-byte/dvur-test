@@ -1,0 +1,214 @@
+# sauna.html (cs)
+title: Sauna | Krušnohorský Dvůr, Cínovec
+description: Finská sauna pro 1–4 osoby, otevřená denně pro hotelové hosty i veřejnost. Nutná rezervace předem na +420 778 051 970.
+
+## Nadpisy
+H1 Sauna
+H2 Sauna v horách
+H3 Finská sauna
+H2 Dřevo, teplo a sníh
+H2 Dvě hodiny v sauně v gurmánském balíčku
+H2 Hotel
+H2 Více
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Přeskočit na obsah
+CZ
+DE
+Rezervovat pobyt
+Menu
+01
+Ubytování
+02
+Restaurace
+03
+Ceník a balíčky
+04
+Sauna
+05
+Svatby a akce
+06
+Okolí
+07
+Aktuality
+08
+Fotogalerie
+09
+Kontakty
+Rezervovat pobyt on-line
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace denně 11–22 h
+Úvod
+Sauna
+Sauna
+Finská sauna pro 1–4 osoby – pro hotelové hosty i veřejnost.
+Sauna
+v horách
+Víme, že saunování v horském prostředí je unikátním zážitkem. Přijďte podpořit a připravit svůj organismus na sezónu.
+Chcete něco udělat pro zdraví a zrelaxovat se? Přijďte k nám do sauny. Odpočívat můžete venku ve sněhu s výhledem na České středohoří.
+Kapacita sauny je 1–4 osoby a je přístupná jak pro hotelové hosty, tak pro příchozí. Nutná je rezervace předem. Ceny a dostupnost si ověříte na recepci hotelu nebo na telefonu +420 778 051 970.
+Finská sauna
+Denně i pro veřejnost
+Kapacita
+1–4 osoby
+Pro koho
+hotelové hosty i příchozí
+Rezervace
+nutná předem
+Ceny
+na recepci / telefonicky
+Rezervovat saunu
+Napsat e-mail
+pro
+1–4
+Finská sauna · Cínovec · Krušné hory
+Fotky
+Dřevo, teplo
+a sníh
+Dvě hodiny v sauně
+v gurmánském balíčku
+Dvě noci pro dva, snídaně, tříchodová večeře a sauna za 5 990 Kč.
+Pobytové balíčky
+Zima na Cínovci
+Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m., v těsné blízkosti hranic s Německem.
+Hotel: GREEN hotel s.r.o., IČO 17855004
+Restaurace: GREEN gastro s.r.o., IČO 14106892
+Hotel
+Ubytování
+Ceník a balíčky
+Sauna
+Svatby a akce
+Rezervace on-line
+Více
+Restaurace
+Okolí
+Aktuality
+Fotogalerie
+Kontakty
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace: po – ne 11–22 h
+2026
+Krušnohorský Dvůr ·
+Ochrana osobních údajů
+Návrh redesignu – nejde o oficiální web hotelu
+CZ
+DE
+Nahoru
+Rezervovat pobyt
+1 / 1
+Ochrana osobních údajů
+Správce
+GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Poptávkový formulář
+Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.
+Rezervace on-line
+Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.
+Cookies a služby třetích stran
+Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.
+Vaše práva
+Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (
+uoou.gov.cz
+
+## Odkazy
+#main  |  Přeskočit na obsah
+./  |  Krušnohorský Dvůr – úvodní stránka
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+ubytovani.html  |  01Ubytování
+restaurace.html  |  02Restaurace
+cenik.html  |  03Ceník a balíčky
+sauna.html  |  04Sauna
+svatby-a-akce.html  |  05Svatby a akce
+okoli.html  |  06Okolí
+aktuality.html  |  07Aktuality
+fotogalerie.html  |  08Fotogalerie
+kontakty.html  |  09Kontakty
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt on-line
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./  |  Úvod
+tel:+420778051970  |  Rezervovat saunu
+mailto:info@krusnohorskydvur.cz?subject=Sauna  |  Napsat e-mail
+cenik.html#balicky  |  Pobytové balíčky
+okoli.html#zima  |  Zima na Cínovci
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html  |  Ubytování
+cenik.html  |  Ceník a balíčky
+#sauna  |  Sauna
+svatby-a-akce.html  |  Svatby a akce
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervace on-line
+restaurace.html  |  Restaurace
+okoli.html  |  Okolí
+aktuality.html  |  Aktuality
+fotogalerie.html  |  Fotogalerie
+kontakty.html  |  Kontakty
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nahoru
+tel:+420778051970  |  Zavolat
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+assets/logo.png  |  alt: 
+assets/img/sauna.jpg  |  alt: 
+assets/img/sauna-zima.jpg  |  alt: Dřevěná sauna u hotelu v zimě
+assets/img/thumbs/sauna.jpg  |  alt: Interiér finské sauny
+assets/img/thumbs/sauna.jpg  |  alt: Finská sauna
+assets/img/thumbs/sauna-lavice.jpg  |  alt: Lavice v sauně
+assets/img/thumbs/sauna-snih.jpg  |  alt: Sauna v zimě
+assets/img/thumbs/sauna-kamna.jpg  |  alt: Saunová kamna
+assets/img/hotel-zima-modra.jpg  |  alt: 
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Čeština
+button[button] Deutsch
+button[button] Otevřít menu
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] Ochrana osobních údajů
+button[button] Čeština
+button[button] Deutsch
+button[button] Zavřít
+button[button] Zavřít
+button[button] Předchozí fotka
+button[button] Další fotka
+button[button] Zavřít
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, sauna, saunaTitle, saunaPhotos, saunaPackTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

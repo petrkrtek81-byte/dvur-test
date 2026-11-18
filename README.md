@@ -15,6 +15,8 @@ Aktuality, Fotogalerie, Kontakty), funguje česky i německy (přepínač CZ/DE)
 | `sablony/` | šablony: `_hlava.html`, `_lista.html` (hlavička a menu), `_pata.html` (patička, dialogy), obsah každé stránky |
 | `nastroje/sestav-web.js` | složí stránky ze šablon, doplní titulky (CZ i DE) a `sitemap.xml` |
 | `nastroje/zpracuj-fotky.js` | zmenší vybrané fotky z podkladů na max. 1920 px a udělá náhledy 800 px (potřebuje ffmpeg) |
+| `nastroje/webp.js` | ke každé fotce a náhledu vytvoří menší kopii WebP (spustit po `zpracuj-fotky.js`, potřebuje ffmpeg s libwebp); stránky ji při sestavení nabídnou přes `<picture>`, JPEG zůstává jako záloha |
+| `REDESIGN/` | redesign bez „AI“ vzhledu: inventura, diagnóza, design systém (barvy, písmo, mezery jako CSS proměnné v `web.css`) a shrnutí |
 | `nastroje/server.js` | jednoduchý server pro náhled na počítači (`node nastroje/server.js` → http://localhost:5530) |
 | `assets/css/web.css`, `assets/js/web.js` | styly a skript (vychází z golfu; videa, jamky, turnaje a partneři odstraněni) |
 | `assets/img/`, `assets/img/thumbs/` | fotky (max. 1920 px) a náhledy (800 px) |

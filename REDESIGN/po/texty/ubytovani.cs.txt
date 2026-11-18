@@ -1,0 +1,256 @@
+# ubytovani.html (cs)
+title: Ubytování – pokoje | Krušnohorský Dvůr, Cínovec
+description: 8 pokojů ve 4 kategoriích (standardní, komfortní, exklusivní, rodinný), 24 lůžek, snídaně formou bufetu v ceně. Check-in od 14:00, check-out do 10:00.
+
+## Nadpisy
+H1 Ubytování
+H2 Nově zařízené pokoje za příznivé ceny
+H3 Váš pobyt
+H2 Čtyři kategorie, jeden domov
+H3 Standardní pokoje
+H3 Komfortní pokoje
+H3 Exklusivní pokoje
+H3 Rodinný pokoj
+H2 V ceně je bohatá snídaně
+H3 Na přání vám zajistíme
+H2 Hotel
+H2 Více
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Přeskočit na obsah
+CZ
+DE
+Rezervovat pobyt
+Menu
+01
+Ubytování
+02
+Restaurace
+03
+Ceník a balíčky
+04
+Sauna
+05
+Svatby a akce
+06
+Okolí
+07
+Aktuality
+08
+Fotogalerie
+09
+Kontakty
+Rezervovat pobyt on-line
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace denně 11–22 h
+Úvod
+Ubytování
+Ubytování
+8 pokojů ve 4 kategoriích, snídaně formou bufetu v ceně.
+Nově zařízené pokoje
+za příznivé ceny
+Hotel Krušnohorský Dvůr nabízí ubytování v nově zařízených pokojích s luxusní koupelnou za velmi příznivé ceny pro jednotlivce, skupiny i firmy.
+K dispozici je celkem 8 pokojů ve 4 kategoriích s maximální kapacitou 24 lůžek: 7 dvoulůžkových pokojů s možností jedné přistýlky a 1 rodinný čtyřlůžkový pokoj. K zapůjčení máme také dětskou postýlku.
+Všechny pokoje mají vlastní luxusní koupelnu s podlahovým topením, sprchovým koutem a WC, televizi se satelitním příjmem a bezdrátové připojení k internetu zdarma. Moderní horská budova hotelu byla dokončena v létě roku 2011 – opakovaně u nás bydlí například biatlonová reprezentace České republiky při svém soustředění.
+Váš pobyt
+Check-in
+od 14:00 hodin
+Check-out
+do 10:00 hodin
+Snídaně (bufet, v ceně)
+8:00 – 10:00
+Brzký odjezd
+snídaňový balíček na objednání
+výška
+865 m
+8 pokojů · 24 lůžek · Cínovec · Krušné hory
+Nabídka pokojů
+Čtyři kategorie,
+jeden domov
+Volné termíny a ceny
+6 fotek
+Dvoulůžkový
+Standardní pokoje
+Moderně zařízený pokoj s koupelnou se sprchovým koutem a sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a internetové připojení.
+Sprchový kout a WC
+TV se satelitním příjmem
+Internet
+8 fotek
+Dvoulůžkový
+Komfortní pokoje
+Moderně zařízený pokoj s luxusní koupelnou se sprchovým koutem a sociálním zařízením. Součástí vybavení je TV se satelitním příjmem a internetové připojení.
+Luxusní koupelna
+TV se satelitním příjmem
+Internet
+10 fotek
+Dvoulůžkový
+Exklusivní pokoje
+Prostorný pokoj s nádherným výhledem na České středohoří a golfové hřiště. Součástí pokoje je předsíň a luxusní koupelna se sociálním zařízením, moderní nábytek pro příjemné posezení i spaní. Součástí vybavení je TV se satelitním příjmem a internetové připojení.
+Výhled na středohoří a golf
+Předsíň
+Luxusní koupelna
+5 fotek
+Čtyřlůžkový
+Rodinný pokoj
+Prostorný pokoj s předsíní a moderním zařízením. Součástí pokoje je luxusní koupelna se dvěma sprchovými kouty, dvěma umyvadly a dvěma oddělenými toaletami. Součástí vybavení je TV se satelitním příjmem a internetové připojení.
+4 lůžka
+2 sprchy, 2 umyvadla, 2 WC
+Předsíň
+V ceně je
+bohatá snídaně
+Snídani formou bufetu podáváme v restauraci od 8:00 do 10:00 hodin. Při brzkém odjezdu vám po předchozím objednání připravíme snídaňový balíček.
+Ceník a balíčky
+O restauraci
+Recepce
+Na přání vám zajistíme
+Blízké okolí hotelu nabízí široké sportovní vyžití, lázně i zajímavé památky na české straně a v blízkém Sasku – návštěva Drážďan opravdu stojí za to.
+Relaxaci v Tereziných lázních v Dubí nebo v Teplicích
+Koupání ve vodních lázních Raupennest v Altenbergu
+Letní bobovou dráhu v Altenbergu
+Zapůjčení sjezdových lyží ve Skiareálu Bouřňák
+Úschovu vašich kol
+Snídaňový balíček na cestu
+Tipy na výlety
+Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m., v těsné blízkosti hranic s Německem.
+Hotel: GREEN hotel s.r.o., IČO 17855004
+Restaurace: GREEN gastro s.r.o., IČO 14106892
+Hotel
+Ubytování
+Ceník a balíčky
+Sauna
+Svatby a akce
+Rezervace on-line
+Více
+Restaurace
+Okolí
+Aktuality
+Fotogalerie
+Kontakty
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace: po – ne 11–22 h
+2026
+Krušnohorský Dvůr ·
+Ochrana osobních údajů
+Návrh redesignu – nejde o oficiální web hotelu
+CZ
+DE
+Nahoru
+Rezervovat pobyt
+1 / 1
+Ochrana osobních údajů
+Správce
+GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Poptávkový formulář
+Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.
+Rezervace on-line
+Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.
+Cookies a služby třetích stran
+Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.
+Vaše práva
+Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (
+uoou.gov.cz
+
+## Odkazy
+#main  |  Přeskočit na obsah
+./  |  Krušnohorský Dvůr – úvodní stránka
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+ubytovani.html  |  01Ubytování
+restaurace.html  |  02Restaurace
+cenik.html  |  03Ceník a balíčky
+sauna.html  |  04Sauna
+svatby-a-akce.html  |  05Svatby a akce
+okoli.html  |  06Okolí
+aktuality.html  |  07Aktuality
+fotogalerie.html  |  08Fotogalerie
+kontakty.html  |  09Kontakty
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt on-line
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./  |  Úvod
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Volné termíny a ceny
+cenik.html  |  Ceník a balíčky
+restaurace.html  |  O restauraci
+okoli.html  |  Tipy na výlety
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+#ubytovani  |  Ubytování
+cenik.html  |  Ceník a balíčky
+sauna.html  |  Sauna
+svatby-a-akce.html  |  Svatby a akce
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervace on-line
+restaurace.html  |  Restaurace
+okoli.html  |  Okolí
+aktuality.html  |  Aktuality
+fotogalerie.html  |  Fotogalerie
+kontakty.html  |  Kontakty
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nahoru
+tel:+420778051970  |  Zavolat
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+assets/logo.png  |  alt: 
+assets/img/pokoj-komfort-2.jpg  |  alt: 
+assets/img/pokoj-exklusiv-vyhled.jpg  |  alt: Výhled z exklusivního pokoje na golfové hřiště a krajinu
+assets/img/thumbs/pokoj-rodinny-koupelna.jpg  |  alt: Koupelna rodinného pokoje se dvěma umyvadly
+assets/img/pokoj-standard.jpg  |  alt: Standardní pokoj
+assets/img/pokoj-komfort.jpg  |  alt: Komfortní pokoj
+assets/img/pokoj-exklusiv.jpg  |  alt: Exklusivní pokoj
+assets/img/pokoj-rodinny.jpg  |  alt: Rodinný pokoj
+assets/img/restaurace-vyhled.jpg  |  alt: 
+assets/img/terasa-zima.jpg  |  alt: Výhled z hotelu na zasněženou terasu
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Čeština
+button[button] Deutsch
+button[button] Otevřít menu
+button[button] 6 fotek
+button[button] 8 fotek
+button[button] 10 fotek
+button[button] 5 fotek
+button[button] Ochrana osobních údajů
+button[button] Čeština
+button[button] Deutsch
+button[button] Zavřít
+button[button] Zavřít
+button[button] Předchozí fotka
+button[button] Další fotka
+button[button] Zavřít
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, ubytovani, stayTitle, pokoje, roomsTitle, breakfastTitle, receptionTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

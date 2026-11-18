@@ -1,0 +1,294 @@
+# index.html (de)
+title: Krušnohorský Dvůr – Berghotel und Restaurant in Cínovec (Erzgebirge)
+description: Berghotel und Restaurant Krušnohorský Dvůr in Cínovec im Erzgebirge, 865 m ü. M.: 8 Zimmer, Restaurant mit Kamin und Terrasse, Sauna, Aufenthaltspakete, Hochzeiten und Firmenevents.
+
+## Nadpisy
+H1 Berghotel im Erzgebirge.
+H2 Ein Haus. Für jeden.
+H3 „Endlich Ruhe.“
+H3 „Gönnen wir uns was Gutes.“
+H3 „Wir feiern bei euch.“
+H2 Was gibt es Neues
+H3 Suchen Sie einen Ort für Ihr Firmenevent?
+H3 Weihnachtsgutscheine innerhalb von 24 Stunden per E-Mail!
+H3 Sauna täglich geöffnet – auch für die Öffentlichkeit
+H2 Wann kommen Sie zu uns?
+H3 Öffnungszeiten
+H2 Hotel
+H2 Mehr
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Zum Inhalt springen
+CZ
+DE
+Zimmer buchen
+Menü
+01
+Unterkunft
+02
+Restaurant
+03
+Preise & Pakete
+04
+Sauna
+05
+Hochzeiten & Feiern
+06
+Umgebung
+07
+Aktuelles
+08
+Fotogalerie
+09
+Kontakt
+Zimmer online buchen
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant täglich 11–22 Uhr
+Hotel & Restaurant · Cínovec · 865 m ü. M.
+Berghotel
+im Erzgebirge.
+Acht Zimmer, ein Restaurant mit Kaminfeuer und eine Terrasse mit Blick auf das Böhmische Mittelgebirge – direkt an der Grenze zu Deutschland.
+Zimmer buchen
+Speisekarte
+Restaurant öffnet um 11:00
+Krušnohorský Dvůr in der Abenddämmerung
+Entdecken
+Für Hotelgäste, Restaurantbesucher und Feiern
+Unterkunft und Zimmer
+Restaurant und Speisekarte
+Online-Buchung
+Preise und Aufenthaltspakete
+Finnische Sauna
+Hochzeiten, Feiern und Firmenevents
+Umgebung: Langlauf, Rad, Golf
+Fotogalerie
+Aktuelles
+Kontakt und Anfahrt
+865 Meter
+über dem Meer.
+Abends
+am Kamin.
+Morgens
+auf die Loipe.
+Ein Haus.
+Für jeden.
+Fürs Wochenende
+„Endlich Ruhe.“
+Romantisches oder Gourmet-Aufenthaltspaket – Übernachtung, Frühstück, Drei-Gänge-Abendessen und Sauna.
+Preise & Pakete
+Zum Mittag- und Abendessen
+„Gönnen wir uns was Gutes.“
+Das Restaurant hat täglich von 11 bis 22 Uhr geöffnet. Feste Speisekarte und wechselnde Wochenspezialitäten.
+Speisekarte
+Zum Feiern
+„Wir feiern bei euch.“
+Hochzeitsessen, Firmenevents, Teambuildings und Geburtstagsfeiern. Ein Buffet bereiten wir nach Wunsch vor.
+Hochzeiten & Feiern
+8
+Zimmer in 4 Kategorien
+24
+Betten
+865
+m
+über dem Meer
+seit
+2011
+neues Hotelgebäude
+Aktuelles
+Was gibt es
+Neues
+Alle Neuigkeiten
+13.09.2024
+Firmenevents
+Suchen Sie einen Ort für Ihr Firmenevent?
+Der Krušnohorský Dvůr ist der ideale Ort für Firmenveranstaltungen. Wir bieten einen ausgestatteten Konferenzraum und eine Sauna.
+Weiterlesen
+13.09.2024
+Gutscheine
+Weihnachtsgutscheine innerhalb von 24 Stunden per E-Mail!
+Bestellen Sie Weihnachtsgutscheine für Familie, Freunde und Bekannte. Wählen Sie eine unserer Leistungen oder laden Sie ein Guthaben auf.
+Weiterlesen
+24.10.2023
+Sauna
+Sauna täglich geöffnet – auch für die Öffentlichkeit
+Saunieren in den Bergen ist ein einzigartiges Erlebnis. Die Sauna bietet Platz für 1–4 Personen, eine Reservierung im Voraus ist erforderlich.
+Weiterlesen
+Buchung
+Wann kommen Sie
+zu uns?
+Freie Termine und aktuelle Zimmerpreise finden Sie in der Online-Buchung. Fragen zur Unterkunft schicken Sie bitte an info@krusnohorskydvur.cz oder rufen Sie +420 778 051 970 an.
+Online buchen
+Anrufen
+Öffnungszeiten
+Jetzt geschlossen – wir öffnen um 11:00
+Restaurant
+Mo – So 11:00 – 22:00
+Frühstück (Buffet)
+8:00 – 10:00
+Check-in
+ab 14:00
+Check-out
+bis 10:00
+Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.
+Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004
+Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892
+Hotel
+Unterkunft
+Preise & Pakete
+Sauna
+Hochzeiten & Feiern
+Online-Buchung
+Mehr
+Restaurant
+Umgebung
+Aktuelles
+Fotogalerie
+Kontakt
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant: Mo – So 11–22 Uhr
+2026
+Krušnohorský Dvůr ·
+Datenschutz
+Entwurf eines Redesigns – keine offizielle Website des Hotels
+CZ
+DE
+Nach oben
+Zimmer buchen
+1 / 1
+Datenschutz
+Verantwortlicher
+GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Anfrageformular
+Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.
+Online-Buchung
+Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.
+Cookies und Dienste Dritter
+Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.
+Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (
+uoou.gov.cz/en
+
+## Odkazy
+#main  |  Zum Inhalt springen
+./?lang=de  |  Krušnohorský Dvůr – Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+ubytovani.html?lang=de  |  01Unterkunft
+restaurace.html?lang=de  |  02Restaurant
+cenik.html?lang=de  |  03Preise & Pakete
+sauna.html?lang=de  |  04Sauna
+svatby-a-akce.html?lang=de  |  05Hochzeiten & Feiern
+okoli.html?lang=de  |  06Umgebung
+aktuality.html?lang=de  |  07Aktuelles
+fotogalerie.html?lang=de  |  08Fotogalerie
+kontakty.html?lang=de  |  09Kontakt
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer online buchen
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+restaurace.html?lang=de#jidelni-listek  |  Speisekarte
+#rozcestnik  |  Entdecken
+ubytovani.html?lang=de  |  Unterkunft und Zimmer
+restaurace.html?lang=de  |  Restaurant und Speisekarte
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+cenik.html?lang=de  |  Preise und Aufenthaltspakete
+sauna.html?lang=de  |  Finnische Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten, Feiern und Firmenevents
+okoli.html?lang=de  |  Umgebung: Langlauf, Rad, Golf
+fotogalerie.html?lang=de  |  Fotogalerie
+aktuality.html?lang=de  |  Aktuelles
+kontakty.html?lang=de  |  Kontakt und Anfahrt
+cenik.html?lang=de  |  Preise & Pakete
+restaurace.html?lang=de#jidelni-listek  |  Speisekarte
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+aktuality.html?lang=de  |  Alle Neuigkeiten
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online buchen
+tel:+420778051970  |  Anrufen
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html?lang=de  |  Unterkunft
+cenik.html?lang=de  |  Preise & Pakete
+sauna.html?lang=de  |  Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+restaurace.html?lang=de  |  Restaurant
+okoli.html?lang=de  |  Umgebung
+aktuality.html?lang=de  |  Aktuelles
+fotogalerie.html?lang=de  |  Fotogalerie
+kontakty.html?lang=de  |  Kontakt
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nach oben
+tel:+420778051970  |  Anrufen
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+assets/logo.png  |  alt: 
+assets/img/hotel-zima-noc.jpg  |  alt: 
+assets/img/restaurace-krb.jpg  |  alt: 
+assets/img/terasa-leto.jpg  |  alt: 
+assets/img/pokoj-exklusiv.jpg  |  alt: 
+assets/img/hotel-zima-soumrak.jpg  |  alt: 
+assets/img/hotel-zapad-slunce.jpg  |  alt: Hotel Krušnohorský Dvůr bei Sonnenuntergang
+assets/img/restaurace-krb-detail.jpg  |  alt: Brennender Kamin im Restaurant
+assets/img/hotel-zima-letecky.jpg  |  alt: Das Hotel und die verschneite Landschaft von Cínovec von oben
+assets/img/thumbs/salonek.jpg  |  alt: 
+assets/img/thumbs/jidlo-talir.jpg  |  alt: 
+assets/img/thumbs/sauna.jpg  |  alt: 
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Menü öffnen
+button[button] Foto 1: Krušnohorský Dvůr in der Abenddämmerung
+button[button] Foto 2: Restaurant mit brennendem Kamin
+button[button] Foto 3: Terrasse mit Blick auf das Böhmische Mittelgebirge
+button[button] Foto 4: Exklusivzimmer
+button[button] Foto 5: Cínovec im Winter
+button[button] Weiterlesen
+button[button] Weiterlesen
+button[button] Weiterlesen
+button[button] Datenschutz
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Schließen
+button[button] Schließen
+button[button] Vorheriges Foto
+button[button] Nächstes Foto
+button[button] Schließen
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, heroSlides, heroContent, openBadge, heroCaption, heroDots, rozcestnik, directoryTitle, audienceTitle, nejnovejsi, newsGrid, closingTitle, hoursTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

@@ -1,0 +1,299 @@
+# restaurace.html (de)
+title: Restaurant und Speisekarte | Krušnohorský Dvůr, Cínovec
+description: Stilvolles Restaurant mit Kamin und Terrasse mit Blick auf das Böhmische Mittelgebirge. Täglich 11–22 Uhr. Speisekarte 2026, Wochenspezialitäten, Catering.
+
+## Nadpisy
+H1 Restaurant
+H2 Gemütliches Restaurant mit Kaminfeuer
+H3 Öffnungszeiten
+H2 Was darf es sein?
+H3 Suppen
+H3 Vorspeisen
+H3 Böhmische Spezialitäten
+H3 Unser Küchenchef empfiehlt
+H3 Desserts
+H2 Für Gäste, Feiern und Firmen
+H2 Catering für jeden Anlass
+H2 Hotel
+H2 Mehr
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Zum Inhalt springen
+CZ
+DE
+Zimmer buchen
+Menü
+01
+Unterkunft
+02
+Restaurant
+03
+Preise & Pakete
+04
+Sauna
+05
+Hochzeiten & Feiern
+06
+Umgebung
+07
+Aktuelles
+08
+Fotogalerie
+09
+Kontakt
+Zimmer online buchen
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant täglich 11–22 Uhr
+Startseite
+Restaurant
+Restaurant
+Kamin, Aussichtsterrasse und böhmische Küche. Täglich 11–22 Uhr.
+Gemütliches Restaurant
+mit Kaminfeuer
+Zum Hotel gehört ein stilvolles Restaurant mit gemütlicher Umgebung und angenehmer Atmosphäre.
+Neben der reichhaltigen festen Speisekarte bietet das Restaurant wechselnde Wochenspezialitäten, vor allem regionale und landestypische Küche – Wildwoche, erzgebirgische Spezialitäten, Schlachtfest, mediterrane Küche und mehr.
+Einen Abend bei gutem Essen und einem Glas Wein rundet der Mittelpunkt des Restaurants ab – der brennende Kamin. Bei schönem Wetter empfehlen wir die Außenterrasse mit atemberaubendem Blick auf fast den gesamten Golfplatz und das Panorama des Böhmischen Mittelgebirges mit seinem höchsten Berg, dem Milleschauer (Milešovka).
+Öffnungszeiten
+Jetzt geschlossen – wir öffnen um 11:00
+Montag – Sonntag
+11:00 – 22:00 Uhr
+Frühstück für Hotelgäste
+8:00 – 10:00
+Tisch reservieren
+Anfrage senden
+täglich
+11–22
+Restaurant · Terrasse · Kamin · Cínovec
+Speisekarte 2026
+Was darf es
+sein?
+Speisekarte als Bild
+Getränkekarte
+Suppen
+0,3 l
+Hausgemachte Gulaschsuppe
+95 CZK
+0,3 l
+Knoblauchsuppe mit Schinken, Käse und Croûtons
+75 CZK
+0,3 l
+Altböhmische Kartoffelsuppe
+85 CZK
+Vorspeisen
+100 g
+Gegrillter Ziegenkäse mit Preiselbeeren und in Honig glasierten Walnüssen
+179 CZK
+100 g
+Mit Blauschimmelkäse gefüllte Champignons im Speckmantel, dazu Baguette mit Basilikum-Pesto
+189 CZK
+Böhmische Spezialitäten
+400 g
+Konfierte Entenkeule, hausgemachte Karlsbader Knödel und Rotkraut
+369 CZK
+300 g
+Schweinekrustenbraten mit Honig, Rote-Bete-Kraut und Kartoffelspätzle
+329 CZK
+200 g
+Schweinegulasch nach Szegediner Art mit hausgemachtem Hefeknödel
+269 CZK
+400 g
+Mit Räucherfleisch gefüllte Kartoffelknödel, Sauerkraut und gebratene Zwiebeln
+279 CZK
+Unser Küchenchef empfiehlt
+200 g
+Gegrillte Hähnchenbrust „Supreme“ mit altböhmischem Graupenrisotto (Kuba), Pilzen und Parmesan
+289 CZK
+300 g
+Rindersteak aus der Lende, Honig-Senf-Demi-glace und Grenaille-Kartoffeln, gebraten mit frischen Kräutern und Meersalz
+569 CZK
+200 g
+Gegrillter Lachs mit Rahmspinat-Tagliatelle und Parmesan
+379 CZK
+200 g
+Gegrillte Schweinelende mit feiner Steinpilzsauce, dazu Stampfkartoffeln mit Frühlingszwiebeln
+329 CZK
+300 g
+Holzfällersteak vom Schweinekamm mit gebratenen Zwiebeln, Bratkartoffeln und Knoblauchdip
+289 CZK
+200 g
+Gebackener Gouda mit Pommes frites und hausgemachter Remoulade
+269 CZK
+650 g
+Konfierte Schweinshaxe in Schwarzbier mit warmem Brot und frischem Meerrettich
+379 CZK
+200 g
+Schweineschnitzel mit cremigem Kartoffelpüree und sauren Gurken
+289 CZK
+150 g
+Kleiner Gemüsesalat mit Hirtenkäse
+159 CZK
+Desserts
+Pfannkuchen mit belgischer Schokolade, Vanilleeis und echter Schlagsahne
+149 CZK
+Hausgemachter Heidelbeer-Hefeknödel mit geriebenem Quark, zerlassener Butter und Puderzucker
+169 CZK
+Heiße Himbeeren mit Vanilleeis und Schlagsahne
+139 CZK
+Neben der festen Speisekarte bereiten wir regelmäßig Wochenangebote vor. Preise in CZK nach der Speisekarte 2026.
+Aus unserer Küche
+Für Gäste,
+Feiern und Firmen
+Weitere Fotos
+Catering für
+jeden Anlass
+Für Firmenevents, Arbeitsessen, Abendessen, Geburtstagsfeiern und Partys bieten wir komplettes Catering mit Rahmenprogramm. Wir richten auch Hochzeitsessen aus – sogar ein Feuerwerk können wir organisieren.
+Hochzeiten & Feiern
+Aufenthaltspakete
+Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.
+Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004
+Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892
+Hotel
+Unterkunft
+Preise & Pakete
+Sauna
+Hochzeiten & Feiern
+Online-Buchung
+Mehr
+Restaurant
+Umgebung
+Aktuelles
+Fotogalerie
+Kontakt
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant: Mo – So 11–22 Uhr
+2026
+Krušnohorský Dvůr ·
+Datenschutz
+Entwurf eines Redesigns – keine offizielle Website des Hotels
+CZ
+DE
+Nach oben
+Zimmer buchen
+1 / 1
+Datenschutz
+Verantwortlicher
+GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Anfrageformular
+Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.
+Online-Buchung
+Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.
+Cookies und Dienste Dritter
+Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.
+Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (
+uoou.gov.cz/en
+
+## Odkazy
+#main  |  Zum Inhalt springen
+./?lang=de  |  Krušnohorský Dvůr – Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+ubytovani.html?lang=de  |  01Unterkunft
+restaurace.html?lang=de  |  02Restaurant
+cenik.html?lang=de  |  03Preise & Pakete
+sauna.html?lang=de  |  04Sauna
+svatby-a-akce.html?lang=de  |  05Hochzeiten & Feiern
+okoli.html?lang=de  |  06Umgebung
+aktuality.html?lang=de  |  07Aktuelles
+fotogalerie.html?lang=de  |  08Fotogalerie
+kontakty.html?lang=de  |  09Kontakt
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer online buchen
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./?lang=de  |  Startseite
+tel:+420778051970  |  Tisch reservieren
+kontakty.html?poptavka=restaurace&lang=de#poptavka  |  Anfrage senden
+assets/menu/jidelni-listek-2026.jpg  |  Speisekarte als Bild
+assets/menu/napojovy-listek-2026.jpg  |  Getränkekarte
+fotogalerie.html?kat=jidlo&lang=de  |  Weitere Fotos
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+cenik.html?lang=de#balicky  |  Aufenthaltspakete
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html?lang=de  |  Unterkunft
+cenik.html?lang=de  |  Preise & Pakete
+sauna.html?lang=de  |  Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+#restaurace  |  Restaurant
+okoli.html?lang=de  |  Umgebung
+aktuality.html?lang=de  |  Aktuelles
+fotogalerie.html?lang=de  |  Fotogalerie
+kontakty.html?lang=de  |  Kontakt
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nach oben
+tel:+420778051970  |  Anrufen
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+assets/logo.png  |  alt: 
+assets/img/restaurace-krb.jpg  |  alt: 
+assets/img/restaurace-krb-vecer.jpg  |  alt: Kamin im Restaurant
+assets/img/thumbs/terasa-vyhled.jpg  |  alt: Terrasse mit Blick ins Land
+assets/img/thumbs/jidlo-talir.jpg  |  alt: Festmenü
+assets/img/thumbs/jidlo-steak.jpg  |  alt: Gegrilltes Fleisch
+assets/img/thumbs/jidlo-kure.jpg  |  alt: Gefüllte Hähnchenbrust
+assets/img/thumbs/jidlo-maso.jpg  |  alt: Hauptgang
+assets/img/thumbs/jidlo-raut.jpg  |  alt: Buffet
+assets/img/thumbs/jidlo-kanapky.jpg  |  alt: Häppchen
+assets/img/thumbs/jidlo-syry.jpg  |  alt: Käseplatte
+assets/img/thumbs/jidlo-dorty.jpg  |  alt: Torten und Kuchen
+assets/img/svatba-sal.jpg  |  alt: 
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Menü öffnen
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] 
+button[button] Datenschutz
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Schließen
+button[button] Schließen
+button[button] Vorheriges Foto
+button[button] Nächstes Foto
+button[button] Schließen
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, restaurace, hoursTitle, jidelni-listek, menuTitle, kitchenTitle, eventsTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

@@ -1,0 +1,256 @@
+# ubytovani.html (de)
+title: Unterkunft – Zimmer | Krušnohorský Dvůr, Cínovec
+description: 8 Zimmer in 4 Kategorien (Standard, Komfort, Exklusiv, Familie), 24 Betten, Frühstücksbuffet inklusive. Check-in ab 14:00, Check-out bis 10:00.
+
+## Nadpisy
+H1 Unterkunft
+H2 Neu eingerichtete Zimmer zu günstigen Preisen
+H3 Ihr Aufenthalt
+H2 Vier Kategorien, ein Zuhause
+H3 Standardzimmer
+H3 Komfortzimmer
+H3 Exklusivzimmer
+H3 Familienzimmer
+H2 Im Preis inbegriffen: reichhaltiges Frühstück
+H3 Auf Wunsch organisieren wir
+H2 Hotel
+H2 Mehr
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Zum Inhalt springen
+CZ
+DE
+Zimmer buchen
+Menü
+01
+Unterkunft
+02
+Restaurant
+03
+Preise & Pakete
+04
+Sauna
+05
+Hochzeiten & Feiern
+06
+Umgebung
+07
+Aktuelles
+08
+Fotogalerie
+09
+Kontakt
+Zimmer online buchen
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant täglich 11–22 Uhr
+Startseite
+Unterkunft
+Unterkunft
+8 Zimmer in 4 Kategorien, Frühstücksbuffet inklusive.
+Neu eingerichtete Zimmer
+zu günstigen Preisen
+Das Hotel Krušnohorský Dvůr bietet Unterkunft in neu eingerichteten Zimmern mit Luxusbad zu sehr günstigen Preisen – für Einzelreisende, Gruppen und Firmen.
+Insgesamt stehen 8 Zimmer in 4 Kategorien mit maximal 24 Betten zur Verfügung: 7 Doppelzimmer mit der Möglichkeit eines Zustellbetts und 1 Familienzimmer mit vier Betten. Ein Kinderbett leihen wir Ihnen gerne aus.
+Alle Zimmer haben ein eigenes Luxusbad mit Fußbodenheizung, Dusche und WC, Sat-TV und kostenloses WLAN. Das moderne Berghotel wurde im Sommer 2011 fertiggestellt; wiederholt wohnt hier zum Beispiel die tschechische Biathlon-Nationalmannschaft während ihrer Trainingslager.
+Ihr Aufenthalt
+Check-in
+ab 14:00 Uhr
+Check-out
+bis 10:00 Uhr
+Frühstück (Buffet, im Preis)
+8:00 – 10:00
+Frühe Abreise
+Lunchpaket auf Bestellung
+Höhe
+865 m
+8 Zimmer · 24 Betten · Cínovec · Erzgebirge
+Zimmerangebot
+Vier Kategorien,
+ein Zuhause
+Freie Termine und Preise
+6 Fotos
+Doppelzimmer
+Standardzimmer
+Modern eingerichtetes Zimmer mit Bad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.
+Dusche und WC
+Sat-TV
+Internet
+8 Fotos
+Doppelzimmer
+Komfortzimmer
+Modern eingerichtetes Zimmer mit Luxusbad mit Dusche und WC. Zur Ausstattung gehören Sat-TV und Internetanschluss.
+Luxusbad
+Sat-TV
+Internet
+10 Fotos
+Doppelzimmer
+Exklusivzimmer
+Geräumiges Zimmer mit herrlichem Blick auf das Böhmische Mittelgebirge und den Golfplatz. Zum Zimmer gehören ein Vorraum und ein Luxusbad mit WC; moderne Möbel laden zum Sitzen und Schlafen ein. Zur Ausstattung gehören Sat-TV und Internetanschluss.
+Blick auf Mittelgebirge und Golfplatz
+Vorraum
+Luxusbad
+5 Fotos
+Vierbettzimmer
+Familienzimmer
+Geräumiges Zimmer mit Vorraum und moderner Einrichtung. Zum Zimmer gehört ein Luxusbad mit zwei Duschen, zwei Waschbecken und zwei getrennten Toiletten. Zur Ausstattung gehören Sat-TV und Internetanschluss.
+4 Betten
+2 Duschen, 2 Waschbecken, 2 WC
+Vorraum
+Im Preis inbegriffen:
+reichhaltiges Frühstück
+Das Frühstücksbuffet servieren wir im Restaurant von 8:00 bis 10:00 Uhr. Bei früher Abreise bereiten wir Ihnen nach Vorbestellung ein Lunchpaket vor.
+Preise & Pakete
+Zum Restaurant
+Rezeption
+Auf Wunsch organisieren wir
+Die nahe Umgebung bietet viele Sportmöglichkeiten, Kurbäder und Sehenswürdigkeiten auf tschechischer Seite und im nahen Sachsen – ein Ausflug nach Dresden lohnt sich wirklich.
+Entspannung im Theresienbad in Dubí oder in Teplice
+Baden in der Therme Raupennest in Altenberg
+Sommerrodelbahn in Altenberg
+Skiverleih im Skiareál Bouřňák
+Sichere Aufbewahrung Ihrer Fahrräder
+Lunchpaket bei früher Abreise
+Ausflugstipps
+Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.
+Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004
+Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892
+Hotel
+Unterkunft
+Preise & Pakete
+Sauna
+Hochzeiten & Feiern
+Online-Buchung
+Mehr
+Restaurant
+Umgebung
+Aktuelles
+Fotogalerie
+Kontakt
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant: Mo – So 11–22 Uhr
+2026
+Krušnohorský Dvůr ·
+Datenschutz
+Entwurf eines Redesigns – keine offizielle Website des Hotels
+CZ
+DE
+Nach oben
+Zimmer buchen
+1 / 1
+Datenschutz
+Verantwortlicher
+GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Anfrageformular
+Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.
+Online-Buchung
+Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.
+Cookies und Dienste Dritter
+Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.
+Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (
+uoou.gov.cz/en
+
+## Odkazy
+#main  |  Zum Inhalt springen
+./?lang=de  |  Krušnohorský Dvůr – Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+ubytovani.html?lang=de  |  01Unterkunft
+restaurace.html?lang=de  |  02Restaurant
+cenik.html?lang=de  |  03Preise & Pakete
+sauna.html?lang=de  |  04Sauna
+svatby-a-akce.html?lang=de  |  05Hochzeiten & Feiern
+okoli.html?lang=de  |  06Umgebung
+aktuality.html?lang=de  |  07Aktuelles
+fotogalerie.html?lang=de  |  08Fotogalerie
+kontakty.html?lang=de  |  09Kontakt
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer online buchen
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./?lang=de  |  Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Freie Termine und Preise
+cenik.html?lang=de  |  Preise & Pakete
+restaurace.html?lang=de  |  Zum Restaurant
+okoli.html?lang=de  |  Ausflugstipps
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+#ubytovani  |  Unterkunft
+cenik.html?lang=de  |  Preise & Pakete
+sauna.html?lang=de  |  Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+restaurace.html?lang=de  |  Restaurant
+okoli.html?lang=de  |  Umgebung
+aktuality.html?lang=de  |  Aktuelles
+fotogalerie.html?lang=de  |  Fotogalerie
+kontakty.html?lang=de  |  Kontakt
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nach oben
+tel:+420778051970  |  Anrufen
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+assets/logo.png  |  alt: 
+assets/img/pokoj-komfort-2.jpg  |  alt: 
+assets/img/pokoj-exklusiv-vyhled.jpg  |  alt: Blick aus dem Exklusivzimmer auf den Golfplatz und die Landschaft
+assets/img/thumbs/pokoj-rodinny-koupelna.jpg  |  alt: Bad des Familienzimmers mit zwei Waschbecken
+assets/img/pokoj-standard.jpg  |  alt: Standardzimmer
+assets/img/pokoj-komfort.jpg  |  alt: Komfortzimmer
+assets/img/pokoj-exklusiv.jpg  |  alt: Exklusivzimmer
+assets/img/pokoj-rodinny.jpg  |  alt: Familienzimmer
+assets/img/restaurace-vyhled.jpg  |  alt: 
+assets/img/terasa-zima.jpg  |  alt: Blick aus dem Hotel auf die verschneite Terrasse
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Menü öffnen
+button[button] 6 Fotos
+button[button] 8 Fotos
+button[button] 10 Fotos
+button[button] 5 Fotos
+button[button] Datenschutz
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Schließen
+button[button] Schließen
+button[button] Vorheriges Foto
+button[button] Nächstes Foto
+button[button] Schließen
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, ubytovani, stayTitle, pokoje, roomsTitle, breakfastTitle, receptionTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

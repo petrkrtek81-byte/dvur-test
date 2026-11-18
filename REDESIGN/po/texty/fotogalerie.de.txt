@@ -1,0 +1,404 @@
+# fotogalerie.html (de)
+title: Fotogalerie | Krušnohorský Dvůr, Cínovec
+description: Fotos von Hotel, Zimmern, Restaurant, Essen, Hochzeiten und Feiern, Sauna und der Umgebung von Cínovec im Sommer und Winter.
+
+## Nadpisy
+H1 Fotogalerie
+H2 Der Krušnohorský Dvůr im Bild
+H2 Hotel
+H2 Mehr
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Zum Inhalt springen
+CZ
+DE
+Zimmer buchen
+Menü
+01
+Unterkunft
+02
+Restaurant
+03
+Preise & Pakete
+04
+Sauna
+05
+Hochzeiten & Feiern
+06
+Umgebung
+07
+Aktuelles
+08
+Fotogalerie
+09
+Kontakt
+Zimmer online buchen
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant täglich 11–22 Uhr
+Startseite
+Fotogalerie
+Fotogalerie
+Hotel, Zimmer, Restaurant und Cínovec im Sommer und Winter.
+Der Krušnohorský Dvůr
+im Bild
+Alle
+Hotel und Terrasse
+Zimmer
+Restaurant
+Essen
+Hochzeiten und Feiern
+Sauna
+Umgebung im Sommer
+Umgebung im Winter
+Krušnohorský Dvůr in der Abenddämmerung
+Das Hotel bei Sonnenuntergang
+Hotel und Cínovec im Winter von oben
+Winterdämmerung über dem Hotel
+Das Hotel an einem Winterabend
+Wintersonne über dem Hotel
+Das Hotel im Neuschnee
+Verschneites Hoteldach
+Das Hotel im Frühling
+Sommerterrasse mit Aussicht
+Blick von der Terrasse auf das Böhmische Mittelgebirge
+Fahrräder auf der Terrasse
+Die Terrasse im Winter
+Spielplatz am Hotel
+Exklusivzimmer
+Exklusivzimmer
+Blick aus dem Exklusivzimmer
+Exklusivzimmer
+Zimmer für einen romantischen Aufenthalt
+Bad des Exklusivzimmers
+Komfortzimmer
+Komfortzimmer
+Komfortzimmer
+Bad des Komfortzimmers
+Standardzimmer
+Standardzimmer
+Bad des Standardzimmers
+Familienzimmer
+Bad des Familienzimmers
+Restaurant mit Kamin
+Restaurant
+Brennender Kamin
+Der Kamin am Abend
+Restaurant mit Aussicht
+Tisch am Fenster
+Bar
+Gedeckte Tafel
+Festmenü
+Hauptgang
+Gegrilltes Fleisch
+Gefüllte Hähnchenbrust
+Vom Grill
+Spanferkel
+Buffet
+Gebackener Schinken am Buffet
+Häppchen
+Mini-Burger und Pizzen
+Salate und Desserts
+Käseplatte
+Obst
+Torten und Kuchen
+Restaurant für die Hochzeit vorbereitet
+Hochzeitstafel
+Hochzeitstafel
+Festlich gedeckter Tisch
+Festlich gedeckter Tisch
+Hochzeitstafel
+Brauttisch
+Abendliches Fest
+Hochzeit am Abend
+Lange Tafel
+Tischdekoration
+Tischdekoration
+Dekorationsdetail
+Blumendekoration
+Trauung auf der Wiese
+Hochzeitsbogen
+Dekoration der Trauung
+Gang zur Trauung
+Ort der Trauung
+Trauung im Kreis
+Goldener Bogen
+Weißes Tor
+Picknick auf der Wiese
+Picknick mit Aussicht
+Liegestühle auf der Wiese
+Konferenzraum
+Konferenzraum – Besprechung
+Buffet im Konferenzraum
+Finnische Sauna
+Saunabänke
+Saunaofen
+Sauna am Hotel
+Sauna im Winter
+Golfplatz von oben
+Morgen auf dem Golfplatz
+Grün mit Fahne
+Der Golfplatz im Sommer
+Abendstimmung auf dem Golfplatz
+Blick auf das Böhmische Mittelgebirge
+Abend über dem Mittelgebirge
+Bergwiesen
+Weg auf dem Kamm
+Gebirgsbach
+Erzgebirgswald
+Teich in der Umgebung
+Mit Langlaufski vom Hotel
+Gespurte Loipe
+Loipe im verschneiten Wald
+Loipen auf der Hochebene
+Rastplatz an der Loipe
+Bereifte Bäume
+Winterlicher Sonnenuntergang
+Winterlicher Horizont
+Verschneite Landschaft von oben
+Blaue Stunde über Cínovec
+Winterweg
+Alle Fotos anzeigen (107)
+Berghotel und Restaurant in Cínovec im Erzgebirge, 865 m ü. M., direkt an der Grenze zu Deutschland.
+Hotel: GREEN hotel s.r.o., Id.-Nr. 17855004
+Restaurant: GREEN gastro s.r.o., Id.-Nr. 14106892
+Hotel
+Unterkunft
+Preise & Pakete
+Sauna
+Hochzeiten & Feiern
+Online-Buchung
+Mehr
+Restaurant
+Umgebung
+Aktuelles
+Fotogalerie
+Kontakt
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurant: Mo – So 11–22 Uhr
+2026
+Krušnohorský Dvůr ·
+Datenschutz
+Entwurf eines Redesigns – keine offizielle Website des Hotels
+CZ
+DE
+Nach oben
+Zimmer buchen
+1 / 1
+Datenschutz
+Verantwortlicher
+GREEN hotel s.r.o., Id.-Nr. 17855004, Cínovec 275, 415 01 Dubí, Tschechien (Unterkunft) und GREEN gastro s.r.o., Id.-Nr. 14106892, Cínovec 275, 415 01 Dubí (Restaurant). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Anfrageformular
+Das Formular auf der Seite Kontakt sendet nichts über die Website – es bereitet nur eine E-Mail in Ihrem E-Mail-Programm vor. Die Daten aus Ihrer E-Mail (Name, E-Mail, Telefon, Termin) verwenden wir nur zur Bearbeitung der Anfrage (Art. 6 Abs. 1 lit. b DSGVO) und speichern sie höchstens ein Jahr nach der letzten Kommunikation.
+Online-Buchung
+Buchungen erfolgen im Reservierungssystem Previo (booking.previo.cz) mit eigenen Geschäftsbedingungen und Datenschutzbestimmungen.
+Cookies und Dienste Dritter
+Die Website verwendet keine Analyse- oder Werbe-Cookies. Im Browser wird nur die gewählte Sprache gespeichert. Die Schriften liegen direkt auf der Website. Die Google-Karte wird erst nach einem Klick auf „Karte anzeigen“ geladen – danach kann Google Daten über Ihren Besuch (z. B. die IP-Adresse) gemäß seinen eigenen Richtlinien verarbeiten. Links zu Facebook, Instagram, YouTube und weiteren Diensten führen auf Seiten Dritter.
+Ihre Rechte
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit sowie das Recht auf Widerspruch. Beschwerden können Sie beim tschechischen Datenschutzamt einreichen (
+uoou.gov.cz/en
+
+## Odkazy
+#main  |  Zum Inhalt springen
+./?lang=de  |  Krušnohorský Dvůr – Startseite
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+ubytovani.html?lang=de  |  01Unterkunft
+restaurace.html?lang=de  |  02Restaurant
+cenik.html?lang=de  |  03Preise & Pakete
+sauna.html?lang=de  |  04Sauna
+svatby-a-akce.html?lang=de  |  05Hochzeiten & Feiern
+okoli.html?lang=de  |  06Umgebung
+aktuality.html?lang=de  |  07Aktuelles
+fotogalerie.html?lang=de  |  08Fotogalerie
+kontakty.html?lang=de  |  09Kontakt
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer online buchen
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./?lang=de  |  Startseite
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html?lang=de  |  Unterkunft
+cenik.html?lang=de  |  Preise & Pakete
+sauna.html?lang=de  |  Sauna
+svatby-a-akce.html?lang=de  |  Hochzeiten & Feiern
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Online-Buchung
+restaurace.html?lang=de  |  Restaurant
+okoli.html?lang=de  |  Umgebung
+aktuality.html?lang=de  |  Aktuelles
+#fotogalerie  |  Fotogalerie
+kontakty.html?lang=de  |  Kontakt
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nach oben
+tel:+420778051970  |  Anrufen
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=de  |  Zimmer buchen
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+assets/logo.png  |  alt: 
+assets/img/restaurace-sal.jpg  |  alt: 
+assets/img/thumbs/hotel-zima-noc.jpg  |  alt: Krušnohorský Dvůr in der Abenddämmerung
+assets/img/thumbs/hotel-zapad-slunce.jpg  |  alt: Das Hotel bei Sonnenuntergang
+assets/img/thumbs/hotel-zima-letecky.jpg  |  alt: Hotel und Cínovec im Winter von oben
+assets/img/thumbs/hotel-zima-soumrak.jpg  |  alt: Winterdämmerung über dem Hotel
+assets/img/thumbs/hotel-zima-vecer.jpg  |  alt: Das Hotel an einem Winterabend
+assets/img/thumbs/hotel-zima-slunce.jpg  |  alt: Wintersonne über dem Hotel
+assets/img/thumbs/hotel-zima-modra.jpg  |  alt: Das Hotel im Neuschnee
+assets/img/thumbs/hotel-zima-snih.jpg  |  alt: Verschneites Hoteldach
+assets/img/thumbs/hotel-jaro.jpg  |  alt: Das Hotel im Frühling
+assets/img/thumbs/terasa-leto.jpg  |  alt: Sommerterrasse mit Aussicht
+assets/img/thumbs/terasa-vyhled.jpg  |  alt: Blick von der Terrasse auf das Böhmische Mittelgebirge
+assets/img/thumbs/terasa-kola.jpg  |  alt: Fahrräder auf der Terrasse
+assets/img/thumbs/terasa-zima.jpg  |  alt: Die Terrasse im Winter
+assets/img/thumbs/hriste-detske.jpg  |  alt: Spielplatz am Hotel
+assets/img/thumbs/pokoj-exklusiv.jpg  |  alt: Exklusivzimmer
+assets/img/thumbs/pokoj-exklusiv-2.jpg  |  alt: Exklusivzimmer
+assets/img/thumbs/pokoj-exklusiv-vyhled.jpg  |  alt: Blick aus dem Exklusivzimmer
+assets/img/thumbs/pokoj-exklusiv-3.jpg  |  alt: Exklusivzimmer
+assets/img/thumbs/pokoj-exklusiv-romanticky.jpg  |  alt: Zimmer für einen romantischen Aufenthalt
+assets/img/thumbs/pokoj-exklusiv-koupelna.jpg  |  alt: Bad des Exklusivzimmers
+assets/img/thumbs/pokoj-komfort.jpg  |  alt: Komfortzimmer
+assets/img/thumbs/pokoj-komfort-2.jpg  |  alt: Komfortzimmer
+assets/img/thumbs/pokoj-komfort-4.jpg  |  alt: Komfortzimmer
+assets/img/thumbs/pokoj-komfort-koupelna.jpg  |  alt: Bad des Komfortzimmers
+assets/img/thumbs/pokoj-standard.jpg  |  alt: Standardzimmer
+assets/img/thumbs/pokoj-standard-2.jpg  |  alt: Standardzimmer
+assets/img/thumbs/pokoj-standard-koupelna.jpg  |  alt: Bad des Standardzimmers
+assets/img/thumbs/pokoj-rodinny.jpg  |  alt: Familienzimmer
+assets/img/thumbs/pokoj-rodinny-koupelna.jpg  |  alt: Bad des Familienzimmers
+assets/img/thumbs/restaurace-krb.jpg  |  alt: Restaurant mit Kamin
+assets/img/thumbs/restaurace-sal.jpg  |  alt: Restaurant
+assets/img/thumbs/restaurace-krb-detail.jpg  |  alt: Brennender Kamin
+assets/img/thumbs/restaurace-krb-vecer.jpg  |  alt: Der Kamin am Abend
+assets/img/thumbs/restaurace-okna.jpg  |  alt: Restaurant mit Aussicht
+assets/img/thumbs/restaurace-vyhled.jpg  |  alt: Tisch am Fenster
+assets/img/thumbs/restaurace-bar.jpg  |  alt: Bar
+assets/img/thumbs/restaurace-tabule.jpg  |  alt: Gedeckte Tafel
+assets/img/thumbs/jidlo-talir.jpg  |  alt: Festmenü
+assets/img/thumbs/jidlo-maso.jpg  |  alt: Hauptgang
+assets/img/thumbs/jidlo-steak.jpg  |  alt: Gegrilltes Fleisch
+assets/img/thumbs/jidlo-kure.jpg  |  alt: Gefüllte Hähnchenbrust
+assets/img/thumbs/jidlo-gril.jpg  |  alt: Vom Grill
+assets/img/thumbs/jidlo-sele.jpg  |  alt: Spanferkel
+assets/img/thumbs/jidlo-raut.jpg  |  alt: Buffet
+assets/img/thumbs/jidlo-sunka.jpg  |  alt: Gebackener Schinken am Buffet
+assets/img/thumbs/jidlo-kanapky.jpg  |  alt: Häppchen
+assets/img/thumbs/jidlo-mini-burgery.jpg  |  alt: Mini-Burger und Pizzen
+assets/img/thumbs/jidlo-salaty.jpg  |  alt: Salate und Desserts
+assets/img/thumbs/jidlo-syry.jpg  |  alt: Käseplatte
+assets/img/thumbs/jidlo-ovoce.jpg  |  alt: Obst
+assets/img/thumbs/jidlo-dorty.jpg  |  alt: Torten und Kuchen
+assets/img/thumbs/svatba-sal.jpg  |  alt: Restaurant für die Hochzeit vorbereitet
+assets/img/thumbs/svatba-stoly.jpg  |  alt: Hochzeitstafel
+assets/img/thumbs/svatba-stoly-2.jpg  |  alt: Hochzeitstafel
+assets/img/thumbs/svatba-kulaty-stul.jpg  |  alt: Festlich gedeckter Tisch
+assets/img/thumbs/svatba-kulaty-stul-2.jpg  |  alt: Festlich gedeckter Tisch
+assets/img/thumbs/svatba-tabule.jpg  |  alt: Hochzeitstafel
+assets/img/thumbs/svatba-hlavni-stul.jpg  |  alt: Brauttisch
+assets/img/thumbs/svatba-svetla.jpg  |  alt: Abendliches Fest
+assets/img/thumbs/svatba-vecer.jpg  |  alt: Hochzeit am Abend
+assets/img/thumbs/svatba-dlouhy-stul.jpg  |  alt: Lange Tafel
+assets/img/thumbs/svatba-modra.jpg  |  alt: Tischdekoration
+assets/img/thumbs/svatba-zelena.jpg  |  alt: Tischdekoration
+assets/img/thumbs/svatba-detail.jpg  |  alt: Dekorationsdetail
+assets/img/thumbs/svatba-kvetiny.jpg  |  alt: Blumendekoration
+assets/img/thumbs/obrad-louka.jpg  |  alt: Trauung auf der Wiese
+assets/img/thumbs/obrad-oblouk.jpg  |  alt: Hochzeitsbogen
+assets/img/thumbs/obrad-zidle.jpg  |  alt: Dekoration der Trauung
+assets/img/thumbs/obrad-ulicka.jpg  |  alt: Gang zur Trauung
+assets/img/thumbs/obrad-sloupy.jpg  |  alt: Ort der Trauung
+assets/img/thumbs/obrad-kruh.jpg  |  alt: Trauung im Kreis
+assets/img/thumbs/obrad-zlaty-oblouk.jpg  |  alt: Goldener Bogen
+assets/img/thumbs/obrad-bila-brana.jpg  |  alt: Weißes Tor
+assets/img/thumbs/piknik-louka.jpg  |  alt: Picknick auf der Wiese
+assets/img/thumbs/piknik-kuze.jpg  |  alt: Picknick mit Aussicht
+assets/img/thumbs/piknik-lehatka.jpg  |  alt: Liegestühle auf der Wiese
+assets/img/thumbs/salonek.jpg  |  alt: Konferenzraum
+assets/img/thumbs/salonek-stul.jpg  |  alt: Konferenzraum – Besprechung
+assets/img/thumbs/salonek-raut.jpg  |  alt: Buffet im Konferenzraum
+assets/img/thumbs/sauna.jpg  |  alt: Finnische Sauna
+assets/img/thumbs/sauna-lavice.jpg  |  alt: Saunabänke
+assets/img/thumbs/sauna-kamna.jpg  |  alt: Saunaofen
+assets/img/thumbs/sauna-zima.jpg  |  alt: Sauna am Hotel
+assets/img/thumbs/sauna-snih.jpg  |  alt: Sauna im Winter
+assets/img/thumbs/golf-letecky.jpg  |  alt: Golfplatz von oben
+assets/img/thumbs/golf-rano.jpg  |  alt: Morgen auf dem Golfplatz
+assets/img/thumbs/golf-green.jpg  |  alt: Grün mit Fahne
+assets/img/thumbs/golf-zavlaha.jpg  |  alt: Der Golfplatz im Sommer
+assets/img/thumbs/golf-zapad.jpg  |  alt: Abendstimmung auf dem Golfplatz
+assets/img/thumbs/leto-milesovka.jpg  |  alt: Blick auf das Böhmische Mittelgebirge
+assets/img/thumbs/leto-kopce.jpg  |  alt: Abend über dem Mittelgebirge
+assets/img/thumbs/leto-louka.jpg  |  alt: Bergwiesen
+assets/img/thumbs/leto-cesta.jpg  |  alt: Weg auf dem Kamm
+assets/img/thumbs/leto-potok.jpg  |  alt: Gebirgsbach
+assets/img/thumbs/leto-les.jpg  |  alt: Erzgebirgswald
+assets/img/thumbs/leto-rybnik.jpg  |  alt: Teich in der Umgebung
+assets/img/thumbs/bezky-hotel.jpg  |  alt: Mit Langlaufski vom Hotel
+assets/img/thumbs/bezky-stopa.jpg  |  alt: Gespurte Loipe
+assets/img/thumbs/bezky-les.jpg  |  alt: Loipe im verschneiten Wald
+assets/img/thumbs/bezky-planina.jpg  |  alt: Loipen auf der Hochebene
+assets/img/thumbs/bezky-odpocivadlo.jpg  |  alt: Rastplatz an der Loipe
+assets/img/thumbs/zima-stromy.jpg  |  alt: Bereifte Bäume
+assets/img/thumbs/zima-zapad.jpg  |  alt: Winterlicher Sonnenuntergang
+assets/img/thumbs/zima-obzor.jpg  |  alt: Winterlicher Horizont
+assets/img/thumbs/zima-letecky.jpg  |  alt: Verschneite Landschaft von oben
+assets/img/thumbs/zima-modra-hodinka.jpg  |  alt: Blaue Stunde über Cínovec
+assets/img/thumbs/zima-cesta.jpg  |  alt: Winterweg
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – Hotel und Restaurant
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Menü öffnen
+button[button] Alle
+button[button] Hotel und Terrasse
+button[button] Zimmer
+button[button] Restaurant
+button[button] Essen
+button[button] Hochzeiten und Feiern
+button[button] Sauna
+button[button] Umgebung im Sommer
+button[button] Umgebung im Winter
+button[button] galleryMore
+button[button] Datenschutz
+button[button] Tschechisch
+button[button] Deutsch
+button[button] Schließen
+button[button] Schließen
+button[button] Vorheriges Foto
+button[button] Nächstes Foto
+button[button] Schließen
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, fotogalerie, galleryFilters, gallery, galleryMore, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts

@@ -1,0 +1,248 @@
+# cenik.html (cs)
+title: Ceník a pobytové balíčky | Krušnohorský Dvůr, Cínovec
+description: Romantický pobytový balíček 3 990 Kč, gurmánský 5 990 Kč. Ceny ubytování a volné termíny v on-line rezervaci, storno podmínky, dárkové poukazy.
+
+## Nadpisy
+H1 Ceník a balíčky
+H2 Víkend pro dva
+H3 Romantický balíček
+H3 Gurmánský balíček
+H4 Check-in / check-out
+H4 Snídaně
+H4 Wi-Fi
+H4 Dětská postýlka
+H3 Ceny ubytování
+H4 Storno podmínky
+H4 Další služby
+H2 Poukaz jako dárek
+H2 Hotel
+H2 Více
+H2 Kontakt
+H3 
+H3 Ochrana osobních údajů
+H4 Správce
+H4 Poptávkový formulář
+H4 Rezervace on-line
+H4 Cookies a služby třetích stran
+H4 Vaše práva
+H3 Datenschutz
+H4 Verantwortlicher
+H4 Anfrageformular
+H4 Online-Buchung
+H4 Cookies und Dienste Dritter
+H4 Ihre Rechte
+
+## Texty (pořadí v DOM)
+Přeskočit na obsah
+CZ
+DE
+Rezervovat pobyt
+Menu
+01
+Ubytování
+02
+Restaurace
+03
+Ceník a balíčky
+04
+Sauna
+05
+Svatby a akce
+06
+Okolí
+07
+Aktuality
+08
+Fotogalerie
+09
+Kontakty
+Rezervovat pobyt on-line
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace denně 11–22 h
+Úvod
+Ceník a balíčky
+Ceník a balíčky
+Pobytové balíčky, ceny ubytování a dárkové poukazy.
+Pobytové balíčky
+Víkend
+pro dva
+Ubytování, snídaně i večeře za jednu cenu. Balíčky poptávejte e-mailem nebo telefonem – ozveme se vám s potvrzením termínu.
+Romantický balíček
+2 osoby · 1 noc
+3 990
+Kč
+ubytování pro 2 osoby v exklusivním nebo komfortním pokoji s luxusní koupelnou a TV se satelitním příjmem
+bohatá snídaně pro dvě osoby
+1× tříchodová večeře pro dvě osoby
+láhev sektu na pokoj
+parkování u hotelu a Wi-Fi zdarma
+20% sleva na další noc dle platného ceníku
+Poptat balíček
+Gurmánský balíček
+2 osoby · 2 noci
+5 990
+Kč
+ubytování pro 2 osoby v komfortním nebo exklusivním pokoji s koupelnou a TV se satelitním příjmem
+bohatá snídaně pro dvě osoby
+1× tříchodová večeře pro dvě osoby
+dvě hodiny v naší sauně
+parkování u hotelu a Wi-Fi zdarma
+20% sleva na další noc dle platného ceníku
+Poptat balíček
+Check-in / check-out
+od 14:00 / do 10:00
+Snídaně
+v ceně ubytování
+Wi-Fi
+zdarma
+Dětská postýlka
+k zapůjčení
+Ceny ubytování
+Ceník a rezervace on-line
+Ceny pokojů se liší podle sezóny a termínu. Aktuální ceník a volné termíny najdete v on-line rezervaci (systém Previo). Dotazy k ubytování rádi zodpovíme na info@krusnohorskydvur.cz.
+Storno podmínky
+7 a více dní před příjezdem
+zdarma
+méně než 7 dní před příjezdem
+100 % ceny
+Další služby
+Golfová seznamovací lekce (1 hod.)
+včetně holí a míčů, rezervace: golf@golf-teplice.cz
+400 Kč
+Sauna (1–4 osoby)
+nutná rezervace předem
+cena na recepci
+Zrušení pobytu prosíme písemně e-mailem na info@krusnohorskydvur.cz. U větších skupin mohou být sjednány individuální storno poplatky.
+Poukazy do 24 hodin e-mailem
+Poukaz
+jako dárek
+Objednejte si poukazy pro svou rodinu, přátele a známé. Vybrat si můžete cokoliv z našich služeb, jejich kombinaci, nebo si nabít kredit a využít ho dle přání. Na poukaz napíšeme jakékoliv přání či věnování.
+Restaurace – večeře, kredit, tříchodové menu
+Hotel – ubytování, pobytové balíčky
+Sauna
+Golf – trénink, kurz 54, roční fee
+Objednat poukaz
+info@krusnohorskydvur.cz
+e-mailem
+24 h
+Poukaz · hotel · restaurace · sauna
+Horský hotel a restaurace na Cínovci v Krušných horách, 865 m n. m., v těsné blízkosti hranic s Německem.
+Hotel: GREEN hotel s.r.o., IČO 17855004
+Restaurace: GREEN gastro s.r.o., IČO 14106892
+Hotel
+Ubytování
+Ceník a balíčky
+Sauna
+Svatby a akce
+Rezervace on-line
+Více
+Restaurace
+Okolí
+Aktuality
+Fotogalerie
+Kontakty
+Kontakt
+Krušnohorský Dvůr
+Cínovec 275, Dubí-Cínovec
++420 778 051 970
+info@krusnohorskydvur.cz
+Restaurace: po – ne 11–22 h
+2026
+Krušnohorský Dvůr ·
+Ochrana osobních údajů
+Návrh redesignu – nejde o oficiální web hotelu
+CZ
+DE
+Nahoru
+Rezervovat pobyt
+1 / 1
+Ochrana osobních údajů
+Správce
+GREEN hotel s.r.o., IČO 17855004, Cínovec 275, 415 01 Dubí (ubytování) a GREEN gastro s.r.o., IČO 14106892, Cínovec 275, 415 01 Dubí (restaurace). Kontakt:
+info@krusnohorskydvur.cz
+, +420 778 051 970.
+Poptávkový formulář
+Formulář na stránce Kontakty nic neodesílá přes web – jen připraví e-mail ve vašem poštovním programu. Údaje, které nám v e-mailu pošlete (jméno, e-mail, telefon, termín), použijeme pouze k vyřízení poptávky (čl. 6 odst. 1 písm. b) GDPR) a uchováme je nejdéle rok od poslední komunikace.
+Rezervace on-line
+Rezervace pobytu probíhají v rezervačním systému Previo (booking.previo.cz), který má vlastní obchodní podmínky a zásady zpracování osobních údajů.
+Cookies a služby třetích stran
+Web nepoužívá analytické ani reklamní cookies. V prohlížeči si ukládá pouze zvolený jazyk. Písma jsou uložena přímo na webu. Mapa Google se načte až po kliknutí na „Zobrazit mapu“ – poté může společnost Google zpracovávat údaje o vaší návštěvě (např. IP adresu) podle svých zásad. Odkazy na Facebook, Instagram, YouTube a další služby vedou na stránky třetích stran.
+Vaše práva
+Máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování a přenositelnost a právo vznést námitku. Stížnost můžete podat u Úřadu pro ochranu osobních údajů (
+uoou.gov.cz
+
+## Odkazy
+#main  |  Přeskočit na obsah
+./  |  Krušnohorský Dvůr – úvodní stránka
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+ubytovani.html  |  01Ubytování
+restaurace.html  |  02Restaurace
+cenik.html  |  03Ceník a balíčky
+sauna.html  |  04Sauna
+svatby-a-akce.html  |  05Svatby a akce
+okoli.html  |  06Okolí
+aktuality.html  |  07Aktuality
+fotogalerie.html  |  08Fotogalerie
+kontakty.html  |  09Kontakty
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt on-line
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+./  |  Úvod
+kontakty.html?poptavka=romanticky#poptavka  |  Poptat balíček
+kontakty.html?poptavka=gurmansky#poptavka  |  Poptat balíček
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Ceník a rezervace on-line
+kontakty.html?poptavka=poukaz#poptavka  |  Objednat poukaz
+mailto:info@krusnohorskydvur.cz?subject=Poukaz  |  info@krusnohorskydvur.cz
+https://www.facebook.com/pages/Hotel-a-restaurace-Kru%C5%A1nohorsk%C3%BD-Dv%C5%AFr/259512604100924  |  Facebook
+https://www.instagram.com/krusnohorskydvur  |  Instagram
+https://www.youtube.com/channel/UCNH2enlJOW_hDYiQga9ilcA  |  YouTube
+https://goo.gl/maps/Zgg7fF5qtht  |  Google Maps
+ubytovani.html  |  Ubytování
+#cenik  |  Ceník a balíčky
+sauna.html  |  Sauna
+svatby-a-akce.html  |  Svatby a akce
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervace on-line
+restaurace.html  |  Restaurace
+okoli.html  |  Okolí
+aktuality.html  |  Aktuality
+fotogalerie.html  |  Fotogalerie
+kontakty.html  |  Kontakty
+tel:+420778051970  |  +420 778 051 970
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+#top  |  Nahoru
+tel:+420778051970  |  Zavolat
+https://booking.previo.cz/?hotId=3355&theme=gold&lang=cs  |  Rezervovat pobyt
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz  |  uoou.gov.cz
+mailto:info@krusnohorskydvur.cz  |  info@krusnohorskydvur.cz
+https://uoou.gov.cz/en  |  uoou.gov.cz/en
+
+## Obrázky
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+assets/logo.png  |  alt: 
+assets/img/pokoj-exklusiv-romanticky.jpg  |  alt: 
+assets/img/pokoj-exklusiv-romanticky.jpg  |  alt: Pokoj připravený pro romantický pobyt
+assets/img/thumbs/jidlo-talir.jpg  |  alt: Slavnostní večeře
+assets/logo-bila.png  |  alt: Krušnohorský Dvůr – hotel a restaurace
+data:,  |  alt: 
+data:,  |  alt: 
+
+## Formulářové prvky a tlačítka
+button[button] Čeština
+button[button] Deutsch
+button[button] Otevřít menu
+button[button] Ochrana osobních údajů
+button[button] Čeština
+button[button] Deutsch
+button[button] Zavřít
+button[button] Zavřít
+button[button] Předchozí fotka
+button[button] Další fotka
+button[button] Zavřít
+
+## ID
+i-phone, i-mail, i-pin, i-fb, i-ig, i-yt, i-star, i-calendar, i-clock, i-arrow, i-close, i-chev-l, i-chev-r, i-check, i-user, i-users, i-golf, i-flag, i-food, i-bed, i-kids, i-sauna, i-view, i-parking, i-external, i-zoom, i-photos, i-send, i-info, i-snow, i-ski, i-map, i-swipe, i-water, i-spinner, i-wifi, i-tv, i-shower, i-coffee, i-wine, i-fire, i-gift, i-heart, i-rings, i-briefcase, i-bike, i-cam, i-tree, i-mountain, i-cart, i-paw, i-key, siteHeader, mobileMenu, main, top, pageTitle, cenik, balicky, ceny-ubytovani, poukazy, voucherTitle, year, mobileBook, newsModal, newsModalImg, newsModalTag, newsModalDate, newsModalTitle, newsModalText, newsModalCta, lightbox, lbCounter, lbStage, lbImg, lbCaption, privacyModal, privacyTitle, toasts
