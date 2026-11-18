@@ -21,6 +21,7 @@
   --c-bronze-hover:#A88352;  /* o stupeň tmavší (hover tlačítka) */
   --c-link:#6B4F2A;          /* textové odkazy na světlé */
   --c-danger:#9C3B31;        /* chyby formuláře, „zavřeno“ */
+  --c-focus:var(--c-ink);    /* rámeček fokusu – na tmavých plochách bronz (viz níže) */
   --c-field:#7D847D;         /* rámeček formulářového pole (kontrast 3,5 : 1) */
   /* překryvy fotek – jen z barvy --c-forest (22,36,28) */
   --c-scrim-1:rgba(22,36,28,.25);
@@ -96,7 +97,9 @@ h1 em, h2 em, h3 em{
 p{ margin:0 0 1em; }
 ul{ margin:0; padding:0; list-style:none; }
 strong, b{ font-weight:600; }
-:focus-visible{ outline:2px solid var(--c-bronze); outline-offset:3px; border-radius:var(--radius); }
+:focus-visible{ outline:2px solid var(--c-focus); outline-offset:3px; border-radius:var(--radius); }
+/* na tmavých plochách a fotkách bronzový fokus (kontrast 5,6 : 1), na světlých tmavý (14 : 1) */
+.section--dark, .hero, .page-hero, .footer, .mobile-menu, .winter, .band, .story, .lightbox, .mobile-book, .site-header:not(.is-scrolled), .nav-open .site-header{ --c-focus:var(--c-bronze); }
 ::selection{ background:var(--c-bronze); color:var(--c-ink); }
 
 .i{ width:1.15em; height:1.15em; flex:none; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
@@ -294,7 +297,7 @@ strong, b{ font-weight:600; }
 .hero__slide{ position:absolute; inset:0; opacity:0; transition:opacity var(--dur-crossfade) ease; }
 .hero__slide.is-active{ opacity:1; }
 .hero__slide img{ width:100%; height:100%; object-fit:cover; }
-.hero__overlay{ position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, var(--c-scrim-3) 0%, var(--c-scrim-1) 26%, var(--c-scrim-1) 48%, var(--c-scrim-4) 100%); }
+.hero__overlay{ position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg, var(--c-scrim-3) 0%, var(--c-scrim-1) 55%, transparent 80%), linear-gradient(180deg, var(--c-scrim-2) 0%, transparent 30%, transparent 50%, var(--c-scrim-3) 100%); } /* tmavší vlevo dole pod textem – kontrast i u světlé fotky */
 
 .hero__content{ padding-top:160px; padding-bottom:clamp(var(--s-10), 16vh, var(--s-11)); }
 .hero__content > *{ animation:fadeUp 500ms var(--ease) both; }
@@ -485,7 +488,7 @@ strong, b{ font-weight:600; }
 .greenfee__lead{ max-width:var(--measure); margin:0 0 var(--s-7); }
 .gf-grid{ display:grid; gap:var(--s-7); }
 @media (min-width:860px){ .gf-grid{ grid-template-columns:1fr 1fr; gap:var(--s-8); } }
-.gf h4{ margin:0; padding-bottom:var(--s-3); border-bottom:1px solid var(--c-line-dark-strong); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-on-dark); }
+.gf h4, .gf--light h3{ margin:0; padding-bottom:var(--s-3); border-bottom:1px solid var(--c-line-dark-strong); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-on-dark); }
 .gf__row{ display:flex; justify-content:space-between; align-items:baseline; gap:var(--s-4); padding:var(--s-3) 0; border-bottom:1px solid var(--c-line-dark); }
 .gf__row > span{ display:block; color:var(--c-on-dark); }
 .gf__who{ display:block; margin-top:var(--s-1); font-size:var(--fs-14); line-height:var(--lh-small); color:var(--c-muted-dark); }
@@ -494,7 +497,7 @@ strong, b{ font-weight:600; }
 .greenfee__note .i{ flex:none; margin-top:var(--s-1); }
 /* stejný přehled na světlém pozadí (koupání) */
 .gf--light{ margin-top:var(--s-6); }
-.gf--light h4{ color:var(--c-ink); border-bottom-color:var(--c-line-strong); }
+.gf--light h3{ color:var(--c-ink); border-bottom-color:var(--c-line-strong); }
 .gf--light p{ margin:var(--s-3) 0 0; color:var(--c-muted); }
 
 /* =====================================================================
@@ -511,7 +514,7 @@ strong, b{ font-weight:600; }
 .band{ position:relative; isolation:isolate; overflow:hidden; display:grid; align-items:end; min-height:clamp(440px, 70vh, 680px); padding:var(--s-9) 0 var(--s-8); color:var(--c-on-dark); }
 .band__bg{ position:absolute; left:0; right:0; top:-20%; bottom:-20%; z-index:-2; will-change:transform; }
 .band__bg img{ width:100%; height:100%; object-fit:cover; }
-.band::after{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, var(--c-scrim-1) 0%, var(--c-scrim-2) 45%, var(--c-scrim-4) 100%); }
+.band::after{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg, var(--c-scrim-3) 0%, var(--c-scrim-1) 60%, transparent 85%), linear-gradient(180deg, transparent 30%, var(--c-scrim-3) 100%); }
 .band h2{ max-width:20ch; margin-bottom:var(--s-4); color:var(--c-on-dark); font-size:var(--fs-h2); line-height:var(--lh-h2); letter-spacing:var(--tr-h2); }
 .band p{ max-width:var(--measure); margin:0 0 var(--s-6); font-size:var(--fs-lead); line-height:var(--lh-lead); letter-spacing:var(--tr-lead); color:var(--c-on-dark); }
 .band__actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-4); }
@@ -587,7 +590,7 @@ strong, b{ font-weight:600; }
 @media (min-width:860px){ .ski-grid{ grid-template-columns:repeat(3, minmax(0, 1fr)); column-gap:var(--s-7); } }
 .ski{ padding:var(--s-5) 0; border-bottom:1px solid var(--c-line-dark); }
 @media (min-width:860px){ .ski{ border-bottom:0; } }
-.ski h4{ margin:0 0 var(--s-2); font-size:var(--fs-18); font-weight:500; letter-spacing:0; }
+.ski h3{ margin:0 0 var(--s-2); font-size:var(--fs-18); font-weight:500; letter-spacing:0; }
 .ski p{ margin:0; font-size:var(--fs-14); line-height:var(--lh-small); }
 .winter__note{ display:flex; gap:var(--s-3); align-items:flex-start; max-width:var(--measure); margin:var(--s-6) 0 0; font-size:var(--fs-14); }
 .winter__note .i{ flex:none; margin-top:var(--s-1); }
@@ -658,7 +661,7 @@ a.contact-item:hover strong{ color:var(--c-link); text-decoration:underline; tex
 .footer__brand img{ width:min(220px, 70%); height:auto; margin-bottom:var(--s-5); }
 .footer__brand p{ max-width:34ch; }
 .footer__legal{ font-size:var(--fs-12); }
-.footer h4{ margin:0 0 var(--s-4); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted-dark); }
+.footer__title{ margin:0 0 var(--s-4); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted-dark); }
 .footer__links{ display:grid; gap:var(--s-2); }
 .footer__links a, .footer__contact a{ color:var(--c-on-dark); transition:color var(--dur) var(--ease); }
 .footer__links a:hover, .footer__contact a:hover{ color:var(--c-bronze); }
@@ -833,7 +836,7 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 .story{ position:relative; background:var(--c-forest); }
 .story__panel{ position:sticky; top:0; isolation:isolate; display:grid; place-items:center; height:100vh; height:100svh; overflow:hidden; padding:0 var(--gutter); }
 .story__panel img{ position:absolute; inset:0; z-index:-2; width:100%; height:100%; object-fit:cover; }
-.story__panel::before{ content:""; position:absolute; inset:0; z-index:-1; background:var(--c-scrim-2); }
+.story__panel::before{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, var(--c-scrim-2), var(--c-scrim-3)); }
 .story__text{ margin:0; max-width:15ch; font-size:clamp(var(--fs-48), 1.6rem + 4.6vw, var(--fs-88)); font-weight:500; line-height:var(--lh-display); letter-spacing:var(--tr-display); text-align:center; color:var(--c-on-dark); }
 .story__text > span{ display:block; }
 
@@ -923,7 +926,7 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 .trip h3{ margin:0 0 var(--s-2); font-size:var(--fs-h3); }
 .trip p{ max-width:var(--measure); margin:0 0 var(--s-3); color:var(--c-muted); }
 .trip .link-arrow{ justify-self:start; font-size:var(--fs-14); word-break:break-word; }
-.gf--light h4{ font-size:var(--fs-18); font-weight:500; letter-spacing:0; text-transform:none; }
+.gf--light h3{ font-size:var(--fs-18); font-weight:500; letter-spacing:0; text-transform:none; }
 
 /* závěr s fotkou (svatby a akce) */
 .closing__photo{ overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-sand); }
