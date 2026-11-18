@@ -152,11 +152,11 @@ Redesign podle zadání „aby web NEVYPADAL vibe-coded“. Práce je ve větvi 
 - **Na disku:** `po/screenshoty/` – celé stránky, desktop 1440 px i mobil 390 px.
 - **Porovnání před a po:** `po/screenshoty/srovnani-*.jpg` (ubytování, ceník, svatby, okolí).
 
-## Fáze 6 – návrhy textů (NEPROVEDENO, čeká na schválení)
+## Fáze 6 – texty (schváleno a provedeno 2026-11-18)
 
-Fakta zůstávají. Měnily by se jen vymyšlené citace a prázdné fráze z diagnózy. Německé verze přeložím obdobně.
+Fakta zůstala. Změnily se jen vymyšlené citace a prázdné fráze z diagnózy, česky i německy (německy např. „Hotel, Restaurant und Saal unter einem Dach.“, „Aufenthaltspakete“, „Vier Zimmerkategorien“, „Ausflüge in der Umgebung“).
 
-| Kde | Teď | Návrh |
+| Kde | Dřív | Nově |
 |---|---|---|
 | Úvod – tmavý pás, nadpis | Jeden dům. Pro každého. | Hotel, restaurace a sál pod jednou střechou. |
 | Úvod – „Na víkend“ | „Konečně klid.“ | Pobytové balíčky |
@@ -171,9 +171,8 @@ Fakta zůstávají. Měnily by se jen vymyšlené citace a prázdné fráze z di
 
 ## Co zbývá / k rozhodnutí
 
-1. Schválit nebo upravit texty z fáze 6.
-2. Sloučit větev `redesign` do `main` a tím ji zveřejnit na GitHub Pages – jen po souhlasu.
-3. Ověřit u hotelu (beze změny od původního návrhu):
+1. Sloučit větev `redesign` do `main` a tím ji zveřejnit na GitHub Pages – jen po souhlasu.
+2. Ověřit u hotelu (beze změny od původního návrhu):
    - romantický balíček: sekt, nebo sauna;
    - DIČ hotelu;
    - souhlas s fotkami z Instagramu.
