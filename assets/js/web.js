@@ -254,16 +254,7 @@ mobileMenu.addEventListener('click', e => { if (e.target.closest('a')) setMenu(f
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && root.classList.contains('nav-open')) setMenu(false); });
 refreshers.push(() => setMenu(root.classList.contains('nav-open')));
 
-/* ---------- Úvod: podnadpis rozdělený na slova (animace) ---------- */
-const heroSub = $('[data-split-words]');
-function splitWords(el, text) {
-  if (!el.dataset.cs) el.dataset.cs = el.textContent.trim();
-  el.innerHTML = String(text).trim().split(/\s+/)
-    .map((w, k) => `<span class="w" style="--i:${k}">${esc(w)}</span>`).join(' ');
-}
-if (heroSub) splitWords(heroSub, heroSub.textContent);
-
-/* ---------- Úvod: prolínání fotek (crossfade + Ken Burns v CSS) ---------- */
+/* ---------- Úvod: prolínání fotek ---------- */
 (function heroSlider() {
   const slides = $$('.hero__slide');
   const capOf = s => (LANG === 'de' ? (s.dataset.captionDe || s.dataset.caption) : s.dataset.caption) || '';
@@ -374,7 +365,6 @@ function openStatus() {
   const badge = $('#openBadge');
   if (badge) {
     badge.textContent = t(open ? 'Restaurace otevřena do 22:00' : h >= OPEN_TO ? 'Restaurace otevírá zítra v 11:00' : 'Restaurace otevírá v 11:00');
-    badge.previousElementSibling.style.background = open ? '' : 'var(--gold-2)';
   }
 }
 $('#year').textContent = new Date().getFullYear();
@@ -706,7 +696,7 @@ document.addEventListener('click', e => {
    Volba jazyka se pamatuje v prohlížeči; odkaz s ?lang=de otevře rovnou němčinu. */
 const I18N_SKIP = [
   'script', 'style', 'svg', 'code', '[data-i18n-skip]',
-  '.burger__label', '.hero__slides', '[data-split-words]', '[data-count]', '#openBadge', '[data-open-status]',
+  '.burger__label', '.hero__slides', '[data-count]', '#openBadge', '[data-open-status]',
   '#galleryMore', '#heroCaption', '#heroDots', '#newsGrid', '#newsMore', '#newsModal .modal__body',
   '#gallery', '#lbCounter', '#lbCaption', '#toasts'
 ].join(', ');
@@ -758,7 +748,6 @@ function setLang(lang, remember = true) {
     if (a.dataset.hrefBase === undefined) a.dataset.hrefBase = a.getAttribute('href');
     a.setAttribute('href', langHref(a.dataset.hrefBase));
   });
-  if (heroSub) splitWords(heroSub, LANG === 'de' && heroSub.dataset.deText ? heroSub.dataset.deText : heroSub.dataset.cs);
   $$('.lang [data-lang]').forEach(b => {
     const on = b.dataset.lang === LANG;
     b.classList.toggle('is-active', on);
