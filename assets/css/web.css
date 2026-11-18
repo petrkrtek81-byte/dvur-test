@@ -417,7 +417,6 @@ strong, b{ font-weight:600; }
 .dvur{ display:grid; gap:var(--s-7); }
 .dvur__media{ overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-forest-2); }
 .dvur__media img{ width:100%; height:100%; object-fit:cover; }
-.dvur__body h3{ color:var(--c-on-dark); }
 @media (min-width:960px){
   .dvur{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); align-items:start; }
   .dvur__media{ grid-column:1 / span 6; aspect-ratio:4 / 5; }
@@ -529,35 +528,28 @@ strong, b{ font-weight:600; }
 .band__actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-4); }
 
 /* =====================================================================
-   15. KARTY S IKONOU (svatby a akce)
+   15. TYPY AKCÍ – řádky s linkami (svatby, firemní akce, oslavy)
    ===================================================================== */
-.train-grid{ display:grid; gap:1.4rem; }
-@media (min-width:1000px){ .train-grid{ grid-template-columns:repeat(3, 1fr); align-items:stretch; } }
-.train-card{ position:relative; overflow:hidden; display:flex; flex-direction:column; padding:2.2rem 2rem; border-radius:28px; background:#fff; border:1px solid var(--line); transition:transform .55s var(--ease), box-shadow .55s, border-color .4s; }
-.train-card:hover{ transform:translateY(-8px); box-shadow:var(--shadow); border-color:rgba(201,169,97,.45); }
-.train-card__icon{ width:56px; height:56px; display:grid; place-items:center; margin-bottom:1.4rem; border-radius:18px; background:rgba(58,125,68,.1); color:var(--grass); transition:transform .6s var(--ease); }
-.train-card:hover .train-card__icon{ transform:rotate(-8deg) scale(1.08); }
-.train-card__icon .i{ width:1.6em; height:1.6em; }
-.train-card h3{ margin:0 0 .3rem; font-size:1.7rem; }
-.train-card__sub{ margin:0 0 1.4rem; color:var(--muted); font-size:.92rem; }
-.train-card__price{ display:flex; align-items:baseline; gap:.45rem; margin-bottom:1.4rem; font-family:var(--ff-display); font-size:2.6rem; line-height:1; color:var(--forest); font-variant-numeric:lining-nums; }
-.train-card__price small{ font-family:var(--ff-sans); font-size:.85rem; font-weight:600; color:var(--muted); }
-.checks{ display:grid; gap:.7rem; margin-bottom:1.8rem; }
-.checks li{ display:flex; gap:.7rem; align-items:flex-start; font-size:.95rem; line-height:1.5; }
-.checks .i{ margin-top:.15rem; color:var(--grass); stroke-width:2.2; }
-.tiers{ display:grid; margin-bottom:1.6rem; border-radius:16px; overflow:hidden; border:1px solid var(--line); }
-.tiers li{ display:flex; justify-content:space-between; gap:1rem; padding:.8rem 1rem; font-size:.94rem; }
-.tiers li + li{ border-top:1px solid var(--line); }
-.tiers b{ color:var(--forest); font-weight:600; white-space:nowrap; }
-.train-card .btn{ margin-top:auto; }
-.train-card--featured{ background:var(--forest); color:rgba(245,240,230,.78); border-color:var(--forest); }
-.train-card--featured h3, .train-card--featured .train-card__price{ color:var(--cream); }
-.train-card--featured .train-card__sub, .train-card--featured .train-card__price small{ color:rgba(245,240,230,.6); }
-.train-card--featured .train-card__icon{ background:rgba(201,169,97,.16); color:var(--gold-2); }
-.train-card--featured .checks .i{ color:var(--gold-2); }
-.train-card__ribbon{ position:absolute; top:1.4rem; right:1.4rem; padding:.35rem .8rem; border-radius:999px; font-size:.68rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; background:var(--gold); color:var(--forest); }
-
-
+.train-grid{ display:grid; border-top:1px solid var(--c-line-strong); }
+.train-card{ display:grid; gap:var(--s-4); padding:var(--s-7) 0; border-bottom:1px solid var(--c-line); }
+.train-card__icon{ display:none; }
+.train-card__ribbon{ font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-link); }
+.train-card h3{ margin:0; font-size:var(--fs-h2); line-height:var(--lh-h2); letter-spacing:var(--tr-h2); }
+.train-card__sub{ margin:0; color:var(--c-muted); }
+.train-card .btn{ justify-self:start; }
+@media (min-width:960px){
+  .train-card{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); row-gap:var(--s-2); align-items:start; }
+  .train-card > :not(.checks):not(.btn){ grid-column:1 / span 5; }
+  .train-card .checks{ grid-column:6 / span 4; grid-row:1 / span 3; }
+  .train-card .btn{ grid-column:10 / span 3; grid-row:1; justify-self:end; }
+  .train-card__ribbon{ grid-row:3; }
+}
+/* prostý seznam s pomlčkami */
+.checks{ display:grid; gap:var(--s-2); }
+.checks li{ display:flex; gap:var(--s-3); line-height:var(--lh-small); }
+.checks li::before{ content:"–"; flex:none; color:var(--c-muted); }
+.checks .i{ display:none; }
+.price-card .checks li::before{ content:none; }
 
 /* =====================================================================
    17. FOTOGALERIE – masonry + lightbox
@@ -1007,8 +999,8 @@ button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
 .trip p{ margin:0 0 1rem; font-size:.9rem; line-height:1.6; color:var(--muted); }
 .trip .link-arrow{ margin-top:auto; font-size:.84rem; word-break:break-all; }
 
-/* ZÁVĚR S FOTKOU (svatby a akce) */
-.closing__photo{ overflow:hidden; border-radius:var(--radius-lg); aspect-ratio:4 / 3; box-shadow:var(--shadow); }
+/* závěr s fotkou (svatby a akce) */
+.closing__photo{ overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-sand); }
 .closing__photo img{ width:100%; height:100%; object-fit:cover; }
 
 /* KONTAKTY – cesta, odkazy, provozovatelé, výběr v poptávce */
