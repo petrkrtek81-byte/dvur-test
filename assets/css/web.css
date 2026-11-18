@@ -511,10 +511,12 @@ strong, b{ font-weight:600; }
 .gf--light p{ margin:var(--s-3) 0 0; color:var(--c-muted); }
 
 /* =====================================================================
-   13. FAKTA – štítky s ikonou, řada tlačítek
+   13. FAKTA – prostý výčet oddělený tečkami
    ===================================================================== */
-.facts{ display:flex; flex-wrap:wrap; gap:.6rem; margin:1.6rem 0 0; }
-.facts li{ padding:.55rem 1rem; border-radius:999px; background:#fff; border:1px solid var(--line); font-size:.86rem; font-weight:600; color:var(--forest); }
+.facts{ display:flex; flex-wrap:wrap; margin:var(--s-5) 0 0; padding:var(--s-4) 0 0; border-top:1px solid var(--c-line); font-size:var(--fs-14); font-weight:600; }
+.facts li{ white-space:nowrap; }
+.facts li:not(:last-child)::after{ content:"·"; margin:0 var(--s-2); font-weight:400; color:var(--c-muted); }
+.facts .i{ display:none; }
 
 /* =====================================================================
    14. PÁS S FOTKOU PŘES CELOU ŠÍŘKU – předěl s nadpisem a větou
@@ -576,42 +578,36 @@ strong, b{ font-weight:600; }
 .g-item.is-entering{ animation:fadeUp .7s var(--ease) both; animation-delay:var(--d, 0s); }
 
 /* =====================================================================
-   18. ZIMNÍ SEKCE – noční modř, sníh (stránka Okolí)
+   18. ZIMNÍ SEKCE – tmavá smrková, padající sníh (stránka Okolí)
    ===================================================================== */
-.winter{ position:relative; isolation:isolate; overflow:hidden; color:rgba(219,233,244,.82);
-  background:radial-gradient(80% 60% at 80% 0%, rgba(80,140,190,.35), transparent 70%), linear-gradient(180deg, var(--night) 0%, var(--night-2) 60%, #22476a 100%);
-  padding-bottom:clamp(8rem, 14vw, 12rem); }
-.winter h2, .winter h3{ color:#fff; }
-.winter .eyebrow{ color:var(--ice); }
-.winter .h2 em{ color:var(--ice); }
-.winter .lead{ color:rgba(219,233,244,.78); }
-.winter__ridge{ position:absolute; left:0; right:0; top:-1px; z-index:0; width:100%; height:auto; pointer-events:none; }
-.winter__drift{ position:absolute; left:0; right:0; bottom:-3px; z-index:1; width:100%; height:auto; pointer-events:none; }
+.winter{ position:relative; isolation:isolate; overflow:hidden; background:var(--c-forest); color:var(--c-muted-dark); }
+.winter h2, .winter h3, .winter h4{ color:var(--c-on-dark); }
+.winter .eyebrow, .winter .lead{ color:var(--c-muted-dark); }
 #snow{ position:absolute; inset:0; z-index:0; width:100%; height:100%; pointer-events:none; }
-.winter .container{ position:relative; z-index:2; }
-.winter__grid{ display:grid; gap:clamp(2.5rem, 5vw, 4.5rem); align-items:center; }
-@media (min-width:980px){ .winter__grid{ grid-template-columns:1fr 1fr; } }
-.winter__order{ display:grid; gap:.7rem; margin:2rem 0 0; }
-.winter__order a{ display:inline-flex; align-items:center; gap:.8rem; font-weight:600; color:#fff; transition:color .3s; }
-.winter__order a:hover{ color:var(--ice); }
-.winter__order .icon-btn{ width:42px; height:42px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.16); }
-.winter__photos{ position:relative; padding:0 0 14% 10%; }
-.winter__photos img{ border-radius:26px; box-shadow:0 30px 80px -30px rgba(0,0,0,.7); }
-.winter__photos .p1{ width:100%; aspect-ratio:4/3.4; object-fit:cover; }
-.winter__photos .p2{ position:absolute; left:0; bottom:0; width:52%; aspect-ratio:16/10; object-fit:cover; border:6px solid rgba(255,255,255,.9); }
-.ski-grid{ display:grid; gap:1rem; margin-top:clamp(3rem, 6vw, 4.5rem); }
-@media (min-width:600px){ .ski-grid{ grid-template-columns:repeat(2, 1fr); } }
-@media (min-width:1000px){ .ski-grid{ grid-template-columns:repeat(3, 1fr); } }
-.ski{ display:flex; align-items:center; gap:1rem; padding:1.2rem 1.3rem; border-radius:20px; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.14); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); transition:transform .5s var(--ease), background .4s, border-color .4s; }
-.ski:hover{ transform:translateY(-5px); background:rgba(255,255,255,.12); border-color:rgba(159,208,245,.5); }
-.ski__icon{ width:48px; height:48px; flex:none; display:grid; place-items:center; border-radius:14px; background:rgba(159,208,245,.14); color:var(--ice); }
-.ski__icon .i{ width:1.5em; height:1.5em; }
-.ski h4{ margin:0; font-family:var(--ff-sans); font-size:.98rem; font-weight:600; color:#fff; }
-.ski p{ margin:0; font-size:.82rem; opacity:.7; }
-.ski__price{ margin-left:auto; font-family:var(--ff-display); font-size:1.5rem; font-weight:500; color:#fff; white-space:nowrap; }
-.ski__price small{ font-family:var(--ff-sans); font-size:.72rem; opacity:.7; }
-.winter__note{ display:flex; gap:.7rem; align-items:flex-start; margin-top:1.4rem; font-size:.92rem; opacity:.85; }
-.winter__note .i{ margin-top:.25rem; color:var(--ice); }
+.winter .container{ position:relative; z-index:1; }
+.winter__grid{ display:grid; gap:var(--s-8); }
+@media (min-width:960px){
+  .winter__grid{ grid-template-columns:repeat(12, minmax(0, 1fr)); column-gap:var(--grid-gap); align-items:start; }
+  .winter__grid > :first-child{ grid-column:1 / span 6; }
+  .winter__grid > :last-child{ grid-column:8 / span 5; }
+}
+.winter__order{ display:grid; gap:var(--s-3); margin:var(--s-6) 0 0; }
+.winter__order a{ display:inline-flex; align-items:center; gap:var(--s-3); font-weight:600; color:var(--c-on-dark); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; transition:color var(--dur) var(--ease); }
+.winter__order a:hover{ color:var(--c-bronze); }
+/* dvě fotky v mřížce, bez překrývání */
+.winter__photos{ display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:var(--grid-gap); }
+.winter__photos img{ width:100%; object-fit:cover; border-radius:var(--radius); }
+.winter__photos .p1{ grid-column:1 / -1; aspect-ratio:4 / 3; }
+.winter__photos .p2{ grid-column:3 / -1; aspect-ratio:3 / 2; }
+/* lyžování: tři sloupce nad linkou */
+.ski-grid{ display:grid; margin-top:var(--s-9); border-top:1px solid var(--c-line-dark-strong); }
+@media (min-width:860px){ .ski-grid{ grid-template-columns:repeat(3, minmax(0, 1fr)); column-gap:var(--s-7); } }
+.ski{ padding:var(--s-5) 0; border-bottom:1px solid var(--c-line-dark); }
+@media (min-width:860px){ .ski{ border-bottom:0; } }
+.ski h4{ margin:0 0 var(--s-2); font-size:var(--fs-18); font-weight:500; letter-spacing:0; }
+.ski p{ margin:0; font-size:var(--fs-14); line-height:var(--lh-small); }
+.winter__note{ display:flex; gap:var(--s-3); align-items:flex-start; max-width:var(--measure); margin:var(--s-6) 0 0; font-size:var(--fs-14); }
+.winter__note .i{ flex:none; margin-top:var(--s-1); }
 
 /* =====================================================================
    19. KONTAKTY – info, mapa, formulář poptávky
@@ -817,47 +813,24 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
    26. VÍCE STRÁNEK – úvodní pás podstránek, rozcestník, ochutnávka fotek
    ===================================================================== */
 
-/* rozcestník na úvodní stránce */
-.home-explore .section-head--split{ align-items:flex-end; }
-.explore{ display:grid; gap:1rem; grid-template-columns:repeat(2, minmax(0, 1fr)); }
-.explore-card{ position:relative; isolation:isolate; display:flex; align-items:flex-end; min-height:220px; overflow:hidden; border-radius:24px; color:#fff; background:var(--forest); box-shadow:var(--shadow-sm); }
-.explore-card img{ position:absolute; inset:0; z-index:-2; width:100%; height:100%; object-fit:cover; transition:transform 1.2s var(--ease); }
-.explore-card::before{ content:""; position:absolute; inset:0; z-index:-1; background:linear-gradient(180deg, rgba(10,33,22,0) 22%, rgba(10,33,22,.85) 100%); }
-.explore-card:hover img{ transform:scale(1.07); }
-.explore-card:focus-visible{ outline:3px solid var(--gold); outline-offset:3px; }
-.explore-card__body{ display:flex; flex-direction:column; gap:.25rem; padding:1.3rem 4.4rem 1.3rem 1.4rem; }
-.explore-card__body small .i{ width:1.05em; height:1.05em; margin-right:.35rem; vertical-align:-.18em; }
-.explore-card__body small{ display:block; font-size:.7rem; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--gold-2); }
+/* rozcestník s fotkami (Okolí) – fotka a pod ní popis, bez překryvu a skla */
+.explore{ display:grid; gap:var(--s-7) var(--grid-gap); grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.explore-card{ display:grid; gap:var(--s-3); align-content:start; color:var(--c-ink); }
+.explore-card img{ width:100%; aspect-ratio:3 / 2; object-fit:cover; border-radius:var(--radius); background:var(--c-sand); }
+.explore-card__body{ display:grid; gap:var(--s-1); }
+.explore-card__body small{ font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted); }
 .explore-card__body small b{ font-weight:600; }
-.explore-card__body strong{ font-family:var(--ff-display); font-size:clamp(1.5rem, 2.3vw, 2rem); font-weight:600; line-height:1.05; }
-.explore-card__body > span{ font-size:.9rem; line-height:1.5; color:rgba(255,255,255,.82); }
-.explore-card--big .explore-card__body strong{ font-size:clamp(2rem, 3.6vw, 3rem); }
-.explore-card__go{ position:absolute; right:1.1rem; bottom:1.2rem; width:46px; height:46px; display:grid; place-items:center; border-radius:50%; background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.3); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); transition:background .35s, color .35s, border-color .35s, transform .45s var(--ease); }
-.explore-card:hover .explore-card__go{ background:var(--gold); border-color:var(--gold); color:var(--forest); transform:translateX(4px); }
-@media (min-width:1200px){
-  .explore{ grid-template-columns:repeat(4, minmax(0, 1fr)); grid-auto-rows:clamp(220px, 18vw, 270px); }
-  .explore-card{ min-height:0; }
-  .explore-card--big{ grid-column:span 2; grid-row:span 2; }
-  .explore-card--wide{ grid-column:1 / -1; }
+.explore-card__body strong{ font-size:var(--fs-22); font-weight:500; line-height:var(--lh-h3); letter-spacing:var(--tr-h3); transition:color var(--dur) var(--ease); }
+.explore-card__body > span{ font-size:var(--fs-14); line-height:var(--lh-small); color:var(--c-muted); }
+.explore-card:hover strong{ color:var(--c-link); text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; }
+.explore-card--big{ grid-column:1 / -1; }
+.explore-card--big .explore-card__body strong{ font-size:var(--fs-h3); }
+@media (min-width:1080px){
+  .explore{ grid-template-columns:repeat(12, minmax(0, 1fr)); }
+  .explore-card{ grid-column:span 3; }
+  .explore-card--big{ grid-column:1 / span 6; grid-row:1 / span 2; }
+  .explore-card--big img{ aspect-ratio:4 / 3; }
 }
-@media (min-width:900px) and (max-width:1199px){
-  .explore-card{ min-height:250px; }
-}
-@media (max-width:1199px){
-  .explore-card--big, .explore-card--wide{ grid-column:1 / -1; }
-  .explore-card--big{ min-height:clamp(240px, 56vw, 380px); }
-}
-@media (max-width:599px){
-  .explore{ gap:.6rem; }
-  .explore-card{ min-height:170px; border-radius:18px; }
-  .explore-card__body{ padding:.9rem 1rem; }
-  .explore-card__body > span{ display:none; }
-  .explore-card--big .explore-card__body > span, .explore-card--wide .explore-card__body > span{ display:block; padding-right:2.6rem; }
-  .explore-card__body strong{ font-size:1.3rem; }
-  .explore-card--big .explore-card__body strong{ font-size:1.9rem; }
-  .explore-card__go{ top:.7rem; right:.7rem; bottom:auto; width:34px; height:34px; }
-}
-
 
 /* ochutnávka fotogalerie na úvodní stránce */
 .home-photos .gallery-head{ align-items:flex-end; }
@@ -943,9 +916,6 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 
 /* úvodní věty v sekcích */
 .section-head .lead{ margin-top:1rem; }
-.facts{ list-style:none; padding:0; }
-.facts li{ display:inline-flex; align-items:center; gap:.5rem; }
-.facts .i{ color:var(--grass); }
 
 /* POKOJE – střídavé řádky „fotka + text“, fotky v prohlížeči */
 .room-grid{ display:grid; gap:var(--s-9); }
@@ -987,17 +957,15 @@ button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
 
 
 
-/* VÝLETY – karty s ikonou */
-.trip-grid{ display:grid; gap:1rem; }
-@media (min-width:640px){ .trip-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); } }
-@media (min-width:1080px){ .trip-grid{ grid-template-columns:repeat(4, minmax(0, 1fr)); } }
-.trip{ display:flex; flex-direction:column; padding:1.5rem 1.4rem 1.4rem; border-radius:22px; background:#fff; border:1px solid var(--line); transition:transform .5s var(--ease), box-shadow .5s, border-color .4s; }
-.trip:hover{ transform:translateY(-5px); box-shadow:var(--shadow-sm); border-color:rgba(201,169,97,.5); }
-.trip__icon{ display:grid; place-items:center; width:46px; height:46px; margin-bottom:1rem; border-radius:14px; color:var(--grass); background:rgba(58,125,68,.1); }
-.trip__icon .i{ width:1.35em; height:1.35em; }
-.trip h3{ margin:0 0 .5rem; font-size:1.2rem; line-height:1.2; }
-.trip p{ margin:0 0 1rem; font-size:.9rem; line-height:1.6; color:var(--muted); }
-.trip .link-arrow{ margin-top:auto; font-size:.84rem; word-break:break-all; }
+/* VÝLETY – číslovaný seznam s linkami ve dvou sloupcích */
+.trip-grid{ display:grid; column-gap:var(--s-9); counter-reset:trip; }
+@media (min-width:860px){ .trip-grid{ grid-template-columns:1fr 1fr; } }
+.trip{ display:grid; grid-template-columns:4ch minmax(0, 1fr); align-content:start; padding:var(--s-6) 0; border-top:1px solid var(--c-line); counter-increment:trip; }
+.trip::before{ content:counter(trip, decimal-leading-zero); grid-row:1 / span 3; padding-top:var(--s-2); font-size:var(--fs-12); font-weight:600; letter-spacing:var(--tr-label); color:var(--c-muted); font-variant-numeric:tabular-nums; }
+.trip h3{ margin:0 0 var(--s-2); font-size:var(--fs-h3); }
+.trip p{ max-width:var(--measure); margin:0 0 var(--s-3); color:var(--c-muted); }
+.trip .link-arrow{ justify-self:start; font-size:var(--fs-14); word-break:break-word; }
+.gf--light h4{ font-size:var(--fs-18); font-weight:500; letter-spacing:0; text-transform:none; }
 
 /* závěr s fotkou (svatby a akce) */
 .closing__photo{ overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-sand); }
