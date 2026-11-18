@@ -99,8 +99,8 @@ const pageHero = p => `<!-- ====================================================
   <div class="page-hero__bg" aria-hidden="true"><img src="assets/img/${p.img}.jpg" alt="" fetchpriority="high"></div>
   <div class="container page-hero__inner">
     <nav class="crumbs reveal" aria-label="Drobečková navigace"><a href="./" data-de="Startseite">Úvod</a><span aria-hidden="true">/</span><span aria-current="page" data-de="${escAttr(p.navDe)}">${p.nav}</span></nav>
-    <h1 class="page-hero__title reveal" id="pageTitle" style="--d:.08s" data-de="${escAttr(p.navDe)}">${p.nav}</h1>
-    <p class="page-hero__lead reveal" style="--d:.16s" data-de="${escAttr(p.leadDe)}">${p.lead}</p>
+    <h1 class="page-hero__title reveal" id="pageTitle" data-de="${escAttr(p.navDe)}">${p.nav}</h1>
+    <p class="page-hero__lead reveal" data-de="${escAttr(p.leadDe)}">${p.lead}</p>
   </div>
 </section>
 
