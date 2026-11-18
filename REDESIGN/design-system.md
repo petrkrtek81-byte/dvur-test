@@ -101,7 +101,7 @@ Baloo 2 se přestane používat, řezy 700 a 800 také.
   - focus-visible: obrys 2 px s odsazením 3 px – bronz na tmavých plochách, tmavý (`--c-ink`) na světlých (bronz by na světlé měl jen 2,6 : 1);
   - active: posun o 1 px;
   - disabled: průhlednost 0,4.
-- **Zaoblení:** tlačítka pilulková (jediná pilulka na webu); bez lesku a záře.
+- **Zaoblení:** 4 px jako zbytek webu (původně pilulky, na přání ostřejší); bez lesku a záře.
 
 **Hlavička:**
 - logo vlevo; vpravo text „CZ / DE“ (bez vlajek), malé primární „Rezervovat“ a obrysové „Menu“;
@@ -141,7 +141,7 @@ Baloo 2 se přestane používat, řezy 700 a 800 také.
 
 ## 6. Zaoblení a stíny
 
-- `--radius: 4px` pro fotky, pole a dialogy. `--radius-pill` jen pro tlačítka.
+- `--radius: 4px` pro fotky, pole, dialogy i tlačítka (na přání 2026-11-18 i tlačítka ostřejší místo pilulek).
 - Stíny nejsou, kromě dialogů: `--shadow-dialog: 0 24px 64px -24px rgba(22,36,28,.35)`.
 - Žádné záře, sklo (`backdrop-filter`), lesky ani svítící stíny.
 

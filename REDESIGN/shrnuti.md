@@ -18,7 +18,7 @@ Redesign podle zadání „aby web NEVYPADAL vibe-coded“. Práce je ve větvi 
   - teplá lomená bílá a písková;
   - tmavá smrková;
   - **jediný akcent bronz** podle jídelního lístku hotelu.
-- **Plochy:** linky, seznamy a velké fotky místo karet. Zaoblení 4 px (pilulka jen u tlačítek a filtrů galerie), mezery po 8 px, mřížka 12 sloupců.
+- **Plochy:** linky, seznamy a velké fotky místo karet. Zaoblení všude 4 px, i u tlačítek (na přání ostřejší místo pilulek), mezery po 8 px, mřížka 12 sloupců.
 - **Odebrané efekty:**
   - otáčející se odznaky (údaje zůstaly jako text);
   - přibližování fotek;
@@ -87,7 +87,7 @@ Redesign podle zadání „aby web NEVYPADAL vibe-coded“. Práce je ve větvi 
 
 | Znak z diagnózy | Před | Po |
 |---|---|---|
-| hodnoty zaoblení | 19 různých | 3: 4 px, pilulka (tlačítka a filtry), kruh (ikonová tlačítka) |
+| hodnoty zaoblení | 19 různých | 1: všude 4 px (fotky, pole, dialogy, tlačítka, filtry, ikonová tlačítka) |
 | stíny (`box-shadow`) | 30× | 1 – jen dialogy |
 | sklo (`backdrop-filter`) | 22× | 0 |
 | řezy 700 / 800 | 64× | 0 |
