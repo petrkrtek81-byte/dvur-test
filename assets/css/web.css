@@ -98,6 +98,7 @@ body{
   font-synthesis:none;
 }
 img{ max-width:100%; height:auto; display:block; }
+picture{ display:contents; } /* obal pro WebP – rozvržení řídí samotný <img> */
 a{ color:inherit; text-decoration:none; }
 button{ font:inherit; color:inherit; background:none; border:0; padding:0; cursor:pointer; }
 h1,h2,h3,h4{ font-family:var(--ff-sans); color:var(--c-ink); font-weight:500; line-height:var(--lh-h3); letter-spacing:var(--tr-h3); margin:0 0 .5em; text-wrap:balance; }
@@ -180,14 +181,14 @@ strong, b{ font-weight:600; }
 
 .icon-btn{ width:44px; height:44px; border-radius:50%; display:grid; place-items:center; flex:none; transition:background .3s, transform .4s var(--ease), color .3s; }
 
-/* Čipy / filtry */
-.chips{ display:flex; flex-wrap:wrap; gap:.5rem; }
-.chip{ padding:.55rem 1.05rem; border-radius:999px; border:1px solid var(--line-strong); font-size:.84rem; font-weight:600; color:var(--forest); transition:all .3s var(--ease); }
-.chip:hover{ border-color:var(--forest); }
-.chip.is-active{ background:var(--forest); color:var(--cream); border-color:var(--forest); }
-.section--dark .chip{ color:var(--cream); border-color:rgba(245,240,230,.25); }
-.section--dark .chip:hover{ border-color:var(--gold); }
-.section--dark .chip.is-active{ background:var(--gold); color:var(--forest); border-color:var(--gold); }
+/* Filtry fotogalerie – jediné pilulky mimo tlačítka (přepínače kategorií) */
+.chips{ display:flex; flex-wrap:wrap; gap:var(--s-2); }
+.chip{ min-height:40px; padding:0 var(--s-4); border:1px solid var(--c-line-strong); border-radius:var(--radius-pill); font-size:var(--fs-14); font-weight:600; color:var(--c-ink); transition:background-color var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease); }
+.chip:hover{ border-color:var(--c-ink); }
+.chip.is-active{ background:var(--c-ink); border-color:var(--c-ink); color:var(--c-bg); }
+.section--dark .chip{ color:var(--c-on-dark); border-color:var(--c-line-dark-strong); }
+.section--dark .chip:hover{ border-color:var(--c-on-dark); }
+.section--dark .chip.is-active{ background:var(--c-on-dark); border-color:var(--c-on-dark); color:var(--c-forest); }
 
 /* popisek (typ pokoje, kategorie) – prostý text velkými písmeny, žádná pilulka */
 .tag{ display:inline-block; font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted); }
@@ -554,28 +555,24 @@ strong, b{ font-weight:600; }
 .price-card .checks li::before{ content:none; }
 
 /* =====================================================================
-   17. FOTOGALERIE – masonry + lightbox
+   17. FOTOGALERIE – filtry, sloupce fotek, prohlížeč
    ===================================================================== */
-.gallery-head{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:1.5rem; margin-bottom:2.2rem; }
-.gallery{ columns:1; column-gap:1rem; }
+.gallery-head{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:var(--s-5); margin-bottom:var(--s-7); }
+.gallery{ columns:1; column-gap:var(--grid-gap); }
 @media (min-width:560px){ .gallery{ columns:2; } }
 @media (min-width:900px){ .gallery{ columns:3; } }
 @media (min-width:1240px){ .gallery{ columns:4; } }
-.gallery-more{ display:none; justify-content:center; margin-top:1.2rem; }
-.g-item{ position:relative; display:block; width:100%; margin:0 0 1rem; break-inside:avoid; border-radius:18px; overflow:hidden; cursor:zoom-in; background:rgba(255,255,255,.05); }
+.gallery-more{ display:none; justify-content:center; margin-top:var(--s-5); }
+.g-item{ position:relative; display:block; width:100%; margin:0 0 var(--grid-gap); break-inside:avoid; overflow:hidden; border-radius:var(--radius); background:var(--c-forest-2); cursor:zoom-in; }
 .g-item[hidden]{ display:none; }
-/* Skeleton „shimmer“ dokud se fotka nenačte */
-.g-item::before{ content:""; position:absolute; inset:0; z-index:1; background:linear-gradient(100deg, transparent 25%, rgba(255,255,255,.09) 45%, transparent 65%); background-size:220% 100%; animation:shimmer 1.4s linear infinite; transition:opacity .5s; pointer-events:none; }
-.g-item.is-loaded::before{ opacity:0; animation:none; }
-@keyframes shimmer{ from{ background-position:120% 0; } to{ background-position:-120% 0; } }
-.g-item img{ width:100%; opacity:0; transform:scale(1.08); transition:opacity .9s ease, transform 1.3s var(--ease); }
-.g-item.is-loaded img{ opacity:1; transform:scale(1); }
-.g-item.is-loaded:hover img{ transform:scale(1.06); }
-.g-item.is-pano img{ aspect-ratio:3/2; object-fit:cover; }
-.g-item figcaption{ position:absolute; left:0; right:0; bottom:0; z-index:2; display:flex; align-items:flex-end; justify-content:space-between; gap:.8rem; padding:2.6rem 1rem .9rem; font-size:.86rem; font-weight:600; color:#fff; background:linear-gradient(180deg, transparent, rgba(5,18,11,.82)); opacity:0; transform:translateY(10px); transition:opacity .45s, transform .5s var(--ease); }
-.g-item:hover figcaption, .g-item:focus-visible figcaption{ opacity:1; transform:none; }
-.g-item figcaption .i{ width:1.3em; height:1.3em; color:var(--gold-2); }
-.g-item.is-entering{ animation:fadeUp .7s var(--ease) both; animation-delay:var(--d, 0s); }
+.g-item img{ width:100%; opacity:0; transition:opacity var(--dur-slow) var(--ease); }
+.g-item.is-loaded img{ opacity:1; }
+.g-item.is-pano img{ aspect-ratio:3 / 2; object-fit:cover; }
+.g-item figcaption{ position:absolute; left:0; right:0; bottom:0; display:flex; align-items:flex-end; justify-content:space-between; gap:var(--s-3); padding:var(--s-7) var(--s-4) var(--s-3); font-size:var(--fs-14); font-weight:600; color:var(--c-on-dark); background:linear-gradient(180deg, transparent, var(--c-scrim-4)); opacity:0; transition:opacity var(--dur) var(--ease); }
+.g-item:hover figcaption, .g-item:focus-visible figcaption{ opacity:1; }
+.g-item figcaption .i{ width:20px; height:20px; }
+.g-item.is-entering{ animation:fadeIn var(--dur-slow) var(--ease) both; }
+
 
 /* =====================================================================
    18. ZIMNÍ SEKCE – tmavá smrková, padající sníh (stránka Okolí)
@@ -732,21 +729,20 @@ dialog.is-closing::backdrop{ animation:fadeOut .3s ease forwards; }
 .modal__cta{ margin-top:1.4rem; }
 
 
-.lightbox{ width:100%; height:100%; max-width:none; max-height:none; margin:0; background:rgba(4,14,9,.95); color:#fff; }
-.lightbox[open]{ display:grid; grid-template-rows:auto 1fr auto; animation:fadeIn .4s ease; }
-.lightbox.is-closing{ animation:fadeOut .3s ease forwards; }
-.lightbox::backdrop{ background:transparent; backdrop-filter:none; }
-.lightbox__top{ display:flex; align-items:center; justify-content:space-between; padding:1rem 1.2rem; font-size:.86rem; font-weight:600; letter-spacing:.12em; }
-.lightbox__top .icon-btn{ background:rgba(255,255,255,.08); }
-.lightbox__top .icon-btn:hover{ background:rgba(255,255,255,.2); transform:rotate(90deg); }
-.lightbox__stage{ position:relative; display:grid; place-items:center; min-height:0; padding:0 clamp(.5rem, 6vw, 6rem); }
-.lightbox__stage img{ max-width:100%; max-height:calc(100dvh - 150px); width:auto; height:auto; border-radius:14px; box-shadow:0 30px 80px -20px rgba(0,0,0,.7); transition:opacity .35s, transform .45s var(--ease); }
-.lightbox__stage img.is-swapping{ opacity:0; transform:scale(.97); }
-.lightbox__nav{ position:absolute; top:50%; transform:translateY(-50%); width:52px; height:52px; background:rgba(255,255,255,.1); backdrop-filter:blur(8px); }
-.lightbox__nav:hover{ background:var(--gold); color:var(--forest); }
-.lightbox__nav--prev{ left:clamp(.5rem, 2vw, 1.5rem); }
-.lightbox__nav--next{ right:clamp(.5rem, 2vw, 1.5rem); }
-.lightbox__caption{ padding:1rem 1.2rem 1.4rem; text-align:center; font-family:var(--ff-display); font-style:italic; font-size:1.2rem; opacity:.9; }
+.lightbox{ width:100%; height:100%; max-width:none; max-height:none; margin:0; background:var(--c-forest); color:var(--c-on-dark); }
+.lightbox[open]{ display:grid; grid-template-rows:auto 1fr auto; animation:fadeIn var(--dur) ease; }
+.lightbox.is-closing{ animation:fadeOut var(--dur) ease forwards; }
+.lightbox::backdrop{ background:transparent; }
+.lightbox__top{ display:flex; align-items:center; justify-content:space-between; padding:var(--s-3) var(--s-4); font-size:var(--fs-14); font-weight:600; letter-spacing:.04em; font-variant-numeric:tabular-nums; }
+.lightbox__top .icon-btn, .lightbox__nav{ border:1px solid var(--c-line-dark-strong); }
+.lightbox__top .icon-btn:hover, .lightbox__nav:hover{ background:var(--c-on-dark); border-color:var(--c-on-dark); color:var(--c-forest); }
+.lightbox__stage{ position:relative; display:grid; place-items:center; min-height:0; padding:0 clamp(var(--s-2), 6vw, var(--s-9)); }
+.lightbox__stage img{ max-width:100%; max-height:calc(100dvh - 150px); width:auto; height:auto; border-radius:var(--radius); transition:opacity var(--dur) var(--ease); }
+.lightbox__stage img.is-swapping{ opacity:0; }
+.lightbox__nav{ position:absolute; top:50%; width:48px; height:48px; transform:translateY(-50%); }
+.lightbox__nav--prev{ left:clamp(var(--s-2), 2vw, var(--s-5)); }
+.lightbox__nav--next{ right:clamp(var(--s-2), 2vw, var(--s-5)); }
+.lightbox__caption{ padding:var(--s-3) var(--s-4) var(--s-5); text-align:center; font-size:var(--fs-14); color:var(--c-muted-dark); }
 
 /* =====================================================================
    23. TOAST
@@ -787,12 +783,11 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 @media (max-width:767px){ .js .reveal--left, .js .reveal--right{ transform:translateY(34px); } }
 
 /* =====================================================================
-   24c. MOBIL – fotogalerie
+   24c. MOBIL – fotogalerie ve dvou sloupcích, nejdřív jen část
    ===================================================================== */
 @media (max-width:699px){
-  /* fotky ve 2 sloupcích, nejdřív jen část */
-  .gallery{ columns:2; column-gap:.6rem; }
-  .g-item{ margin-bottom:.6rem; border-radius:12px; }
+  .gallery{ columns:2; column-gap:var(--s-3); }
+  .g-item{ margin-bottom:var(--s-3); }
   .gallery.is-limited .g-item.is-over{ display:none; }
   .gallery-more{ display:flex; }
 }
@@ -833,17 +828,17 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
   .explore-card--big img{ aspect-ratio:4 / 3; }
 }
 
-/* ochutnávka fotogalerie na úvodní stránce */
-.home-photos .gallery-head{ align-items:flex-end; }
-.teaser-photos{ display:grid; gap:.8rem; grid-template-columns:repeat(4, minmax(0, 1fr)); }
-.teaser-photo{ position:relative; display:block; overflow:hidden; aspect-ratio:4 / 3; border-radius:18px; background:var(--forest-2); }
-.teaser-photo img{ width:100%; height:100%; object-fit:cover; transition:transform 1s var(--ease); }
-.teaser-photo:hover img{ transform:scale(1.06); }
+/* ochutnávka fotek (otevře prohlížeč) – mřížka 4 × 2, na mobilu 2 × 2 */
+.teaser-photos{ display:grid; gap:var(--grid-gap); grid-template-columns:repeat(4, minmax(0, 1fr)); }
+.teaser-photo{ position:relative; display:block; width:100%; padding:0; overflow:hidden; aspect-ratio:4 / 3; border-radius:var(--radius); background:var(--c-sand); cursor:zoom-in; }
+.section--dark .teaser-photo{ background:var(--c-forest-2); }
+.teaser-photo img{ width:100%; height:100%; object-fit:cover; transition:opacity var(--dur) var(--ease); }
+.teaser-photo:hover img{ opacity:.85; }
 @media (max-width:767px){
-  .teaser-photos{ grid-template-columns:repeat(2, minmax(0, 1fr)); gap:.5rem; }
-  .teaser-photo{ border-radius:12px; }
+  .teaser-photos{ grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--s-3); }
   .teaser-photo:nth-child(n+5){ display:none; }
 }
+
 
 /* =====================================================================
    27. STYL PODLE VZORU – minimální hlavička s „Menu“, velké nadpisy,
@@ -951,10 +946,6 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
 .menu-note .i{ margin-top:var(--s-1); }
 .facts-actions{ display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-3); margin-top:var(--s-6); }
 
-/* FOTKY jako tlačítka (otevřou prohlížeč) */
-button.teaser-photo{ width:100%; padding:0; cursor:zoom-in; }
-.teaser-photo::after{ content:""; position:absolute; inset:0; border-radius:inherit; box-shadow:inset 0 0 0 0 var(--gold); transition:box-shadow .35s; }
-.teaser-photo:hover::after, .teaser-photo:focus-visible::after{ box-shadow:inset 0 0 0 3px var(--gold); }
 
 
 

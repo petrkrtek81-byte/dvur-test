@@ -106,6 +106,20 @@ const pageHero = p => `<!-- ====================================================
 
 `;
 
+// Fotky jako <picture>: prohlížeč dostane WebP (nastroje/webp.js), JPEG zůstává jako záloha.
+// U velkých fotek nabídne i náhled 800 px – podle šířky na obrazovce (atribut sizes u <img>, jinak 100vw).
+const DIMS = JSON.parse(fs.readFileSync(path.join(__dirname, 'fotky.json'), 'utf8'));
+const THUMB_W = 800;
+const pictures = html => html.replace(/<img\b([^>]*?)\ssrc="assets\/img\/(thumbs\/)?([a-z0-9-]+)\.jpg"([^>]*)>/g, (m, pre, thumb, name, post) => {
+  const dir = 'assets/img/' + (thumb || '');
+  if (!fs.existsSync(path.join(ROOT, dir, name + '.webp'))) return m;
+  const sizes = ((pre + post).match(/\ssizes="([^"]+)"/) || [])[1] || '100vw';
+  const w = DIMS[name] && DIMS[name][0];
+  const both = !thumb && w > THUMB_W && fs.existsSync(path.join(ROOT, 'assets/img/thumbs', name + '.webp'));
+  const srcset = both ? `assets/img/thumbs/${name}.webp ${THUMB_W}w, assets/img/${name}.webp ${w}w" sizes="${sizes}` : `${dir}${name}.webp`;
+  return `<picture><source type="image/webp" srcset="${srcset}">${m.replace(/\ssizes="[^"]+"/, '')}</picture>`;
+});
+
 let built = 0;
 for (const p of PAGES) {
   const url = SITE + (p.file === 'index.html' ? '' : p.file);
@@ -131,6 +145,7 @@ for (const p of PAGES) {
   const missing = [...html.matchAll(/assets\/img\/([^"')\s]+\.jpg)/g)].map(m => m[1]).filter(f => !fs.existsSync(path.join(ROOT, 'assets/img', f)));
   if (missing.length) console.warn(`⚠ ${p.file}: chybí fotky: ${[...new Set(missing)].join(', ')}`);
 
+  html = pictures(html);
   html = '<!-- Vygenerováno skriptem nastroje/sestav-web.js ze šablon ve složce sablony/ – upravujte šablony, ne tento soubor. -->\n' + html;
   fs.writeFileSync(path.join(ROOT, p.file), html);
   built++;

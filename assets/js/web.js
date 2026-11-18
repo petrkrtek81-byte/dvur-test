@@ -86,8 +86,14 @@ const root = document.documentElement;
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
 const isPath = f => String(f).includes('/');
-const imgUrl = f => isPath(f) ? f : IMG + f + '.jpg';
-const thumbUrl = f => isPath(f) ? f : THUMB + f + '.jpg';
+// WebP (menší soubory), pokud ho prohlížeč umí – zjistí se hned na začátku z miniaturního obrázku; jinak JPEG
+let WEBP = false;
+(() => { const t = new Image(); t.onload = () => { WEBP = t.width > 0; }; t.src = 'data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA=='; })();
+const imgUrl = f => isPath(f) ? f : IMG + f + (WEBP ? '.webp' : '.jpg');
+// náhled jako <picture>: WebP + JPEG záloha
+const thumbPicture = (f, attrs) => isPath(f)
+  ? `<img src="${esc(f)}" ${attrs}>`
+  : `<picture><source type="image/webp" srcset="${THUMB}${esc(f)}.webp"><img src="${THUMB}${esc(f)}.jpg" ${attrs}></picture>`;
 const parseDate = iso => { const [y, m, d] = iso.split('-').map(Number); return new Date(y, m - 1, d); };
 const czDate = iso => {
   const d = parseDate(iso);
@@ -423,7 +429,7 @@ function initNews() {
       return `
       <article class="news-card reveal${instant ? ' is-visible' : ''} ${k === 0 && !LIMIT ? 'news-card--featured' : ''}" ${hidden ? 'hidden' : ''}>
         <div class="news-card__media">
-          <img src="${esc(thumbUrl(n.img || NEWS_FALLBACK_IMG))}" alt="" loading="lazy" decoding="async">
+          ${thumbPicture(n.img || NEWS_FALLBACK_IMG, 'alt="" loading="lazy" decoding="async"')}
         </div>
         <div class="news-card__body">
           <p class="news-card__meta"><time datetime="${esc(n.date)}">${czDate(n.date)}</time><span>${esc(L(n, 'tag'))}</span></p>
@@ -489,7 +495,7 @@ function initGallery() {
   const capOf = g => (LANG === 'de' ? (g.tDe || g.t) : g.t) || '';
   wrap.innerHTML = GALLERY.map((g, k) => `
     <figure class="g-item ${g.w / g.h > 2.2 ? 'is-pano' : ''}" data-cat="${esc(g.cat || '')}" data-k="${k}" tabindex="0" role="button">
-      <img src="${esc(thumbUrl(g.f))}" alt="" width="${g.w}" height="${g.h}" loading="lazy" decoding="async">
+      ${thumbPicture(g.f, `alt="" width="${g.w}" height="${g.h}" loading="lazy" decoding="async"`)}
       <figcaption><span></span>${icon('i-zoom')}</figcaption>
     </figure>`).join('');
 
@@ -503,7 +509,7 @@ function initGallery() {
   }
   labelGallery();
   $$('.g-item img', wrap).forEach(im => {
-    const done = () => im.parentElement.classList.add('is-loaded');
+    const done = () => im.closest('.g-item').classList.add('is-loaded');
     im.complete && im.naturalWidth ? done() : im.addEventListener('load', done, { once: true });
     im.addEventListener('error', done, { once: true });
   });
@@ -524,13 +530,11 @@ function initGallery() {
 
   function filter(cat, animate = true) {
     $$('#galleryFilters [data-cat]').forEach(c => c.classList.toggle('is-active', c.dataset.cat === cat));
-    let n = 0;
     $$('.g-item', wrap).forEach(item => {
       const show = cat === 'all' || item.dataset.cat === cat;
       item.hidden = !show;
       item.classList.remove('is-entering');
       if (show && animate && !reduceMotion) {
-        item.style.setProperty('--d', Math.min(n++, 12) * 0.05 + 's');
         void item.offsetWidth;
         item.classList.add('is-entering');
       }
