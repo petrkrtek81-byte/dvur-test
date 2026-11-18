@@ -191,109 +191,108 @@ strong, b{ font-weight:600; }
 .tag--todo{ background:rgba(201,169,97,.18); color:var(--gold-dark); border:1px dashed rgba(156,126,60,.5); }
 
 /* =====================================================================
-   5. HLAVIČKA – sticky navigace
-   Průhledná nad hero, po scrollu (.is-scrolled) rozmazané pozadí a menší výška.
+   5. HLAVIČKA · MENU PŘES CELOU OBRAZOVKU · PRŮBĚH SCROLLU
+   Nad úvodní fotkou průhledná se světlým logem. Po scrollu (.is-scrolled)
+   plné světlé pozadí, tmavé logo a linka dole – bez rozmazání a stínu.
    ===================================================================== */
-.site-header{ position:fixed; inset:0 0 auto; z-index:60; color:#fff; }
+.site-header{ position:fixed; inset:0 0 auto; z-index:60; color:var(--c-on-dark); }
+.nav-wrap{ position:relative; border-bottom:1px solid transparent; transition:background-color var(--dur-slow) var(--ease), border-color var(--dur-slow) var(--ease), color var(--dur-slow) var(--ease); }
+.is-scrolled .nav-wrap{ background:var(--c-bg); border-bottom-color:var(--c-line); color:var(--c-ink); }
+.nav{ height:96px; display:flex; align-items:center; justify-content:space-between; gap:var(--s-5); transition:height var(--dur-slow) var(--ease); }
+.is-scrolled .nav{ height:72px; }
 
-.nav-wrap{ position:relative; transition:background-color .5s, box-shadow .5s, backdrop-filter .5s; }
-.is-scrolled .nav-wrap{
-  background:rgba(10,33,22,.74);
-  backdrop-filter:blur(18px) saturate(150%); -webkit-backdrop-filter:blur(18px) saturate(150%);
-  box-shadow:0 12px 34px -18px rgba(0,0,0,.55);
-}
-.nav{ height:100px; display:flex; align-items:center; justify-content:space-between; gap:1.5rem; transition:height .5s var(--ease); }
-.is-scrolled .nav{ height:74px; }
-.nav__logo{ flex:none; display:block; }
-.nav__logo img{ height:82px; width:auto; transition:height .5s var(--ease); filter:drop-shadow(0 8px 16px rgba(0,0,0,.28)); }
-.is-scrolled .nav__logo img{ height:56px; }
+/* logo: světlé nad fotkou, tmavé po scrollu */
+.nav__logo{ position:relative; flex:none; display:block; }
+.nav__logo img{ height:52px; width:auto; transition:height var(--dur-slow) var(--ease), opacity var(--dur) var(--ease); }
+.nav__logo-dark{ position:absolute; left:0; top:0; opacity:0; }
+.is-scrolled .nav__logo img{ height:40px; }
+.is-scrolled .nav__logo-light{ opacity:0; }
+.is-scrolled .nav__logo-dark{ opacity:1; }
 
-.nav__menu{ display:none; align-items:center; gap:clamp(.9rem, 1.35vw, 1.55rem); }
-.nav__link{ position:relative; padding:.4rem 0; font-size:.84rem; font-weight:600; letter-spacing:.015em; opacity:.92; transition:color .3s, opacity .3s; }
-.nav__link::after{ content:""; position:absolute; left:0; right:0; bottom:-.05rem; height:1.5px; background:var(--gold); transform:scaleX(0); transform-origin:right; transition:transform .45s var(--ease); }
-.nav__link:hover{ opacity:1; }
-.nav__link:hover::after, .nav__link.is-active::after{ transform:scaleX(1); transform-origin:left; }
-.nav__link.is-active{ color:var(--gold-2); opacity:1; }
+.nav__actions{ display:flex; align-items:center; gap:var(--s-4); }
 
-.nav__actions{ display:flex; align-items:center; gap:.7rem; }
-.nav__cta{ padding:.78rem 1.25rem; font-size:.84rem; }
+/* přepínač jazyka – text „CZ / DE“ */
+.lang{ display:inline-flex; align-items:center; font-size:var(--fs-14); font-weight:600; letter-spacing:.04em; color:var(--c-muted-dark); }
+.lang button{ min-width:32px; height:40px; padding:0 var(--s-1); color:inherit; transition:color var(--dur) var(--ease); }
+.lang button:hover, .lang button.is-active{ color:var(--c-on-dark); }
+.lang button.is-active{ text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:6px; }
+.lang__sep{ padding:0 var(--s-1); }
+.is-scrolled .lang{ color:var(--c-muted); }
+.is-scrolled .lang button:hover, .is-scrolled .lang button.is-active{ color:var(--c-ink); }
 
-/* Přepínač jazyků (zatím jen vizuálně) */
-.lang{ display:inline-flex; align-items:center; gap:.15rem; padding:.22rem; border-radius:999px; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.16); }
-.lang button{ display:inline-flex; align-items:center; gap:.4rem; padding:.32rem .6rem; border-radius:999px; font-size:.7rem; font-weight:600; letter-spacing:.1em; opacity:.6; transition:background .3s, opacity .3s; }
-.lang button:hover{ opacity:.9; }
-.lang button.is-active{ background:rgba(255,255,255,.18); opacity:1; }
-.lang svg{ width:18px; height:12px; border-radius:2px; box-shadow:0 0 0 1px rgba(0,0,0,.18); }
-
-/* Hamburger */
-.burger{ width:46px; height:46px; border-radius:50%; border:1px solid rgba(255,255,255,.3); display:grid; place-items:center; transition:border-color .3s, background .3s; }
-.burger:hover{ border-color:var(--gold-2); }
-.burger__lines{ position:relative; width:18px; height:12px; }
-.burger__lines span{ position:absolute; left:0; width:100%; height:1.6px; border-radius:2px; background:currentColor; transition:transform .45s var(--ease), opacity .3s, top .45s var(--ease); }
+/* malé primární „Rezervovat“ a obrysové „Menu“ */
+.nav__cta{ height:40px; padding:0 var(--s-5); font-size:var(--fs-14); }
+.nav__cta .i{ display:none; }
+.burger{ display:inline-flex; align-items:center; gap:var(--s-3); height:40px; padding:0 var(--s-5) 0 var(--s-4); border:1px solid currentColor; border-radius:var(--radius-pill); font-size:var(--fs-14); font-weight:600; transition:background-color var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease); }
+.burger:hover{ background:var(--c-on-dark); border-color:var(--c-on-dark); color:var(--c-forest); }
+.is-scrolled .burger:hover{ background:var(--c-ink); border-color:var(--c-ink); color:var(--c-bg); }
+.burger__label{ line-height:1; }
+.burger__lines{ position:relative; width:16px; height:10px; }
+.burger__lines span{ position:absolute; left:0; width:100%; height:1.5px; background:currentColor; transition:transform var(--dur-slow) var(--ease), opacity var(--dur) var(--ease), top var(--dur-slow) var(--ease); }
 .burger__lines span:nth-child(1){ top:0; }
-.burger__lines span:nth-child(2){ top:5.2px; }
-.burger__lines span:nth-child(3){ top:10.4px; }
-.nav-open .burger__lines span:nth-child(1){ top:5.2px; transform:rotate(45deg); }
-.nav-open .burger__lines span:nth-child(2){ opacity:0; transform:scaleX(.2); }
-.nav-open .burger__lines span:nth-child(3){ top:5.2px; transform:rotate(-45deg); }
-.nav-open .nav-wrap{ background:transparent; box-shadow:none; backdrop-filter:none; -webkit-backdrop-filter:none; }
+.burger__lines span:nth-child(2){ top:4.25px; }
+.burger__lines span:nth-child(3){ top:8.5px; }
+.nav-open .burger__lines span:nth-child(1){ top:4.25px; transform:rotate(45deg); }
+.nav-open .burger__lines span:nth-child(2){ opacity:0; }
+.nav-open .burger__lines span:nth-child(3){ top:4.25px; transform:rotate(-45deg); }
 
-@media (min-width:1280px){
-  .nav__menu{ display:flex; }
-  .burger{ display:none; }
-}
+/* otevřené menu: hlavička průhledná nad tmavou plochou */
+.nav-open .nav-wrap{ background:transparent; border-bottom-color:transparent; color:var(--c-on-dark); }
+.nav-open .nav__logo-light{ opacity:1; }
+.nav-open .nav__logo-dark{ opacity:0; }
+.nav-open .lang{ color:var(--c-muted-dark); }
+.nav-open .lang button:hover, .nav-open .lang button.is-active{ color:var(--c-on-dark); }
+.nav-open .burger:hover{ background:var(--c-on-dark); border-color:var(--c-on-dark); color:var(--c-forest); }
+
 @media (max-width:767px){
-  .topbar{ display:none; }
-  .nav{ height:82px; }
-  .nav__logo img{ height:60px; }
-  .nav__cta{ padding:.68rem 1rem; }
-  .nav__cta .long{ display:none; }
-  .nav__actions{ gap:.5rem; }
-  .nav .lang button{ gap:0; padding:.38rem .45rem; font-size:0; } /* jen vlajky */
-  .nav .lang svg{ width:20px; height:14px; }
+  .nav{ height:80px; }
+  .is-scrolled .nav{ height:64px; }
+  .nav__logo img{ height:40px; }
+  .is-scrolled .nav__logo img{ height:34px; }
+  .nav__actions{ gap:var(--s-2); }
 }
 @media (max-width:480px){
-  .nav__cta{ width:44px; height:44px; padding:0; }
-  .nav__cta > span{ display:none; } /* jen ikona kalendáře */
-  .nav__logo img{ height:54px; }
+  .nav__logo img, .is-scrolled .nav__logo img{ height:32px; }
+  .nav__cta, .burger{ width:40px; padding:0; justify-content:center; }
+  .nav__cta > span, .burger__label{ display:none; }
+  .nav__cta .i{ display:block; }
 }
+@media (max-width:380px){ .nav__logo img, .is-scrolled .nav__logo img{ height:28px; } }
 
-/* =====================================================================
-   6. MOBILNÍ MENU (fullscreen, kruhové odhalení)
-   ===================================================================== */
+/* menu přes celou obrazovku – objeví se prolnutím */
 .mobile-menu{
   position:fixed; inset:0; z-index:55; overflow-y:auto;
-  display:flex; flex-direction:column; gap:2rem;
-  padding:120px var(--gutter) 2rem;
-  color:var(--cream);
-  background:radial-gradient(120% 80% at 100% 0%, var(--forest-3) 0%, var(--forest) 45%, var(--forest-deep) 100%);
-  clip-path:circle(0 at calc(100% - 44px) 44px);
-  visibility:hidden;
-  transition:clip-path .8s var(--ease-out), visibility 0s .8s;
+  display:flex; flex-direction:column; gap:var(--s-7);
+  padding:128px var(--gutter) var(--s-6);
+  color:var(--c-muted-dark); background:var(--c-forest);
+  opacity:0; visibility:hidden;
+  transition:opacity var(--dur) var(--ease), visibility 0s linear var(--dur);
 }
-.nav-open .mobile-menu{ clip-path:circle(150% at calc(100% - 44px) 44px); visibility:visible; transition:clip-path .8s var(--ease-out), visibility 0s; }
-.mobile-menu__links{ display:grid; gap:.15rem; }
+.nav-open .mobile-menu{ opacity:1; visibility:visible; transition:opacity var(--dur) var(--ease), visibility 0s; }
+.mobile-menu__links{ display:grid; border-top:1px solid var(--c-line-dark); }
 .mobile-menu__links a{
-  display:flex; align-items:baseline; gap:1rem;
-  font-family:var(--ff-display); font-size:clamp(2rem, 8vw, 2.8rem); line-height:1.2; color:var(--cream);
-  opacity:0; transform:translateY(24px); transition:opacity .5s, transform .6s var(--ease), color .3s;
+  display:flex; align-items:baseline; gap:var(--s-4); padding:var(--s-3) 0; border-bottom:1px solid var(--c-line-dark);
+  font-size:clamp(var(--fs-28), 1.3rem + 1.9vw, var(--fs-48)); font-weight:500; line-height:var(--lh-h3); letter-spacing:var(--tr-h2);
+  color:var(--c-on-dark); transition:color var(--dur) var(--ease);
 }
-.mobile-menu__links a small{ font-family:var(--ff-sans); font-size:.72rem; letter-spacing:.2em; color:var(--gold); }
-.mobile-menu__links a:hover{ color:var(--gold-2); }
-.nav-open .mobile-menu__links a{ opacity:1; transform:none; transition-delay:calc(.25s + var(--i) * 45ms); }
-.mobile-menu__foot{ margin-top:auto; display:grid; gap:1.2rem; padding-top:1.5rem; border-top:1px solid rgba(245,240,230,.14); opacity:0; transition:opacity .6s .6s; }
-.nav-open .mobile-menu__foot{ opacity:1; }
-.mobile-menu__contacts{ display:grid; gap:.6rem; font-size:.95rem; }
-.mobile-menu__contacts a{ display:inline-flex; align-items:center; gap:.6rem; }
-@media (min-width:1280px){ .mobile-menu{ display:none; } }
+.mobile-menu__links a small{ min-width:2.5ch; font-size:var(--fs-12); font-weight:600; letter-spacing:var(--tr-label); color:var(--c-muted-dark); font-variant-numeric:tabular-nums; }
+.mobile-menu__links a:hover, .mobile-menu__links a.is-active{ color:var(--c-bronze); }
+.mobile-menu__foot{ display:grid; gap:var(--s-5); align-content:start; }
+.mobile-menu__contacts{ display:grid; gap:var(--s-3); }
+.mobile-menu__contacts a, .mobile-menu__hours{ display:inline-flex; align-items:center; gap:var(--s-3); }
+.mobile-menu__contacts a{ color:var(--c-on-dark); transition:color var(--dur) var(--ease); }
+.mobile-menu__contacts a:hover{ color:var(--c-bronze); }
+@media (min-width:900px){
+  .mobile-menu{ display:grid; grid-template-columns:minmax(0, 1.6fr) minmax(280px, 1fr); align-items:center; gap:var(--s-7) var(--s-9); padding:144px max(var(--gutter), calc((100vw - var(--container)) / 2)) var(--s-8); }
+  .mobile-menu__foot{ padding-left:var(--s-7); border-left:1px solid var(--c-line-dark); }
+}
+@media (min-width:1200px){ .mobile-menu__links{ grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:var(--s-7); } }
 
-/* =====================================================================
-   7. UKAZATEL PRŮBĚHU SCROLLU – linka pod hlavičkou
-   ===================================================================== */
-.scroll-line{ position:absolute; left:0; right:0; bottom:0; height:2px; opacity:0; transition:opacity .4s; pointer-events:none; }
+/* tenká linka průběhu scrollu pod hlavičkou */
+.scroll-line{ position:absolute; left:0; right:0; bottom:-1px; height:2px; opacity:0; transition:opacity var(--dur-slow) var(--ease); pointer-events:none; }
 .is-scrolled .scroll-line{ opacity:1; }
-.scroll-line__bar{ position:absolute; inset:0; transform-origin:left; transform:scaleX(var(--p, 0)); background:linear-gradient(90deg, var(--grass-2), var(--gold)); }
-
+.nav-open .scroll-line{ opacity:0; }
+.scroll-line__bar{ position:absolute; inset:0; transform-origin:left; transform:scaleX(var(--p, 0)); background:var(--c-bronze); }
 
 /* =====================================================================
    8. HERO – fullscreen crossfade + Ken Burns
@@ -932,20 +931,6 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
    27. STYL PODLE VZORU – minimální hlavička s „Menu“, velké nadpisy,
        seznam se šipkami, příběh z velkých fotek, mřížka videí
    ===================================================================== */
-/* hlavička: logo · jazyk · rezervace · Menu (všechny stránky jsou v menu přes celou obrazovku) */
-.topbar{ display:none; }
-.nav__menu{ display:none !important; }
-.burger{ display:inline-flex !important; align-items:center; gap:.65rem; width:auto; height:46px; padding:0 1.15rem 0 1rem; border-radius:999px; font-size:.84rem; font-weight:600; letter-spacing:.02em; }
-.burger__label{ line-height:1; }
-@media (max-width:480px){ .burger{ width:46px; padding:0; justify-content:center; } .burger__label{ display:none; } }
-.mobile-menu{ display:flex !important; }
-@media (min-width:900px){
-  .mobile-menu{ display:grid !important; grid-template-columns:minmax(0, 1.5fr) minmax(280px, 1fr); align-items:center; gap:3rem 5rem; padding:150px max(var(--gutter), calc((100vw - 1200px) / 2)) 4rem; }
-  .mobile-menu__links a{ font-size:clamp(1.8rem, 2.8vw, 2.6rem); }
-  .mobile-menu__foot{ margin-top:0; padding:0 0 0 3rem; border-top:0; border-left:1px solid rgba(245,240,230,.14); }
-}
-.mobile-menu__links a.is-active{ color:var(--gold-2); }
-@media (min-width:1200px){ .mobile-menu__links{ grid-template-columns:repeat(2, minmax(0, 1fr)); column-gap:2.5rem; } }
 
 /* úvod: nadpis na dva řádky, druhý zvýrazněný */
 .hero__eyebrow{ margin:0 0 1.2rem; font-size:.78rem; font-weight:600; letter-spacing:.26em; text-transform:uppercase; color:rgba(255,255,255,.88); opacity:0; animation:fadeUp .9s var(--ease) .2s forwards; }
@@ -1007,15 +992,8 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
    28. KRUŠNOHORSKÝ DVŮR – prvky navíc oproti golfu
        logo, pokoje, jídelní lístek, balíčky, výlety, cesta, poptávka
    ===================================================================== */
-/* logo hotelu je široké (592 × 140) – nižší výška než u golfu */
-.nav__logo img{ height:54px; filter:drop-shadow(0 6px 14px rgba(0,0,0,.35)); }
-.is-scrolled .nav__logo img{ height:44px; }
-@media (max-width:767px){ .nav__logo img, .is-scrolled .nav__logo img{ height:40px; } }
-@media (max-width:480px){ .nav__logo img, .is-scrolled .nav__logo img{ height:34px; } }
-@media (max-width:380px){ .nav__logo img, .is-scrolled .nav__logo img{ height:29px; } }
 .footer__brand img{ width:min(260px, 80%); height:auto; }
 .footer__draft{ padding:.3rem .75rem; border-radius:999px; font-size:.76rem; color:var(--gold-2); border:1px dashed rgba(201,169,97,.45); }
-.mobile-menu__hours{ display:inline-flex; align-items:center; gap:.6rem; opacity:.75; }
 
 /* úvodní věty v sekcích */
 .section-head .lead{ margin-top:1rem; }
