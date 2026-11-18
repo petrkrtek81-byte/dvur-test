@@ -690,11 +690,11 @@ a.contact-item:hover strong{ color:var(--c-link); text-decoration:underline; tex
 .to-top .i{ transform:rotate(-90deg); transition:transform var(--dur) var(--ease); }
 .to-top:hover .i{ transform:rotate(-90deg) translateX(4px); }
 
-/* Mobilní lišta s rezervací */
-.mobile-book{ position:fixed; left:12px; right:12px; bottom:calc(12px + env(safe-area-inset-bottom)); z-index:40; display:flex; gap:.5rem; padding:.45rem; border-radius:999px; background:rgba(10,33,22,.86); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); box-shadow:0 18px 40px -12px rgba(0,0,0,.5); transform:translateY(140%); transition:transform .6s var(--ease); }
+/* Mobilní lišta s rezervací – plná tmavá lišta u spodního okraje (bez skla a stínu) */
+.mobile-book{ position:fixed; left:0; right:0; bottom:0; z-index:40; display:flex; gap:var(--s-2); padding:var(--s-3) var(--gutter) calc(var(--s-3) + env(safe-area-inset-bottom)); background:var(--c-forest); border-top:1px solid var(--c-line-dark); transform:translateY(100%); transition:transform var(--dur-slow) var(--ease); }
 .mobile-book.is-visible{ transform:none; }
-.mobile-book .btn{ flex:1; padding:.8rem 1rem; }
-.mobile-book .btn--ghost{ flex:0 0 auto; }
+.mobile-book .btn{ flex:1; }
+.mobile-book .btn--ghost{ flex:0 0 var(--control-h); padding:0; }
 @media (min-width:768px){ .mobile-book{ display:none; } }
 
 /* =====================================================================
