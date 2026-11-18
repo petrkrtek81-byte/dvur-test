@@ -659,29 +659,35 @@ a.contact-item:hover strong{ color:var(--c-link); text-decoration:underline; tex
 
 
 /* =====================================================================
-   21. PATIČKA
+   21. PATIČKA – tmavá smrková, sloupce oddělené linkami
    ===================================================================== */
-.footer{ position:relative; overflow:hidden; padding-top:clamp(4rem, 8vw, 6rem); background:var(--forest-deep); color:rgba(245,240,230,.66); font-size:.94rem; }
-.footer__grid{ display:grid; gap:2.5rem; }
-@media (min-width:700px){ .footer__grid{ grid-template-columns:repeat(2, 1fr); } }
-@media (min-width:1080px){ .footer__grid{ grid-template-columns:1.4fr 1fr 1fr 1fr; } }
-.footer__brand img{ height:96px; width:auto; margin-bottom:1.2rem; }
+.footer{ padding-top:var(--section-y-sm); background:var(--c-forest); color:var(--c-muted-dark); font-size:var(--fs-14); line-height:var(--lh-small); }
+.footer__grid{ display:grid; gap:var(--s-7); }
+@media (min-width:700px){ .footer__grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); } }
+@media (min-width:1080px){
+  .footer__grid{ grid-template-columns:1.4fr 1fr 1fr 1fr; gap:0; }
+  .footer__grid > *{ padding:0 var(--s-6); border-left:1px solid var(--c-line-dark); }
+  .footer__grid > :first-child{ padding-left:0; border-left:0; }
+}
+.footer__brand img{ width:min(220px, 70%); height:auto; margin-bottom:var(--s-5); }
 .footer__brand p{ max-width:34ch; }
-.footer h4{ margin:0 0 1.1rem; font-family:var(--ff-sans); font-size:.74rem; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--gold); }
-.footer__links{ display:grid; gap:.55rem; }
-.footer__links a, .footer__contact a{ transition:color .3s; }
-.footer__links a:hover, .footer__contact a:hover{ color:var(--gold-2); }
-.footer__contact{ display:grid; gap:.7rem; }
-.footer__contact a, .footer__contact span{ display:inline-flex; gap:.6rem; align-items:flex-start; }
-.footer__contact .i{ margin-top:.3rem; color:var(--gold); }
-.socials{ display:flex; gap:.6rem; margin-top:1.4rem; }
-.socials a{ width:44px; height:44px; display:grid; place-items:center; border-radius:50%; border:1px solid rgba(245,240,230,.18); transition:all .35s var(--ease); }
-.socials a:hover{ background:var(--gold); color:var(--forest); border-color:var(--gold); transform:translateY(-3px); }
-.footer__wordmark{ margin:clamp(3rem, 6vw, 5rem) 0 0; font-family:var(--ff-display); font-style:italic; font-weight:500; font-size:clamp(2.8rem, 11.5vw, 10rem); line-height:.95; letter-spacing:-.03em; text-align:center; white-space:nowrap; color:transparent; -webkit-text-stroke:1px rgba(201,169,97,.28); user-select:none; }
-.footer__bottom{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding:1.6rem 0 calc(1.6rem + env(safe-area-inset-bottom)); border-top:1px solid rgba(245,240,230,.1); font-size:.84rem; }
-.footer .lang{ background:rgba(255,255,255,.05); }
-.to-top{ display:inline-flex; align-items:center; gap:.5rem; font-weight:600; color:var(--cream); }
-.to-top .i{ transform:rotate(-90deg); transition:transform .4s var(--ease); }
+.footer__legal{ font-size:var(--fs-12); }
+.footer h4{ margin:0 0 var(--s-4); font-size:var(--fs-label); font-weight:600; line-height:var(--lh-label); letter-spacing:var(--tr-label); text-transform:uppercase; color:var(--c-muted-dark); }
+.footer__links{ display:grid; gap:var(--s-2); }
+.footer__links a, .footer__contact a{ color:var(--c-on-dark); transition:color var(--dur) var(--ease); }
+.footer__links a:hover, .footer__contact a:hover{ color:var(--c-bronze); }
+.footer__contact{ display:grid; gap:var(--s-3); }
+.footer__contact a, .footer__contact > span{ display:inline-flex; gap:var(--s-3); align-items:flex-start; }
+.footer__contact .i{ margin-top:2px; color:var(--c-muted-dark); }
+.socials{ display:flex; gap:var(--s-2); margin-top:var(--s-5); }
+.socials a{ width:44px; height:44px; display:grid; place-items:center; border:1px solid var(--c-line-dark-strong); border-radius:50%; color:var(--c-on-dark); transition:background-color var(--dur) var(--ease), color var(--dur) var(--ease), border-color var(--dur) var(--ease); }
+.socials a:hover{ background:var(--c-on-dark); border-color:var(--c-on-dark); color:var(--c-forest); }
+.footer__bottom{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:var(--s-3) var(--s-6); margin-top:var(--s-8); padding:var(--s-5) 0 calc(var(--s-5) + env(safe-area-inset-bottom)); border-top:1px solid var(--c-line-dark); }
+.footer__privacy{ text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:4px; transition:color var(--dur) var(--ease); }
+.footer__privacy:hover{ color:var(--c-on-dark); }
+.footer__draft{ color:var(--c-muted-dark); }
+.to-top{ display:inline-flex; align-items:center; gap:var(--s-2); font-weight:600; color:var(--c-on-dark); }
+.to-top .i{ transform:rotate(-90deg); transition:transform var(--dur) var(--ease); }
 .to-top:hover .i{ transform:rotate(-90deg) translateX(4px); }
 
 /* Mobilní lišta s rezervací */
@@ -759,9 +765,6 @@ dialog.is-closing::backdrop{ animation:fadeOut .3s ease forwards; }
    ===================================================================== */
 [hidden]{ display:none !important; }
 .hp{ position:absolute !important; left:-10000px; width:1px; height:1px; overflow:hidden; opacity:0; }
-.footer__legal{ font-size:.82rem; opacity:.8; }
-.footer__privacy{ text-decoration:underline; text-underline-offset:3px; }
-.footer__privacy:hover{ color:var(--gold-2); }
 .privacy h3{ margin-bottom:1rem; }
 .privacy h4{ margin:1.6rem 0 .5rem; font-family:var(--ff-sans); font-size:.78rem; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:var(--forest); }
 .privacy p, .privacy li{ font-size:.95rem; }
@@ -904,8 +907,6 @@ html[lang="de"] [data-lang-block="cs"], html:not([lang="de"]) [data-lang-block="
    28. KRUŠNOHORSKÝ DVŮR – prvky navíc oproti golfu
        logo, pokoje, jídelní lístek, balíčky, výlety, cesta, poptávka
    ===================================================================== */
-.footer__brand img{ width:min(260px, 80%); height:auto; }
-.footer__draft{ padding:.3rem .75rem; border-radius:999px; font-size:.76rem; color:var(--gold-2); border:1px dashed rgba(201,169,97,.45); }
 
 /* úvodní věty v sekcích */
 .section-head .lead{ margin-top:1rem; }
