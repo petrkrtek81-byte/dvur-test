@@ -27,7 +27,6 @@ let GALLERY = [];
    tlačítek (aria-label): klíčem je český text, hodnotou německý překlad.
    Aktuality a fotogalerie mají němčinu v data/obsah.json.
    ----------------------------------------------------------------------- */
-const MONTHS_DE = ['Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 const DE = {
   'Přeskočit na obsah': 'Zum Inhalt springen',
   'Hlavní navigace': 'Hauptnavigation',
@@ -86,11 +85,9 @@ const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 const root = document.documentElement;
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const clamp = (v, min, max) => Math.min(max, Math.max(min, v));
-const fmt = n => Math.round(n).toLocaleString('cs-CZ');
 const isPath = f => String(f).includes('/');
 const imgUrl = f => isPath(f) ? f : IMG + f + '.jpg';
 const thumbUrl = f => isPath(f) ? f : THUMB + f + '.jpg';
-const MONTHS = ['led', 'úno', 'bře', 'dub', 'kvě', 'čvn', 'čvc', 'srp', 'zář', 'říj', 'lis', 'pro'];
 const parseDate = iso => { const [y, m, d] = iso.split('-').map(Number); return new Date(y, m - 1, d); };
 const czDate = iso => {
   const d = parseDate(iso);
@@ -98,7 +95,6 @@ const czDate = iso => {
     ? d.toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' })
     : `${d.getDate()}. ${d.getMonth() + 1}. ${d.getFullYear()}`;
 };
-const monthName = d => (LANG === 'de' ? MONTHS_DE : MONTHS)[d.getMonth()];
 
 /* ---------- Jazyk: t() přeloží krátký český text, L() vybere jazykovou verzi z dat ---------- */
 let LANG = 'cs';
@@ -322,31 +318,6 @@ const revealObserver = new IntersectionObserver(entries => {
 const observeReveals = (ctx = document) => $$('.reveal:not(.is-visible)', ctx).forEach(el => revealObserver.observe(el));
 observeReveals();
 
-/* ---------- Animace čísel ---------- */
-function animateNumber(el, from, to, duration = 1800, plain = false) {
-  const write = v => { el.textContent = plain ? String(Math.round(v)) : fmt(v); };
-  if (reduceMotion || from === to) return write(to);
-  const start = performance.now();
-  const ease = x => 1 - Math.pow(1 - x, 3);
-  (function step(now) {
-    const k = clamp((now - start) / duration, 0, 1);
-    write(from + (to - from) * ease(k));
-    if (k < 1) requestAnimationFrame(step);
-  })(start);
-}
-const counterObserver = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
-    const el = entry.target;
-    animateNumber(el, Number(el.dataset.from || 0), Number(el.dataset.count), 2000, el.hasAttribute('data-plain'));
-    counterObserver.unobserve(el);
-  });
-}, { threshold: 0.6 });
-$$('[data-count]').forEach(el => {
-  if (!reduceMotion) el.textContent = el.hasAttribute('data-plain') ? (el.dataset.from || '0') : '0';
-  counterObserver.observe(el);
-});
-
 /* ---------- Otevírací doba restaurace: právě otevřeno / zavřeno (čas v Česku) ---------- */
 function pragueHour() {
   try {
@@ -448,16 +419,14 @@ function initNews() {
       return;
     }
     grid.innerHTML = (LIMIT ? NEWS.slice(0, LIMIT) : NEWS).map((n, k) => {
-      const d = parseDate(n.date);
       const hidden = !LIMIT && !expanded && k >= NEWS_INITIAL;
       return `
-      <article class="news-card reveal${instant ? ' is-visible' : ''} ${k === 0 && !LIMIT ? 'news-card--featured' : ''}" style="--d:${(k % 3) * 0.08}s" ${hidden ? 'hidden' : ''}>
+      <article class="news-card reveal${instant ? ' is-visible' : ''} ${k === 0 && !LIMIT ? 'news-card--featured' : ''}" ${hidden ? 'hidden' : ''}>
         <div class="news-card__media">
-          <span class="news-card__date"><b>${d.getDate()}</b><span>${monthName(d)} ${d.getFullYear()}</span></span>
           <img src="${esc(thumbUrl(n.img || NEWS_FALLBACK_IMG))}" alt="" loading="lazy" decoding="async">
         </div>
         <div class="news-card__body">
-          <span class="tag">${esc(L(n, 'tag'))}</span>
+          <p class="news-card__meta"><time datetime="${esc(n.date)}">${czDate(n.date)}</time><span>${esc(L(n, 'tag'))}</span></p>
           <h3 class="news-card__title">${esc(L(n, 'title'))}</h3>
           <p class="news-card__excerpt">${esc(L(n, 'excerpt'))}</p>
           <button class="link-arrow news-card__more" type="button" data-news="${k}">${t('Číst více')} ${icon('i-arrow')}</button>
@@ -478,7 +447,6 @@ function initNews() {
     $$('.news-card[hidden]', grid).forEach((c, i) => {
       c.hidden = false;
       c.classList.remove('is-visible');
-      c.style.setProperty('--d', (i * 0.1) + 's');
       requestAnimationFrame(() => requestAnimationFrame(() => c.classList.add('is-visible')));
     });
     moreBtn.hidden = true;
@@ -696,7 +664,7 @@ document.addEventListener('click', e => {
    Volba jazyka se pamatuje v prohlížeči; odkaz s ?lang=de otevře rovnou němčinu. */
 const I18N_SKIP = [
   'script', 'style', 'svg', 'code', '[data-i18n-skip]',
-  '.burger__label', '.hero__slides', '[data-count]', '#openBadge', '[data-open-status]',
+  '.burger__label', '.hero__slides', '#openBadge', '[data-open-status]',
   '#galleryMore', '#heroCaption', '#heroDots', '#newsGrid', '#newsMore', '#newsModal .modal__body',
   '#gallery', '#lbCounter', '#lbCaption', '#toasts'
 ].join(', ');
